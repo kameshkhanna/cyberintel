@@ -24,3 +24,6 @@ certs/
 
 # Extracted integration package
 /cyberintel-starter/
+
+__pycache__/
+*.pyc
