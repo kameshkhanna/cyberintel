@@ -1,1 +1,13 @@
-{"source":"Shodan /shodan/host/count","snapshots":[]}
+{
+  "source": "Shodan /shodan/host/count",
+  "snapshots": [
+    {
+      "date": "2026-10-18",
+      "totals": {
+        "Nginx": 53541496,
+        "Apache HTTP": 1832,
+        "Microsoft IIS": 4
+      }
+    }
+  ]
+}
