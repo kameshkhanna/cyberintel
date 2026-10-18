@@ -1,0 +1,37 @@
+name: Update public intelligence snapshots
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: intelligence-refresh
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Retrieve CISA KEV
+        run: python scripts/fetch_intel.py
+      - name: Retrieve Shodan aggregate (optional)
+        env:
+          SHODAN_API_KEY: ${{ secrets.SHODAN_API_KEY }}
+          SHODAN_QUERY: ${{ vars.SHODAN_QUERY }}
+        run: python scripts/fetch_shodan.py
+      - name: Commit changed intelligence snapshots
+        run: |
+          if [[ -n "$(git status --porcelain src/data/)" ]]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add src/data/intel.json src/data/shodan.json
+            git commit -m 'chore: refresh intelligence snapshots'
+            git push
+          fi
