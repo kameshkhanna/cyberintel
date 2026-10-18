@@ -1,6 +1,6 @@
 {
   "source": "Shodan /shodan/host/count",
-  "updated_at": "2026-10-18T18:09:54.405268+00:00",
+  "updated_at": "2026-10-18T18:16:36.726069+00:00",
   "query": "product:nginx",
   "total": 53541496,
   "facets": {
