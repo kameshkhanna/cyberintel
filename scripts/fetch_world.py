@@ -19,9 +19,10 @@ FEEDS = {
     'SecurityWeek': 'https://www.securityweek.com/feed/',
     'The Hacker News': 'https://feeds.feedburner.com/TheHackersNews',
     'CISA Advisories': 'https://www.cisa.gov/cybersecurity-advisories/all.xml',
+    'CIS Advisories': 'https://www.cisecurity.org/feed/advisories',
 }
 LIMIT_PER_SOURCE = 18
-MAX_AGE_DAYS = 14
+MAX_AGE_DAYS = 21
 ATOM = '{http://www.w3.org/2005/Atom}'
 
 def clean(s, n=220):
@@ -70,9 +71,22 @@ def parse_items(blob, source, now):
         title = clean(title)
         if not link or not title or not when or when > now + timedelta(days=1) or when < now - timedelta(days=MAX_AGE_DAYS):
             continue
-        output.append({'title':title,'url':link,'source':source,'published_at':when.isoformat()})
+        output.append({'title':title,'url':link,'source':source,'published_at':when.isoformat(),'category':categorise(title)})
         if len(output)>=LIMIT_PER_SOURCE: break
     return output
+
+CATEGORIES = [
+ ('Ransomware', r'ransomware|extortion|encryptor|lockbit|akira|clop\b'),
+ ('Vulnerabilities', r'cve-\d{4}-\d+|zero.day|vulnerabilit|exploit|patch|security update'),
+ ('Data breaches', r'data breach|data leak|stolen data|exposed records|compromised customer'),
+ ('Malware', r'malware|trojan|botnet|spyware|infostealer|backdoor|rootkit'),
+ ('Phishing', r'phishing|credential theft|business email compromise|scam'),
+ ('Threat actors', r'apt\d*|state.sponsored|threat actor|cyberespionage|campaign'),
+]
+def categorise(title):
+    for category, pattern in CATEGORIES:
+        if re.search(pattern, title, flags=re.I): return category
+    return 'Cyber news'
 
 def main():
     now=datetime.now(timezone.utc)
@@ -82,6 +96,7 @@ def main():
         except (ValueError,OSError): pass
     old_articles=previous.get('articles',[]) if isinstance(previous.get('articles'),list) else []
     articles=[]; statuses=[]; success=0
+    prior_status = {x.get('source'):x for x in previous.get('sources',[]) if isinstance(x,dict)}
     for source,url in FEEDS.items():
         try:
             request=Request(url,headers={'User-Agent':'CyberIntel-RSS-Reader/0.4 (+https://github.com/kameshkhanna/cyberintel)','Accept':'application/rss+xml, application/atom+xml, application/xml, text/xml'})
@@ -92,12 +107,12 @@ def main():
             if len(body)>2_000_000: raise ValueError('feed too large')
             items=parse_items(body,source,now)
             articles.extend(items)
-            statuses.append({'source':source,'status':'ok','items':len(items)})
+            statuses.append({'source':source,'status':'ok','items':len(items),'last_success_at':now.isoformat()})
             success+=1
             print(f'{source}: {len(items)} dated articles')
         except Exception as exc:
             print(f'{source}: refresh failed ({type(exc).__name__})',file=sys.stderr)
-            statuses.append({'source':source,'status':'failed','items':0})
+            statuses.append({'source':source,'status':'failed','items':0,'last_success_at':prior_status.get(source,{}).get('last_success_at')})
             articles.extend(x for x in old_articles if isinstance(x,dict) and x.get('source')==source)
     if not success:
         print('No feeds could be fetched; previous snapshot retained.',file=sys.stderr)
@@ -106,8 +121,9 @@ def main():
     for item in articles:
         link=item.get('url','')
         if safe_url(link) and item.get('published_at'):
+            item['category']=categorise(item.get('title',''))
             dedup[link]=item
-    articles=sorted(dedup.values(),key=lambda x:x['published_at'],reverse=True)[:90]
+    articles=sorted(dedup.values(),key=lambda x:x['published_at'],reverse=True)[:120]
     snapshot={'updated_at':now.isoformat(),'articles':articles,'sources':statuses}
     tmp=DEST.with_suffix('.json.tmp')
     tmp.write_text(json.dumps(snapshot,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

@@ -1,19 +1,72 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import feed from '../data/world.json';
-const data = feed as {updated_at:string|null; articles:Array<{title:string,url:string,source:string,published_at:string}>;sources:Array<{source:string,status:string,items:number}>};
-const articles = data.articles || [];
-const sources = [...new Set(articles.map(x=>x.source))];
+
+type Article = {title:string; url:string; source:string; published_at:string; category?:string};
+type Source = {source:string; status:string; items:number; last_success_at?:string|null};
+const data = feed as {updated_at:string|null;articles:Article[];sources:Source[]};
+const articles = (data.articles || []).filter(x => x.title && x.url && x.url.startsWith('https://'));
+const sources = [...new Set(articles.map(x=>x.source))].sort();
+const regexes: Array<[string,RegExp]> = [
+ ['Ransomware',/ransomware|extortion|encryptor|lockbit|akira|clop\b/i],
+ ['Vulnerabilities',/cve-\d{4}-\d+|zero.day|vulnerabilit|exploit|patch|security update/i],
+ ['Data breaches',/data breach|data leak|stolen data|exposed records|compromised customer/i],
+ ['Malware',/malware|trojan|botnet|spyware|infostealer|backdoor|rootkit/i],
+ ['Phishing',/phishing|credential theft|business email compromise|scam/i],
+ ['Threat actors',/apt\d*|state.sponsored|threat actor|cyberespionage|campaign/i]
+];
+const categoryOf = (x:Article) => x.category || regexes.find(([,pattern])=>pattern.test(x.title))?.[0] || 'Cyber news';
+const categories = ['All topics','Vulnerabilities','Ransomware','Data breaches','Malware','Phishing','Threat actors','Cyber news'];
+const formatTime = (d:string) => new Date(d).toLocaleString('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
+const okSources=(data.sources||[]).filter(x=>x.status==='ok').length;
+const failedSources=(data.sources||[]).filter(x=>x.status!=='ok').length;
+const snapshotAge = data.updated_at ? (Date.now()-new Date(data.updated_at).getTime()) / 36e5 : Infinity;
 ---
-<Layout title="Global Cyber News & Threat Reports | CyberIntel" description="Latest attributed cyber threat reports, advisories and headlines from curated independent sources.">
+<Layout title="Global Cyber Watch | CyberIntel" description="Security reporting from attributed cybersecurity publishers and public advisories. Explore recent news by topic and publisher.">
  <div class="shell">
- <section class="hero"><span class="tag">GLOBAL CYBER WATCH • CURATED SOURCES</span><h1>What's happening <span class="accent">in cyber?</span></h1><p>Latest published headlines from cybersecurity outlets and public advisories. Each item links to its original publisher. This is a periodic feed snapshot, not breaking-news coverage.</p><p class="muted">Last successful collection: {data.updated_at ? new Date(data.updated_at).toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short',timeZone:'UTC'})+' UTC' : 'Awaiting first collection'}</p></section>
- <section class="section"><div class="stats"><div class="stat"><div class="eyebrow">Articles indexed</div><strong>{articles.length}</strong><small>Recent curated headlines</small></div><div class="stat"><div class="eyebrow">Sources in snapshot</div><strong>{sources.length}</strong><small>Not all sources may be available</small></div><div class="stat"><div class="eyebrow">Refresh interval</div><strong>6h</strong><small>Subject to source availability</small></div></div></section>
- <section class="section"><div class="panel"><div class="panel-head"><div><div class="eyebrow">Latest coverage</div><h2>Threat reports & news</h2></div><div class="toolbar"><input id="newsSearch" type="search" placeholder="Search headlines" aria-label="Search headlines"/><select id="sourceFilter" aria-label="Filter by publisher"><option value="">All publishers</option>{sources.map(s=><option value={s}>{s}</option>)}</select></div></div><div id="newsItems" class="news-list">{articles.map(a=><article class="news" data-source={a.source} data-title={a.title.toLowerCase()}><div class="source">{a.source} · {new Date(a.published_at).toLocaleDateString('en-GB',{dateStyle:'medium',timeZone:'UTC'})}</div><h3><a href={a.url} target="_blank" rel="noopener noreferrer">{a.title} ↗</a></h3></article>)}</div>{articles.length===0 && <div class="empty"><p>No articles collected yet. Run the GitHub Actions workflow to retrieve the first feed snapshot.</p></div>}<p id="emptyFilter" class="empty" style="display:none">No headlines match your filters.</p></div></section>
- <section class="section"><div class="panel empty"><h2>Source health</h2><div class="source-status">{(data.sources||[]).map(x=><div><strong>{x.source}</strong><span>{x.status === 'ok' ? `${x.items} recent items` : 'Source unavailable; cached items may be shown'}</span></div>)}</div><p>CyberIntel republishes headline metadata only. Publishers retain copyright to their reporting. Feed access, update times and completeness vary. Always verify emerging incidents at the original source.</p></div></section>
+  <section class="hero world-hero">
+   <span class="tag">CYBERINTEL / GLOBAL CYBER WATCH</span>
+   <h1>The cyber landscape, <span class="accent">without the noise.</span></h1>
+   <p>Security advisories and cybersecurity reporting from trusted publishers, presented in one searchable briefing. Follow each story to its original source.</p>
+   <div class="world-meta"><span class:list={['world-status',snapshotAge>12?'delayed':'']}>{snapshotAge>12?'Refresh overdue':'Periodic refresh'}</span><span>{data.updated_at?`Collected ${formatTime(data.updated_at)} UTC`:'Awaiting first collection'}</span><span>{articles.length} headlines</span></div>
+  </section>
+  <section class="section world-summary" aria-label="Feed summary">
+   <div class="world-metric"><span>Collected headlines</span><strong>{articles.length}</strong><small>Last 21 days where available</small></div>
+   <div class="world-metric"><span>Healthy sources</span><strong>{okSources}<span class="metric-fraction">/{(data.sources||[]).length}</span></strong><small>{failedSources>0?`${failedSources} source(s) need attention`:'Source checks passed at last run'}</small></div>
+   <div class="world-metric"><span>Collection interval</span><strong>6h</strong><small>Not a real-time breaking-news service</small></div>
+  </section>
+  <section class="section world-section">
+   <div class="world-heading"><div><span class="eyebrow">INTELLIGENCE DESK</span><h2>Latest reporting</h2><p class="muted">Headlines are attributed, not independently verified claims.</p></div><a class="world-method" href="/methodology/">How we source data ↗</a></div>
+   <div class="world-controls"><label class="field"><span>Search news</span><input type="search" id="newsSearch" placeholder="Search threat, CVE, organisation..." autocomplete="off" /></label><label class="field"><span>Publisher</span><select id="sourceFilter"><option value="">All publishers</option>{sources.map(s=><option value={s}>{s}</option>)}</select></label><label class="field"><span>Timeframe</span><select id="ageFilter"><option value="0">All available</option><option value="1">Past 24 hours</option><option value="7">Past 7 days</option><option value="14">Past 14 days</option></select></label></div>
+   <div class="world-topics" role="group" aria-label="Filter by threat category">{categories.map((c,i)=><button type="button" class:list={['topic-button',i===0?'selected':'']} data-topic={c} aria-pressed={i===0?'true':'false'}>{c}</button>)}</div>
+   <div class="world-results"><span id="resultCount" aria-live="polite">{articles.length} results</span><span>NEWEST FIRST · ORIGINAL SOURCES</span></div>
+   <div id="newsItems" class="world-articles">{articles.map(a=><article class="world-article" data-source={a.source} data-category={categoryOf(a)} data-published={new Date(a.published_at).getTime()} data-search={`${a.title} ${a.source} ${categoryOf(a)}`.toLowerCase()}><div class="article-category">{categoryOf(a)}</div><div class="article-main"><div class="article-byline"><span>{a.source}</span><span aria-hidden="true">•</span><time datetime={a.published_at}>{formatTime(a.published_at)}</time></div><h3><a href={a.url} target="_blank" rel="noopener noreferrer">{a.title} <span aria-hidden="true">↗</span></a></h3></div></article>)}</div>
+   <div class="no-results" id="noResults" hidden>No headlines match your filters. Try a different category, publisher, or search term.</div>
+   {articles.length===0 && <div class="no-results">There are no news items yet. Run the intelligence workflow, then check source collection logs.</div>}
+  </section>
+  <section class="section"><div class="world-heading"><div><span class="eyebrow">TRANSPARENCY</span><h2>Source health</h2></div></div><div class="source-grid">{(data.sources||[]).map(s=><div class="source-tile"><div class="source-tile-top"><strong>{s.source}</strong><span class:list={['source-pill',s.status==='ok'?'ok':'warn']}>{s.status==='ok'?'Fetched':'Unavailable'}</span></div><div class="source-tile-meta">{s.status==='ok'?`${s.items} recent headlines`:'Previously collected articles may be cached'}</div>{s.last_success_at && <small>Last successful fetch: {formatTime(s.last_success_at)} UTC</small>}</div>)}</div><p class="world-disclaimer">Feed availability varies. Headlines may be delayed, incomplete or disputed. CyberIntel is an independent index, not the original publisher. Check the linked sources before operational decisions.</p></section>
  </div>
  <script>
- const search=document.querySelector<HTMLInputElement>('#newsSearch');const filter=document.querySelector<HTMLSelectElement>('#sourceFilter');const nodes=[...document.querySelectorAll<HTMLElement>('.news')];const empty=document.querySelector<HTMLElement>('#emptyFilter');function update(){let count=0;for(const node of nodes){const visible=(node.dataset.title||'').includes((search?.value||'').trim().toLowerCase())&&(!filter?.value||node.dataset.source===filter.value);node.hidden=!visible;if(visible)count++;}if(empty)empty.style.display=count===0&&nodes.length>0?'block':'none'}search?.addEventListener('input',update);filter?.addEventListener('change',update);
+ const search=document.querySelector<HTMLInputElement>('#newsSearch');
+ const publisher=document.querySelector<HTMLSelectElement>('#sourceFilter');
+ const age=document.querySelector<HTMLSelectElement>('#ageFilter');
+ const buttons=[...document.querySelectorAll<HTMLButtonElement>('.topic-button')];
+ const articles=[...document.querySelectorAll<HTMLElement>('.world-article')];
+ const counter=document.querySelector<HTMLElement>('#resultCount');
+ const noResults=document.querySelector<HTMLElement>('#noResults');
+ let topic='All topics';
+ function update(){
+  const query=(search?.value||'').trim().toLowerCase();const source=publisher?.value||'';const days=Number(age?.value||0);
+  const cutoff=Date.now()-days*86400000;let n=0;
+  for(const item of articles){const ok=(!query||(item.dataset.search||'').includes(query))&&(!source||item.dataset.source===source)&&(topic==='All topics'||item.dataset.category===topic)&&(!days||Number(item.dataset.published)>=cutoff);item.hidden=!ok;if(ok)n++}
+  if(counter)counter.textContent=`${n} result${n===1?'':'s'}`;
+  if(noResults)noResults.hidden=n!==0||articles.length===0;
+ }
+ for(const b of buttons)b.addEventListener('click',()=>{topic=b.dataset.topic||'All topics';buttons.forEach(x=>{const selected=x===b;x.classList.toggle('selected',selected);x.setAttribute('aria-pressed',String(selected))});update()});
+ search?.addEventListener('input',update);publisher?.addEventListener('change',update);age?.addEventListener('change',update);
  </script>
- <style>.news-list{display:grid}.news{padding:21px 24px;border-bottom:1px solid #293950}.news[hidden]{display:none}.news h3{margin:8px 0 0;font-size:18px;line-height:1.4}.news .source{font-size:12px;color:#65d7cc}.news a:hover{text-decoration:underline}.source-status{display:grid;gap:10px;margin:20px 0}.source-status>div{display:flex;justify-content:space-between;gap:12px;padding:12px;background:#10263a;border-radius:8px;flex-wrap:wrap}.source-status span{color:#aabacf}.empty{padding:24px}.panel-head h2{margin:8px 0}</style>
+ <style>
+ .world-hero{padding-bottom:35px}.world-meta{display:flex;align-items:center;gap:18px;flex-wrap:wrap;color:#9db0c4;font-size:12px;margin-top:24px}.world-status{color:#66ded0;font-weight:750}.world-status.delayed{color:#ffcb79}
+ .world-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.world-metric{border:1px solid #26364b;background:#101d2d;border-radius:11px;padding:22px;display:grid;gap:7px}.world-metric>span{font-size:12px;text-transform:uppercase;letter-spacing:.09em;color:#93abc1}.world-metric strong{font-size:33px;line-height:1.1;color:#f2f7fa}.world-metric small,.source-tile small{color:#94a9bd}.metric-fraction{font-size:17px!important;color:#95adc3}.world-heading{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:24px}.world-heading h2{margin:7px 0}.world-heading p{margin:0}.world-method{color:#69dacc;font-size:13px}.world-controls{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px}.field{display:grid;gap:7px;color:#b7c7d6;font-size:12px;font-weight:650}.field input,.field select{border:1px solid #35475d;background:#101c2b;border-radius:8px;color:#edf4fa;padding:12px 13px;font:inherit;font-size:14px;min-width:0;width:100%}.field input:focus-visible,.field select:focus-visible,.topic-button:focus-visible{outline:2px solid #75dcd0;outline-offset:2px}.world-topics{display:flex;gap:8px;flex-wrap:wrap;margin:23px 0}.topic-button{border:1px solid #32465e;border-radius:100px;background:#152338;color:#bdcddd;padding:8px 13px;font:inherit;font-size:12px;cursor:pointer}.topic-button:hover,.topic-button.selected{background:#174c51;border-color:#48aba6;color:#eafffd}.world-results{display:flex;justify-content:space-between;gap:15px;color:#9ab0c4;font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:12px 2px}.world-articles{border:1px solid #283b50;border-radius:12px;overflow:hidden;background:#0f1b2a}.world-article{padding:23px 22px;display:grid;grid-template-columns:152px minmax(0,1fr);gap:26px;border-bottom:1px solid #25374c}.world-article:last-child{border-bottom:0}.world-article[hidden],.no-results[hidden]{display:none}.article-category{font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:#64d3cc;font-weight:750;padding-top:4px}.article-byline{display:flex;align-items:center;gap:9px;font-size:12px;color:#a0b5c9}.article-main h3{font-size:18px;line-height:1.45;font-weight:600;margin:11px 0 0}.article-main a{color:#e8f1f8;text-decoration:none}.article-main a:hover{color:#7fe3d9}.no-results{padding:30px;border:1px dashed #42546a;border-radius:12px;color:#acc0d3}.source-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.source-tile{border:1px solid #283a4f;background:#101d2d;padding:18px;border-radius:10px}.source-tile-top{display:flex;justify-content:space-between;align-items:center;gap:12px}.source-tile strong{font-size:14px}.source-pill{font-size:11px;border-radius:12px;padding:5px 9px}.source-pill.ok{background:#16423f;color:#8be7d3}.source-pill.warn{background:#45321c;color:#fcd5a1}.source-tile-meta{color:#abc0d3;font-size:12px;margin:10px 0}.world-disclaimer{font-size:12px;color:#9bb1c3;margin-top:22px;line-height:1.6}@media(max-width:780px){.world-summary{grid-template-columns:1fr}.world-controls{grid-template-columns:1fr}.world-article{grid-template-columns:1fr;gap:7px;padding:18px}.source-grid{grid-template-columns:1fr}.article-main h3{font-size:16px}.world-results span:last-child{display:none}}
+ </style>
 </Layout>
