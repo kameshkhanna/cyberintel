@@ -1,2 +1,26 @@
+# Dependencies
+node_modules/
 
-/certs/
+# Astro generated files
+dist/
+.astro/
+
+# Local HTTPS certificates
+certs/
+*.pem
+*.key
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local backups
+*.backup
+
+# Editor files
+.vscode/
+.DS_Store
+
+# Extracted integration package
+/cyberintel-starter/
