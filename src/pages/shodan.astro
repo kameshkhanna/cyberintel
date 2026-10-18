@@ -1,54 +1,51 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import exposure from '../data/shodan.json';
-const data = exposure as {source:string; updated_at:string|null; query:string|null; total:number|null; facets?:Record<string,Array<{label:string,count:number}>>};
-const synced = typeof data.total === 'number' && !!data.updated_at;
-const format = (n:number) => n.toLocaleString('en-GB');
-const categories = [
-  {key:'country',label:'Top countries',note:'Shodan country facet'},
-  {key:'port',label:'Top ports',note:'Shodan port facet'},
-  {key:'org',label:'Top organisations',note:'Shodan organisation facet'},
-];
+import snapshot from '../data/shodan.json';
+import history from '../data/shodan-history.json';
+const data = snapshot as {generated_at?: string|null; technologies?:Record<string,{query:string,total:number,updated_at:string,facets:Record<string,Array<{label:string,count:number}>>}>};
+const techs = Object.entries(data.technologies ?? {}).filter(([_,v]) => typeof v?.total === 'number');
+const historic = (history as {snapshots?:Array<{date:string,totals:Record<string,number>}>}).snapshots ?? [];
+const fmt = (n:number) => n.toLocaleString('en-GB');
+const facetNames = [{key:'country',label:'Top countries'},{key:'port',label:'Top ports'},{key:'org',label:'Top organisations'}];
 ---
-<Layout title="Shodan Exposure Intelligence | CyberIntel">
-<div class="shell">
-  <section class="hero">
-    <span class="tag">PUBLIC • AGGREGATED INTERNET EXPOSURE</span>
-    <h1>Shodan <span class="accent">Exposure Intelligence</span></h1>
-    <p>Explore high-level patterns in Shodan's indexed service observations. These counts are not verified vulnerabilities or evidence of compromise.</p>
-    <div class="actions"><a class="btn outline" href="https://developer.shodan.io/api" target="_blank" rel="noopener noreferrer">Official Shodan API documentation ↗</a></div>
-  </section>
-  <section class="stats" aria-label="Shodan summary">
-    <div class="stat"><div class="eyebrow">Research filter</div><strong class="compact">{data.query ?? 'Awaiting configuration'}</strong><small>Public research query used for this snapshot</small></div>
-    <div class="stat"><div class="eyebrow">Indexed service matches</div><strong>{synced ? format(data.total!) : '—'}</strong><small>Service/banner matches, not necessarily unique hosts</small></div>
-    <div class="stat"><div class="eyebrow">Last successful refresh</div><strong class="compact">{synced ? new Date(data.updated_at!).toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short',timeZone:'UTC'})+' UTC' : 'Awaiting first sync'}</strong><small>Scheduled snapshot, not live scanning</small></div>
-  </section>
-  {synced ? (
-    <section class="section">
-      <p class="eyebrow">Overview</p><h2>Exposure breakdown</h2>
-      <div class="cards">
-        {categories.map(({key,label,note}) => {
-          const items = (data.facets?.[key] ?? []).slice(0,8);
-          const max = Math.max(1,...items.map(item=>item.count));
-          return <article class="card"><div class="eyebrow">{note}</div><h3>{label}</h3>
-            {items.length ? <div class="bars">{items.map(item=><div class="bar-entry"><div class="bar-label"><span>{item.label}</span><strong>{format(item.count)}</strong></div><div class="bar-track"><div class="bar-fill" style={`width:${Math.max(1,100*item.count/max)}%`}></div></div></div>)}</div> : <p>Facet data unavailable for this query or account.</p>}
-          </article>;
-        })}
-      </div>
-    </section>
-  ) : (
-    <section class="section"><div class="panel panel-message"><h2>Shodan data not connected yet</h2><p>The dashboard will populate after the Shodan API secret is configured in GitHub and the intelligence workflow completes successfully. No statistics are fabricated.</p></div></section>
-  )}
-  <section class="section"><div class="panel panel-message"><h2>Research context and limitations</h2><p>This dashboard contains only aggregate counts. Shodan's observations may be delayed or incomplete. It is not a vulnerability scanner and does not confirm that a host is exploitable. Private and customer asset monitoring must remain in a separately authenticated environment.</p><p>Source: <a class="accent" href="https://developer.shodan.io/api">Shodan API</a> · Refresh is controlled by GitHub Actions. The API key is never transmitted to visitors.</p></div></section>
-</div>
-<style>
-.compact{font-size:clamp(16px,2vw,23px)!important;overflow-wrap:anywhere}
-.bars{display:grid;gap:15px;margin-top:20px}
-.bar-label{display:flex;gap:12px;align-items:baseline;justify-content:space-between;font-size:12px;color:#b9c9d9;overflow-wrap:anywhere}
-.bar-label strong{color:#eaf7fa;white-space:nowrap}
-.bar-track{background:#203449;height:8px;overflow:hidden;border-radius:99px;margin-top:7px}
-.bar-fill{height:100%;background:linear-gradient(90deg,#278d9f,#4ddac4);border-radius:99px}
-.panel-message{padding:24px;color:#b9c9d9;line-height:1.7}
-.panel-message h2{color:#eaf7fa;font-size:22px}
-</style>
+<Layout title="Shodan Exposure Intelligence | CyberIntel" description="Aggregated Shodan Internet exposure research with technology comparison and historical trends.">
+  <div class="shell">
+    <section class="hero"><span class="tag">SHODAN • INTERNET EXPOSURE ANALYTICS</span><h1>Exposure <span class="accent">Intelligence</span></h1><p>Compare indexed technology footprints across countries, ports, and organisations. Aggregate research only—these observations are not confirmed vulnerabilities or unique hosts.</p></section>
+    {techs.length ? <>
+      <section class="stats" aria-label="Exposure overview"><div class="stat"><div class="eyebrow">Technologies monitored</div><strong>{techs.length}</strong><small>Curated, fixed research queries</small></div><div class="stat"><div class="eyebrow">Selected technology matches</div><strong id="totalStat">{fmt(techs[0][1].total)}</strong><small>Indexed service observations</small></div><div class="stat"><div class="eyebrow">Last successful source collection</div><strong id="updatedStat" class="compact">{new Date(techs[0][1].updated_at).toLocaleString('en-GB',{timeZone:'UTC',dateStyle:'medium',timeStyle:'short'})} UTC</strong><small>Snapshot; not real-time scanning</small></div></section>
+      <section class="section"><div class="panel explorer"><div class="panel-head"><div><div class="eyebrow">Research explorer</div><h2>Technology comparison</h2></div><label class="selectlabel">Technology <select id="technology">{techs.map(([name]) => <option value={name}>{name}</option>)}</select></label></div><div class="tech-grid" id="technologyCards">{techs.map(([name,v])=><button type="button" class="tech-card" data-tech={name}><span>{name}</span><strong>{fmt(v.total)}</strong><small>{v.query}</small></button>)}</div><div class="facet-grid" id="facetGrid">{facetNames.map(({key,label})=><article class="facet"><h3>{label}</h3><div class="facetBody" data-facet={key}></div></article>)}</div></div></section>
+      <section class="section"><div class="panel trend"><div class="panel-head"><div><div class="eyebrow">History</div><h2>Daily exposure snapshots</h2></div><span class="muted">Last 90 recorded days</span></div><div id="trendChart" class="trend-chart" aria-label="Historical indexed observations"></div><p class="muted" style="padding:0 22px 18px">Different capture dates and index changes can alter counts independently of actual internet exposure.</p></div></section>
+    </> : <section class="section"><div class="panel empty"><h2>Awaiting Shodan collection</h2><p>Configure SHODAN_API_KEY in GitHub Actions and run the intelligence workflow to populate real statistics. No fabricated data is displayed.</p></div></section>}
+    <section class="section"><div class="panel empty"><h2>Scope and interpretation</h2><p>Public data contains aggregated Shodan search counts, not individual host records. Index coverage, banners and technology fingerprints may be incomplete or outdated. These are not confirmed vulnerabilities. For authorised asset investigation, use a separate private workspace.</p><p>Source: <a class="accent" href="https://developer.shodan.io/api" target="_blank" rel="noopener noreferrer">Shodan API documentation ↗</a>. Collection uses GitHub Actions secrets; visitor browsers do not receive the API key.</p></div></section>
+  </div>
+  <script define:vars={{ techs, historic }}>
+    const fmt = n => Number(n).toLocaleString('en-GB');
+    const select = document.querySelector('#technology');
+    const rows = Object.fromEntries(techs);
+    const draw = () => {
+      const name = select.value;
+      const item = rows[name];
+      document.querySelector('#totalStat').textContent = fmt(item.total);
+      document.querySelector('#updatedStat').textContent = new Date(item.updated_at).toLocaleString('en-GB',{timeZone:'UTC',dateStyle:'medium',timeStyle:'short'})+' UTC';
+      document.querySelectorAll('[data-tech]').forEach(el=>{el.classList.toggle('chosen',el.dataset.tech === name)});
+      ['country','port','org'].forEach(key => {
+        const target=document.querySelector(`[data-facet="${key}"]`);
+        target.replaceChildren();
+        const items=item.facets?.[key] || [];
+        if (!items.length){const p=document.createElement('p');p.textContent='No facet data returned.';target.append(p);return;}
+        const max=Math.max(1,...items.map(r=>r.count));
+        for(const row of items){const wrapper=document.createElement('div');wrapper.className='bar-entry';const header=document.createElement('div');header.className='bar-head';const label=document.createElement('span');label.textContent=row.label;const value=document.createElement('strong');value.textContent=fmt(row.count);header.append(label,value);const rail=document.createElement('div');rail.className='bar-rail';const fill=document.createElement('div');fill.className='bar-fill';fill.style.width=`${Math.max(1,row.count/max*100)}%`;rail.append(fill);wrapper.append(header,rail);target.append(wrapper)}
+      });
+      const chart=document.querySelector('#trendChart');chart.replaceChildren();
+      const series=historic.filter(x=>typeof x?.totals?.[name]==='number').slice(-90);
+      if(series.length<2){const p=document.createElement('p');p.className='muted';p.textContent='Trend chart becomes available after at least two daily collections for this technology.';chart.append(p);return;}
+      const min=Math.min(...series.map(x=>x.totals[name]));const max=Math.max(...series.map(x=>x.totals[name]));const span=Math.max(1,max-min);const points=series.map((x,i)=>`${34+i*620/(series.length-1)},${200-(x.totals[name]-min)/span*150}`).join(' ');
+      const ns='http://www.w3.org/2000/svg';const svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 700 250');svg.setAttribute('role','img');svg.setAttribute('aria-label',`${name}: ${series.length} daily points`);const line=document.createElementNS(ns,'polyline');line.setAttribute('points',points);line.setAttribute('fill','none');line.setAttribute('stroke','#4ddac4');line.setAttribute('stroke-width','3');line.setAttribute('stroke-linecap','round');svg.append(line);chart.append(svg);
+      const range=document.createElement('div');range.className='trend-range';range.textContent=`${series[0].date}: ${fmt(series[0].totals[name])}  →  ${series.at(-1).date}: ${fmt(series.at(-1).totals[name])}`;chart.append(range);
+    };
+    if(select){select.addEventListener('change',draw);document.querySelectorAll('[data-tech]').forEach(el=>el.addEventListener('click',()=>{select.value=el.dataset.tech;draw()}));draw()}
+  </script>
+  <style>
+  .compact{font-size:clamp(15px,1.8vw,23px)!important;overflow-wrap:anywhere}.explorer{padding-bottom:22px}.panel-head h2{margin:8px 0;font-size:25px}.selectlabel{color:#9fb3c8;font-size:12px;display:grid;gap:7px}.selectlabel select{min-width:200px;background:#122137;color:#e7eef9;padding:12px;border:1px solid #35516a;border-radius:9px}.tech-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:20px}.tech-card{cursor:pointer;text-align:left;display:grid;gap:8px;background:#101f33;color:#d7ecf5;border:1px solid #30445b;border-radius:12px;padding:17px;font:inherit}.tech-card:hover,.tech-card.chosen{border-color:#50d4c6;background:#14323e}.tech-card span{font-weight:700}.tech-card strong{font-size:25px}.tech-card small{color:#9eb2c7}.facet-grid{padding:0 20px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.facet{padding:18px;background:#0e1828;border:1px solid #293e54;border-radius:12px;min-width:0}.facet h3{margin:0 0 18px}.facetBody{display:grid;gap:12px}.bar-head{display:flex;justify-content:space-between;gap:12px;font-size:12px;color:#b9c9d9;overflow-wrap:anywhere}.bar-head strong{white-space:nowrap;color:#eaf7fa}.bar-rail{margin-top:7px;height:7px;background:#273b4f;border-radius:99px;overflow:hidden}.bar-fill{height:100%;border-radius:99px;background:linear-gradient(90deg,#278d9f,#4ddac4)}.trend-chart{padding:20px 25px}.trend-chart svg{display:block;width:100%;height:auto;max-height:290px;background:#0c1728;border-radius:10px}.trend-range{color:#aabacf;font-size:12px;margin-top:9px}.empty{padding:24px;line-height:1.7}.empty p{color:#aabacf}@media(max-width:800px){.tech-grid,.facet-grid{grid-template-columns:1fr}.panel-head{align-items:flex-start}.tech-card strong{font-size:21px}}
+  </style>
 </Layout>

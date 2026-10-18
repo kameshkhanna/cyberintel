@@ -1,79 +1,108 @@
 #!/usr/bin/env python3
-"""Collect PUBLIC aggregated Shodan counts only; never store host records or API keys."""
+"""Aggregate-only Shodan collector. Never publishes host records or credentials."""
 import json
 import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
-DEST = Path(__file__).resolve().parents[1] / 'src/data/shodan.json'
-ALLOWED_FACETS = ('country', 'port', 'org')
+ROOT = Path(__file__).resolve().parents[1]
+DEST = ROOT / 'src/data/shodan.json'
+HISTORY = ROOT / 'src/data/shodan-history.json'
+# Fixed, reviewed research queries. Limit additions to avoid unexpected API costs.
+QUERIES = {'Nginx': 'product:nginx', 'Apache HTTP': 'product:Apache httpd', 'Microsoft IIS': 'product:Microsoft IIS httpd'}
+FACETS = ('country', 'port', 'org')
 
 
 def clean_facets(raw):
-    result = {}
-    if not isinstance(raw, dict):
-        return result
-    for name in ALLOWED_FACETS:
-        items = raw.get(name, [])
-        if not isinstance(items, list):
+    safe = {}
+    for facet in FACETS:
+        rows = raw.get(facet, []) if isinstance(raw, dict) else []
+        safe[facet] = []
+        if not isinstance(rows, list):
             continue
-        safe = []
-        for item in items[:10]:
-            if not isinstance(item, dict):
+        for row in rows[:8]:
+            if not isinstance(row, dict):
                 continue
-            label, count = item.get('value'), item.get('count')
-            if not isinstance(label, (str, int)) or isinstance(label, bool):
-                continue
-            if not isinstance(count, int) or isinstance(count, bool) or count < 0:
-                continue
-            safe.append({'label': str(label)[:100], 'count': count})
-        result[name] = safe
-    return result
+            label, count = row.get('value'), row.get('count')
+            if isinstance(label, (str, int)) and not isinstance(label, bool) and isinstance(count, int) and not isinstance(count, bool) and count >= 0:
+                safe[facet].append({'label': str(label)[:100], 'count': count})
+    return safe
+
+
+def fetch(key, query):
+    url = 'https://api.shodan.io/shodan/host/count?' + urlencode({'key': key, 'query': query, 'facets': 'country:8,port:8,org:8'})
+    # Never log the URL: it contains the secret.
+    try:
+        with urlopen(Request(url, headers={'Accept': 'application/json', 'User-Agent': 'CyberIntel-aggregates/0.3'}), timeout=30) as response:
+            data = json.load(response)
+    except HTTPError as exc:
+        raise RuntimeError(f'Shodan API returned HTTP {exc.code}') from None
+    except (URLError, TimeoutError, ValueError):
+        raise RuntimeError('Shodan network error or invalid JSON') from None
+    total = data.get('total') if isinstance(data, dict) else None
+    if not isinstance(total, int) or isinstance(total, bool) or total < 0:
+        raise RuntimeError('Shodan response missing valid total')
+    return {'query': query, 'total': total, 'facets': clean_facets(data.get('facets'))}
+
+
+def atomic_json(path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temp = path.with_suffix('.json.tmp')
+    temp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    temp.replace(path)
 
 
 def main():
     key = os.getenv('SHODAN_API_KEY', '').strip()
-    query = os.getenv('SHODAN_QUERY', 'product:nginx').strip()
     if not key:
-        print('Shodan skipped: SHODAN_API_KEY is not configured.')
+        print('SHODAN_API_KEY not configured: preserving existing snapshots.')
         return 0
-    # Only explicitly approved, public research queries should be used here.
-    if not query or len(query) > 180:
-        print('Invalid SHODAN_QUERY length.', file=sys.stderr)
+    old = {}
+    if DEST.exists():
+        try:
+            old = json.loads(DEST.read_text(encoding='utf-8'))
+        except (OSError, ValueError):
+            pass
+    previous = old.get('technologies', {}) if isinstance(old.get('technologies'), dict) else {}
+    now = datetime.now(timezone.utc).isoformat()
+    result = {}
+    failures = []
+    for name, query in QUERIES.items():
+        try:
+            item = fetch(key, query)
+            item['updated_at'] = now
+            result[name] = item
+            print(f'Fetched aggregate for {name} (total={item["total"]}).')
+        except RuntimeError as exc:
+            failures.append(name)
+            print(f'Could not refresh {name}: {exc}.', file=sys.stderr)
+            if name in previous:
+                result[name] = previous[name]  # Keep old timestamp; do not pretend data is fresh.
+    if not result:
+        print('No usable Shodan snapshots; existing files preserved.', file=sys.stderr)
         return 1
-    url = 'https://api.shodan.io/shodan/host/count?' + urlencode({
-        'key': key, 'query': query, 'facets': 'country:8,port:8,org:8'
-    })
-    try:
-        with urlopen(Request(url, headers={'Accept': 'application/json', 'User-Agent': 'CyberIntel/1.0'}), timeout=30) as response:
-            payload = json.load(response)
-    except HTTPError as exc:
-        # NEVER print HTTPError, request URL, or response body: URL contains secret key.
-        print(f'Shodan request failed: HTTP {exc.code}. Check API permissions and query.', file=sys.stderr)
+    snapshot = {'source': 'Shodan /shodan/host/count', 'generated_at': now, 'technologies': result}
+    history = {'source': snapshot['source'], 'snapshots': []}
+    if HISTORY.exists():
+        try:
+            loaded = json.loads(HISTORY.read_text(encoding='utf-8'))
+            if isinstance(loaded.get('snapshots'), list):
+                history['snapshots'] = loaded['snapshots']
+        except (OSError, ValueError, AttributeError):
+            pass
+    # One point per day: bounded ~90 days, prevent every 6h snapshot from swelling repository.
+    daily = {'date': now[:10], 'totals': {name: item['total'] for name, item in result.items() if item.get('updated_at') == now}}
+    if daily['totals']:
+        history['snapshots'] = [r for r in history['snapshots'] if isinstance(r, dict) and r.get('date') != daily['date']][-89:] + [daily]
+    atomic_json(DEST, snapshot)
+    atomic_json(HISTORY, history)
+    if failures:
+        print('WARNING: some feeds failed; retained existing snapshots and timestamps.', file=sys.stderr)
         return 1
-    except (URLError, TimeoutError, ValueError, json.JSONDecodeError):
-        print('Shodan request failed: network error or invalid JSON.', file=sys.stderr)
-        return 1
-    total = payload.get('total') if isinstance(payload, dict) else None
-    if isinstance(total, bool) or not isinstance(total, int) or total < 0:
-        print('Shodan returned an unexpected total; previous snapshot preserved.', file=sys.stderr)
-        return 1
-    result = {
-        'source': 'Shodan /shodan/host/count',
-        'updated_at': datetime.now(timezone.utc).isoformat(),
-        'query': query,
-        'total': total,
-        'facets': clean_facets(payload.get('facets')),
-    }
-    DEST.parent.mkdir(parents=True, exist_ok=True)
-    temporary = DEST.with_suffix('.json.tmp')
-    temporary.write_text(json.dumps(result, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
-    temporary.replace(DEST)
-    print(f'Shodan aggregated snapshot updated successfully (total={total}).')
     return 0
 
 
