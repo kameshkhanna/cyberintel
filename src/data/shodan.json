@@ -1,6 +1,6 @@
 {
   "source": "Shodan /shodan/host/count",
-  "generated_at": "2026-10-18T19:58:41.988542+00:00",
+  "generated_at": "2026-10-18T20:43:22.392925+00:00",
   "technologies": {
     "Nginx": {
       "query": "product:nginx",
@@ -109,7 +109,7 @@
           }
         ]
       },
-      "updated_at": "2026-10-18T19:58:41.988542+00:00"
+      "updated_at": "2026-10-18T20:43:22.392925+00:00"
     },
     "Apache HTTP": {
       "query": "product:Apache httpd",
@@ -218,7 +218,7 @@
           }
         ]
       },
-      "updated_at": "2026-10-18T19:58:41.988542+00:00"
+      "updated_at": "2026-10-18T20:43:22.392925+00:00"
     },
     "Microsoft IIS": {
       "query": "product:Microsoft IIS httpd",
@@ -267,7 +267,7 @@
           }
         ]
       },
-      "updated_at": "2026-10-18T19:58:41.988542+00:00"
+      "updated_at": "2026-10-18T20:43:22.392925+00:00"
     }
   }
 }

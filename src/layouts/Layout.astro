@@ -1,47 +1,13 @@
 ---
 import '../styles/global.css';
-const { title = 'CyberIntel | Independent Security Research', description = 'Curated cyber intelligence, authorised penetration testing research and internet exposure analysis.' } = Astro.props;
-const links = [
-  {href:'/',label:'Overview'},
-  {href:'/world/',label:'Cyber Watch'},
-  {href:'/intel/',label:'Vulnerabilities'},
-  {href:'/shodan/',label:'Exposure Intel'},
-  {href:'/pentesting/',label:'Pentesting'},
-  {href:'/projects/',label:'Research'},
-];
-const current = Astro.url.pathname;
+const {title='CyberIntel | Security intelligence, made useful.',description='Independent cybersecurity reporting, vulnerability intelligence, exposure research and ethical hacking labs.'}=Astro.props;
+const nav=[['Threat Intel','/world/'],['Vulnerabilities','/intel/'],['Exposure','/shodan/'],['Pentest Lab','/pentesting/'],['Research','/projects/'],['About','/about/']];
+const current=Astro.url.pathname;
 ---
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content={description} />
-  <meta name="theme-color" content="#0b1522" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content={title} />
-  <meta property="og:description" content={description} />
-  <title>{title}</title>
-</head>
-<body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
-  <div class="site-topline"><div class="shell topline-content"><span><span class="signal"></span> INDEPENDENT CYBERSECURITY RESEARCH</span><span>PUBLIC DATA · DEFENSIVE CONTEXT · AUTHORISED LABS</span></div></div>
-  <header class="site-header">
-    <nav class="shell nav-main" aria-label="Primary navigation">
-      <a class="brand" href="/" aria-label="CyberIntel homepage"><span class="brand-mark" aria-hidden="true">CI<span class="brand-dot">.</span></span><span class="brand-label">CYBER<span>INTEL</span><small>SECURITY RESEARCH</small></span></a>
-      <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
-      <div id="navLinks" class="links">
-        {links.map(link => <a class={current===link.href || (link.href!=='/' && current.startsWith(link.href)) ? 'active' : ''} href={link.href} aria-current={current===link.href?'page':undefined}>{link.label}</a>)}
-        <a class="nav-about" href="/about/">About ↗</a>
-      </div>
-    </nav>
-  </header>
-  <main id="main-content"><slot/></main>
-  <footer class="site-footer"><div class="shell footer-grid"><div><a class="footer-brand" href="/">CYBER<span>INTEL</span><span class="brand-dot">.</span></a><p>Independent security intelligence, original research and learning resources. Built for responsible defenders and researchers.</p></div><div><div class="footer-label">Explore</div><a href="/world/">Global Cyber Watch</a><a href="/intel/">Known Exploited Vulnerabilities</a><a href="/shodan/">Exposure Intelligence</a><a href="/pentesting/">Pentesting Labs</a></div><div><div class="footer-label">Trust & resources</div><a href="/methodology/">Sources & methodology</a><a href="/about/">About this project</a><a href="https://github.com/kameshkhanna/cyberintel" target="_blank" rel="noopener noreferrer">Source code ↗</a><p class="fine-print">Never test infrastructure without explicit authorisation.</p></div></div><div class="shell footer-bottom"><span>© {new Date().getFullYear()} CyberIntel. Independent project.</span><span>Data is periodically collected and must be verified at the original source.</span></div></footer>
-  <script is:inline>
-    const toggle=document.getElementById('menuToggle');const links=document.getElementById('navLinks');
-    toggle?.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!open));links?.classList.toggle('is-open',!open)});
-    links?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('is-open');toggle?.setAttribute('aria-expanded','false')}));
-  </script>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content={description}/><meta name="theme-color" content="#f9f8f5"/><title>{title}</title></head><body>
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header"><div class="shell nav"><a href="/" class="brand" aria-label="CyberIntel home"><span class="brand-emblem">✳</span><span>Cyber<span>Intel</span></span></a><button id="navToggle" class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navItems">☰</button><nav id="navItems" class="nav-items" aria-label="Primary">{nav.map(([label,url])=><a href={url} class={current===url?'active':''}>{label}</a>)}</nav><a class="nav-action" href="/world/">Explore intelligence <span aria-hidden="true">↗</span></a></div></header>
+<main id="main-content"><slot/></main>
+<footer class="footer"><div class="shell footer-inner"><div><a class="brand" href="/"><span class="brand-emblem">✳</span><span>Cyber<span>Intel</span></span></a><p>Independent security research, original analysis and public intelligence for the curious and the defenders.</p></div><div><strong>Explore</strong><a href="/world/">Global cyber watch</a><a href="/intel/">Exploited vulnerabilities</a><a href="/shodan/">Exposure research</a><a href="/pentesting/">OWASP & AI security</a></div><div><strong>Information</strong><a href="/methodology/">Sources & methodology</a><a href="/about/">About CyberIntel</a><a href="https://github.com/kameshkhanna/cyberintel" rel="noopener noreferrer" target="_blank">GitHub ↗</a></div></div><div class="shell footer-bottom"><span>© {new Date().getFullYear()} CyberIntel</span><span>Public source snapshots · Independently curated · Verify at source</span></div></footer>
+<script is:inline>const t=document.querySelector('#navToggle'),n=document.querySelector('#navItems');t?.addEventListener('click',()=>{let o=t.getAttribute('aria-expanded')==='true';t.setAttribute('aria-expanded',String(!o));n?.classList.toggle('is-open',!o)});</script>
+</body></html>

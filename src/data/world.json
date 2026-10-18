@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T19:58:42.558912+00:00",
+  "updated_at": "2026-10-18T20:43:23.461896+00:00",
   "articles": [
     {
       "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
@@ -406,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-18T19:58:42.558912+00:00"
+      "last_success_at": "2026-10-18T20:43:23.461896+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-18T19:58:42.558912+00:00"
+      "last_success_at": "2026-10-18T20:43:23.461896+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-18T19:58:42.558912+00:00"
+      "last_success_at": "2026-10-18T20:43:23.461896+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -430,7 +430,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-10-18T19:58:42.558912+00:00"
+      "last_success_at": "2026-10-18T20:43:23.461896+00:00"
     }
   ]
 }
