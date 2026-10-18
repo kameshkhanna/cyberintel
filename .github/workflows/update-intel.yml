@@ -11,7 +11,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v5
         with:
@@ -21,6 +21,11 @@ jobs:
           python-version: '3.12'
       - name: Retrieve CISA KEV
         run: python scripts/fetch_intel.py
+      - name: Enrich recent KEV with NVD and EPSS
+        env:
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+          CVE_ENRICH_LIMIT: "20"
+        run: python scripts/fetch_vulns.py
       - name: Retrieve Shodan aggregates
         env:
           SHODAN_API_KEY: ${{ secrets.SHODAN_API_KEY }}
@@ -32,7 +37,7 @@ jobs:
           if [[ -n "$(git status --porcelain src/data/)" ]]; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add src/data/intel.json src/data/shodan.json src/data/shodan-history.json src/data/world.json
+            git add src/data/intel.json src/data/shodan.json src/data/shodan-history.json src/data/world.json src/data/vulnerabilities.json
             git commit -m 'chore: refresh intelligence snapshots'
             git pull --rebase origin main
             git push
