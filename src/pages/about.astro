@@ -1,4 +1,42 @@
 ---
 import Layout from '../layouts/Layout.astro';
 ---
-<Layout title="About | CyberIntel"><div class="shell"><section class="hero"><span class="tag">ABOUT THE RESEARCHER</span><h1>Security research. <span class="accent">Practical engineering.</span></h1><p>Customise this page with your name, verified experience, certifications, GitHub, LinkedIn and a public contact email. Avoid adding sensitive personal data or employer/client details without permission.</p></section><section class="card"><h3>Mission</h3><p>Bridge offensive security techniques and defensive engineering, translating public vulnerability intelligence into practical detection, mitigation and risk management.</p></section></div></Layout>
+<Layout title="About CyberIntel | Independent cybersecurity research" description="Why CyberIntel exists, who it is for, how its research is produced, and the responsible-use principles behind the project.">
+  <div class="shell ci-about">
+    <section class="ci-intro">
+      <p class="eyebrow">ABOUT THE PROJECT</p>
+      <h1>Making cybersecurity <em>easier to understand.</em></h1>
+      <p class="ci-lead">CyberIntel is an independent cybersecurity research and learning project built to help people understand what is happening across the threat landscape—and what defenders can do about it.</p>
+    </section>
+    <section class="ci-about-grid">
+      <div class="ci-main-copy">
+        <h2>Why I built CyberIntel</h2>
+        <p>I am a cybersecurity professional working for an organisation, and wanted to build something useful beyond my day-to-day work: a place where students, aspiring analysts, IT professionals and experienced defenders can learn from credible public sources without having to search across dozens of websites.</p>
+        <p>CyberIntel brings together cyber news, vulnerability intelligence, public internet-exposure trends, KQL, Splunk SPL and YARA detection examples and responsible pentesting resources. The goal is not to overwhelm readers with dashboards—it is to provide context, explain the evidence and make the next defensive step clearer.</p>
+        <h2>What you can explore</h2>
+        <div class="ci-areas">
+          <a href="/world/"><strong>Threat landscape</strong><span>Publisher-attributed reporting and security advisories →</span></a>
+          <a href="/vulnerabilities/"><strong>Vulnerability research</strong><span>CVE context, CISA KEV and exploitation-priority signals →</span></a>
+          <a href="/shodan/"><strong>Internet exposure</strong><span>Aggregated technology observations and research limitations →</span></a>
+          <a href="/detections/"><strong>Detection engineering library</strong><span>KQL, Splunk SPL, YARA and attributed community references →</span></a>
+        </div>
+        <h2>Meet the creator</h2><p>CyberIntel is built and maintained by Kameshkhanna G. Suguna as an independent cybersecurity education and research project. <a href="https://www.linkedin.com/in/kameshkhanna-gs-87815aa0/" target="_blank" rel="noopener noreferrer">Connect with me on LinkedIn ↗</a></p><h2>Independent by design</h2>
+        <p>CyberIntel is a personal project. It is not an official publication or endorsement by my employer, any client, Microsoft, Cloudflare, Shodan or the publishers whose public material is referenced. Opinions, research and errors on this site are my own.</p>
+        <p>Public intelligence is not complete or always current. A technology observation is not proof of a vulnerability, and a hunting query is not a production-ready detection without validation in your own environment.</p>
+      </div>
+      <aside class="ci-aside">
+        <p class="eyebrow">A NOTE FROM THE BUILDER</p>
+        <h2>Built for curious minds and working defenders.</h2>
+        <p>This project combines the practical perspective of security operations with a commitment to accessible learning, source transparency and responsible research.</p>
+        <a href="https://github.com/kameshkhanna/cyberintel" target="_blank" rel="noopener noreferrer" class="ci-side-link">View the project on GitHub ↗</a>
+        <hr />
+        <h3>Research principles</h3>
+        <ul><li>Attribute original research and publications.</li><li>Distinguish observed facts from interpretation.</li><li>Avoid exposing personal or client information.</li><li>Use pentesting techniques only with permission.</li><li>Document data freshness and known limitations.</li></ul>
+      </aside>
+    </section>
+    <section class="ci-disclosure"><div><p class="eyebrow">IMPORTANT INFORMATION</p><h2>Responsible use &amp; accuracy</h2><p>The content is educational and provided as-is. Verify advisories with the original publisher and test suggested detections and remediation in a controlled environment before production use. Security issues involving this website can be reported through the project's GitHub repository without posting secrets or sensitive findings publicly.</p></div><a href="/methodology/">Read our methodology ↗</a></section>
+  </div>
+  <style>
+    .ci-about{padding-top:68px}.ci-intro{max-width:920px;padding-bottom:55px}.ci-intro h1{font:600 clamp(45px,6vw,76px)/1.08 Georgia,serif;letter-spacing:-.055em;margin:16px 0 23px}.ci-intro h1 em{font-style:normal;color:#94632d}.ci-lead{font-size:clamp(18px,2vw,23px);line-height:1.7;color:#45564d;max-width:850px}.ci-about-grid{display:grid;grid-template-columns:1.65fr 1fr;gap:70px;border-top:1px solid #dce4df;padding:50px 0}.ci-main-copy h2{font:600 31px Georgia,serif;letter-spacing:-.03em;margin:13px 0 18px}.ci-main-copy p{font-size:16px;line-height:1.85;color:#4d5e5b;margin:0 0 24px}.ci-areas{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin:25px 0 46px}.ci-areas a{display:flex;flex-direction:column;gap:12px;background:#eff3ed;padding:25px;border-radius:12px;border:1px solid #e3e9e3}.ci-areas strong{font-size:17px}.ci-areas span{font-size:13px;color:#55685e;line-height:1.6}.ci-aside{align-self:start;border-radius:15px;background:#e8ede6;padding:36px}.ci-aside h2{font:600 34px/1.17 Georgia,serif;margin:17px 0}.ci-aside p,.ci-aside li{line-height:1.75;color:#4e6259}.ci-aside ul{padding-left:20px}.ci-aside li{margin-bottom:10px}.ci-aside h3{font-size:16px}.ci-aside hr{border:0;border-top:1px solid #cbd7cd;margin:30px 0}.ci-side-link,.ci-disclosure a{font-weight:700;color:#0c5544}.ci-disclosure{margin:20px 0 10px;padding:33px;background:#f3f0e9;border-radius:12px;display:flex;justify-content:space-between;align-items:center;gap:35px}.ci-disclosure h2{font:600 29px Georgia,serif;margin:10px 0}.ci-disclosure p{line-height:1.7;color:#56645e;max-width:830px}.ci-disclosure a{white-space:nowrap}@media(max-width:800px){.ci-about-grid{grid-template-columns:1fr;gap:25px}.ci-areas{grid-template-columns:1fr}.ci-disclosure{display:block}.ci-intro h1{font-size:48px}}
+  </style>
+</Layout>
