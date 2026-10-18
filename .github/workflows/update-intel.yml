@@ -11,34 +11,67 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v5
         with:
+          ref: main
           persist-credentials: true
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Retrieve CISA KEV
+        id: kev
+        continue-on-error: true
         run: python scripts/fetch_intel.py
-      - name: Enrich recent KEV with NVD and EPSS
+      - name: Enrich NVD and EPSS
+        id: cve
+        continue-on-error: true
         env:
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
-          CVE_ENRICH_LIMIT: "20"
-        run: python scripts/fetch_vulns.py
+          CVE_ENRICH_LIMIT: '20'
+        run: |
+          if [[ -f scripts/fetch_vulns.py ]]; then python scripts/fetch_vulns.py; else echo 'Vulnerability collector not installed'; exit 1; fi
       - name: Retrieve Shodan aggregates
+        id: shodan
+        continue-on-error: true
         env:
           SHODAN_API_KEY: ${{ secrets.SHODAN_API_KEY }}
+          SHODAN_QUERY: ${{ vars.SHODAN_QUERY }}
         run: python scripts/fetch_shodan.py
       - name: Retrieve global cyber news
+        id: news
+        continue-on-error: true
         run: python scripts/fetch_world.py
-      - name: Commit intelligence snapshots
+      - name: Validate source data and build health snapshot
+        env:
+          COLLECTOR_KEV: ${{ steps.kev.outcome }}
+          COLLECTOR_CVE: ${{ steps.cve.outcome }}
+          COLLECTOR_SHODAN: ${{ steps.shodan.outcome }}
+          COLLECTOR_NEWS: ${{ steps.news.outcome }}
+        run: python scripts/validate_publish.py
+      - name: Commit validated snapshots
         run: |
           if [[ -n "$(git status --porcelain src/data/)" ]]; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add src/data/intel.json src/data/shodan.json src/data/shodan-history.json src/data/world.json src/data/vulnerabilities.json
-            git commit -m 'chore: refresh intelligence snapshots'
+            git add src/data/intel.json src/data/shodan.json src/data/shodan-history.json src/data/world.json src/data/source-health.json
+            if [[ -f src/data/vulnerabilities.json ]]; then git add src/data/vulnerabilities.json; fi
+            git commit -m 'chore: publish validated intelligence snapshots'
             git pull --rebase origin main
-            git push
+            git push origin HEAD:main
           fi
+      - name: Mark partial collector failures for GitHub notification
+        if: always()
+        env:
+          KEV: ${{ steps.kev.outcome }}
+          CVE: ${{ steps.cve.outcome }}
+          SHODAN: ${{ steps.shodan.outcome }}
+          NEWS: ${{ steps.news.outcome }}
+        run: |
+          for value in "$KEV" "$CVE" "$SHODAN" "$NEWS"; do
+            if [[ "$value" == failure ]]; then
+              echo 'One or more sources failed. Published snapshot may be degraded; review workflow logs.' >&2
+              exit 1
+            fi
+          done
