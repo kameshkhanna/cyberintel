@@ -1,1 +1,1 @@
-{"source":"Shodan host/count","updated_at":null,"query":null,"total":null}
+{"source":"Shodan /shodan/host/count","updated_at":null,"query":null,"total":null,"facets":{"country":[],"port":[],"org":[]}}

@@ -1,5 +1,54 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import exposure from '../data/shodan.json';
+const data = exposure as {source:string; updated_at:string|null; query:string|null; total:number|null; facets?:Record<string,Array<{label:string,count:number}>>};
+const synced = typeof data.total === 'number' && !!data.updated_at;
+const format = (n:number) => n.toLocaleString('en-GB');
+const categories = [
+  {key:'country',label:'Top countries',note:'Shodan country facet'},
+  {key:'port',label:'Top ports',note:'Shodan port facet'},
+  {key:'org',label:'Top organisations',note:'Shodan organisation facet'},
+];
 ---
-<Layout title="Shodan Exposure Intelligence | CyberIntel"><div class="shell"><section class="hero"><span class="tag">EXTERNAL EXPOSURE RESEARCH</span><h1>Shodan <span class="accent">Intelligence</span></h1><p>Aggregated observations about indexed internet-facing services. This section is intentionally public-summary-only: no API keys, host-by-host vulnerable target lists or unauthorised scans.</p></section><section class="stats"><div class="stat"><div class="eyebrow">Research query</div><strong style="font-size:21px">{exposure.query ?? 'Not configured'}</strong><small>Configure a permitted aggregate query in the workflow</small></div><div class="stat"><div class="eyebrow">Indexed observations</div><strong>{exposure.total === null ? '—' : exposure.total.toLocaleString('en-GB')}</strong><small>Shodan index observations; not confirmed vulnerabilities</small></div><div class="stat"><div class="eyebrow">Last fetched</div><strong style="font-size:18px">{exposure.updated_at ?? 'Not yet synced'}</strong><small>Dependent on API access and rate limits</small></div></section><section class="section"><div class="card"><h3>Connecting Shodan safely</h3><p>Set <code>SHODAN_API_KEY</code> in GitHub Actions secrets and configure a non-sensitive aggregate query as <code>SHODAN_QUERY</code> in repository variables. Run the provided Python enrichment script. Query-count access varies by subscription; never put your API key in frontend code.</p><p>API docs: <a class="accent" href="https://developer.shodan.io/api">developer.shodan.io/api →</a></p></div></section></div></Layout>
+<Layout title="Shodan Exposure Intelligence | CyberIntel">
+<div class="shell">
+  <section class="hero">
+    <span class="tag">PUBLIC • AGGREGATED INTERNET EXPOSURE</span>
+    <h1>Shodan <span class="accent">Exposure Intelligence</span></h1>
+    <p>Explore high-level patterns in Shodan's indexed service observations. These counts are not verified vulnerabilities or evidence of compromise.</p>
+    <div class="actions"><a class="btn outline" href="https://developer.shodan.io/api" target="_blank" rel="noopener noreferrer">Official Shodan API documentation ↗</a></div>
+  </section>
+  <section class="stats" aria-label="Shodan summary">
+    <div class="stat"><div class="eyebrow">Research filter</div><strong class="compact">{data.query ?? 'Awaiting configuration'}</strong><small>Public research query used for this snapshot</small></div>
+    <div class="stat"><div class="eyebrow">Indexed service matches</div><strong>{synced ? format(data.total!) : '—'}</strong><small>Service/banner matches, not necessarily unique hosts</small></div>
+    <div class="stat"><div class="eyebrow">Last successful refresh</div><strong class="compact">{synced ? new Date(data.updated_at!).toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short',timeZone:'UTC'})+' UTC' : 'Awaiting first sync'}</strong><small>Scheduled snapshot, not live scanning</small></div>
+  </section>
+  {synced ? (
+    <section class="section">
+      <p class="eyebrow">Overview</p><h2>Exposure breakdown</h2>
+      <div class="cards">
+        {categories.map(({key,label,note}) => {
+          const items = (data.facets?.[key] ?? []).slice(0,8);
+          const max = Math.max(1,...items.map(item=>item.count));
+          return <article class="card"><div class="eyebrow">{note}</div><h3>{label}</h3>
+            {items.length ? <div class="bars">{items.map(item=><div class="bar-entry"><div class="bar-label"><span>{item.label}</span><strong>{format(item.count)}</strong></div><div class="bar-track"><div class="bar-fill" style={`width:${Math.max(1,100*item.count/max)}%`}></div></div></div>)}</div> : <p>Facet data unavailable for this query or account.</p>}
+          </article>;
+        })}
+      </div>
+    </section>
+  ) : (
+    <section class="section"><div class="panel panel-message"><h2>Shodan data not connected yet</h2><p>The dashboard will populate after the Shodan API secret is configured in GitHub and the intelligence workflow completes successfully. No statistics are fabricated.</p></div></section>
+  )}
+  <section class="section"><div class="panel panel-message"><h2>Research context and limitations</h2><p>This dashboard contains only aggregate counts. Shodan's observations may be delayed or incomplete. It is not a vulnerability scanner and does not confirm that a host is exploitable. Private and customer asset monitoring must remain in a separately authenticated environment.</p><p>Source: <a class="accent" href="https://developer.shodan.io/api">Shodan API</a> · Refresh is controlled by GitHub Actions. The API key is never transmitted to visitors.</p></div></section>
+</div>
+<style>
+.compact{font-size:clamp(16px,2vw,23px)!important;overflow-wrap:anywhere}
+.bars{display:grid;gap:15px;margin-top:20px}
+.bar-label{display:flex;gap:12px;align-items:baseline;justify-content:space-between;font-size:12px;color:#b9c9d9;overflow-wrap:anywhere}
+.bar-label strong{color:#eaf7fa;white-space:nowrap}
+.bar-track{background:#203449;height:8px;overflow:hidden;border-radius:99px;margin-top:7px}
+.bar-fill{height:100%;background:linear-gradient(90deg,#278d9f,#4ddac4);border-radius:99px}
+.panel-message{padding:24px;color:#b9c9d9;line-height:1.7}
+.panel-message h2{color:#eaf7fa;font-size:22px}
+</style>
+</Layout>
