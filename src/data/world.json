@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-10-19T04:40:57.884456+00:00",
+  "updated_at": "2026-10-19T13:14:47.164239+00:00",
   "articles": [
+    {
+      "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-19T12:44:44+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure",
+      "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-19T12:44:39+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "One Compromised Login Exposed Millions of California Students’ Records",
+      "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-19T11:55:50+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack",
+      "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-19T11:13:23+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+      "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-19T10:06:40+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks",
+      "url": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-19T09:37:04+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-19T08:58:41+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Anthropic Acquires Confidential AI Startup Opaque Systems",
+      "url": "https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-19T07:45:25+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+      "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-19T06:29:44+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-19T06:07:08+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
@@ -142,20 +212,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks",
-      "url": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-16T10:32:11+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "F5, Juniper Networks Patch Critical Vulnerabilities",
-      "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-16T09:54:34+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Microsoft: October Windows update may break Smart App Control",
       "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
       "source": "BleepingComputer",
@@ -163,24 +219,10 @@
       "category": "Cyber news"
     },
     {
-      "title": "Microsoft Patches Two Dozen RCE Flaws in Office",
-      "url": "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-16T07:55:06+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "BAE Systems cyberattack disrupts US federal court operations",
       "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
       "source": "BleepingComputer",
       "published_at": "2026-10-16T07:37:35+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Proofpoint Inks $6.3 Billion All-Cash Deal to Acquire Varonis",
-      "url": "https://www.securityweek.com/proofpoint-inks-6-3-billion-all-cash-deal-to-acquire-varonis/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-16T07:12:51+00:00",
       "category": "Cyber news"
     },
     {
@@ -247,20 +289,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "Context Is King in the Fight Against Modern Cyberattacks",
-      "url": "https://www.securityweek.com/context-is-king-in-the-fight-against-modern-cyberattacks/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-15T17:42:50+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Fake Arch Linux packages push malware with root privileges",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-15T17:12:31+00:00",
-      "category": "Malware"
-    },
-    {
       "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
       "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
       "source": "The Hacker News",
@@ -272,34 +300,6 @@
       "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
       "source": "The Hacker News",
       "published_at": "2026-10-15T16:00:26+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-      "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-15T14:11:36+00:00",
-      "category": "Phishing"
-    },
-    {
-      "title": "Is AI pentesting as good as a human pentester?",
-      "url": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-15T14:01:11+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-      "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-15T12:58:05+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
-      "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-15T12:28:13+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -406,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-19T04:40:57.884456+00:00"
+      "last_success_at": "2026-10-19T13:14:47.164239+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-19T04:40:57.884456+00:00"
+      "last_success_at": "2026-10-19T13:14:47.164239+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-19T04:40:57.884456+00:00"
+      "last_success_at": "2026-10-19T13:14:47.164239+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -430,7 +430,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-10-19T04:40:57.884456+00:00"
+      "last_success_at": "2026-10-19T13:14:47.164239+00:00"
     }
   ]
 }
