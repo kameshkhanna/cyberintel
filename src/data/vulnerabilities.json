@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T22:25:11.046681+00:00",
+  "updated_at": "2026-10-20T22:42:51.550843+00:00",
   "scope": "Latest CISA KEV entries, not the entire NVD catalog",
   "sources": {
-    "cisa_kev": "2026-10-20T22:23:08.954369+00:00",
+    "cisa_kev": "2026-10-20T22:40:40.567012+00:00",
     "nvd_success": 20,
     "nvd_requested": 20,
     "epss_available": true
