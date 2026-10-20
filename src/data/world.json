@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-10-19T22:22:48.630087+00:00",
+  "updated_at": "2026-10-20T04:51:02.800712+00:00",
   "articles": [
+    {
+      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+      "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-20T04:05:58+00:00",
+      "category": "Malware"
+    },
     {
       "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
       "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
@@ -296,13 +303,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
-      "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-16T06:53:09+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-116",
       "source": "CIS Advisories",
@@ -399,19 +399,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-19T22:22:48.630087+00:00"
+      "last_success_at": "2026-10-20T04:51:02.800712+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-19T22:22:48.630087+00:00"
+      "last_success_at": "2026-10-20T04:51:02.800712+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-19T22:22:48.630087+00:00"
+      "last_success_at": "2026-10-20T04:51:02.800712+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -423,7 +423,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 13,
-      "last_success_at": "2026-10-19T22:22:48.630087+00:00"
+      "last_success_at": "2026-10-20T04:51:02.800712+00:00"
     }
   ]
 }
