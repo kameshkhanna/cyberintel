@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Validate public intelligence snapshots and generate honest build-time feed health.
+"""Validate public intelligence snapshots and generate build-time source health.
 
-No remote/AI text is executed or interpreted as HTML. Fail closed for invalid data,
-but allow a partial refresh when an individual collector is unavailable.
+Remote text is treated as untrusted data. A collector may fail while retaining
+its last valid snapshot, but absent required datasets are not publishable.
 """
 import datetime as dt
 import json
@@ -40,7 +40,9 @@ def fail(message):
 def load(name):
     path = DATA / name
     if not path.exists():
-        return None
+        fail(f'{name}: required dataset missing; refusing to publish')
+    if not path.is_file() or path.is_symlink():
+        fail(f'{name}: expected a regular file')
     if path.stat().st_size > 3_000_000:
         fail(f'{name}: exceeds configured size limit')
     obj = json.loads(path.read_text(encoding='utf-8'))
@@ -83,8 +85,6 @@ def upstream_count(file, collection):
 
 
 def validate(source, obj, file, collection, max_items):
-    if obj is None:
-        return 0
     date_value = obj.get('updated_at') or (obj.get('generated_at') if source == 'shodan' else None)
     timestamp(date_value, file)
     if collection:
@@ -143,10 +143,9 @@ def validate(source, obj, file, collection, max_items):
             timestamp(tech.get('updated_at'), 'Shodan technology timestamp')
     if source == 'shodan':
         history = load('shodan-history.json')
-        if history is not None:
-            snapshots = history.get('snapshots', [])
-            if not isinstance(snapshots, list) or len(snapshots) > 100:
-                fail('shodan-history.json: invalid history size')
+        snapshots = history.get('snapshots', [])
+        if not isinstance(snapshots, list) or len(snapshots) > 100:
+            fail('shodan-history.json: invalid history size')
     return len(obj.get(collection, [])) if collection else len(obj.get('technologies', {}))
 
 
@@ -155,25 +154,24 @@ def main():
     collector_ok = 0
     for key, label, filename, collection, limit in SOURCES:
         outcome = os.getenv('COLLECTOR_' + key.upper(), 'unknown')
+        if outcome not in ('unknown', 'success', 'failure', 'skipped'):
+            fail(f'{key}: unexpected collector outcome')
         if outcome == 'success':
             collector_ok += 1
         data = load(filename)
         count = validate(key, data, filename, collection, limit)
-        last = (data or {}).get('updated_at') or ((data or {}).get('generated_at') if key == 'shodan' else None)
-        if key == 'shodan' and data and isinstance(data.get('technologies'), dict):
+        last = data.get('updated_at') or (data.get('generated_at') if key == 'shodan' else None)
+        if key == 'shodan' and isinstance(data.get('technologies'), dict):
             timestamps = [x.get('updated_at') for x in data['technologies'].values() if isinstance(x, dict) and x.get('updated_at')]
             if timestamps:
-                last = min(timestamps)  # Display oldest tech timestamp, not misleading envelope generation time.
-        age_hours = None
+                last = min(timestamps)
         parsed = timestamp(last, filename)
-        if parsed:
-            age_hours = round((NOW - parsed).total_seconds() / 3600, 1)
-        state = ('unavailable' if data is None or not parsed else
-                 'degraded' if outcome == 'failure' else
+        age_hours = round((NOW - parsed).total_seconds() / 3600, 1) if parsed else None
+        state = ('unavailable' if not parsed else
+                 'degraded' if outcome in ('failure', 'skipped', 'unknown') else
                  'stale' if age_hours > 30 else 'current')
         statuses.append({'key': key, 'label': label, 'status': state, 'items': count,
-                         'updated_at': last, 'age_hours': age_hours,
-                         'collector': outcome})
+                         'updated_at': last, 'age_hours': age_hours, 'collector': outcome})
     if any(os.getenv('COLLECTOR_' + k.upper(), 'unknown') != 'unknown' for k, *_ in SOURCES) and collector_ok == 0:
         fail('All collectors failed; refusing to publish a misleading refreshed dashboard')
     result = {'generated_at': NOW.isoformat(), 'meaning': 'Last validated build-time snapshot; not a live uptime monitor',
