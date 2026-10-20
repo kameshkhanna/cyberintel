@@ -1,6 +1,132 @@
 {
-  "updated_at": "2026-10-20T11:36:33.278514+00:00",
+  "updated_at": "2026-10-20T17:04:02.514443+00:00",
   "articles": [
+    {
+      "title": "US Agencies Detail Incident Response Practices for Rogue AI Agents",
+      "url": "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-20T15:45:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+      "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-20T15:38:52+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-20T15:32:27+00:00",
+      "category": "Ransomware"
+    },
+    {
+      "title": "A Vulnerability in BeyondTrust Remote Support Could Allow for Arbitrary Upload of Files",
+      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-beyondtrust-remote-support-could-allow-for-arbitrary-upload-of-files_2026-117",
+      "source": "CIS Advisories",
+      "published_at": "2026-10-20T14:26:38+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "DHS bans DeepSeek products across US federal civilian agencies",
+      "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-20T14:19:05+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-20T14:07:17+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
+      "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-20T13:51:01+00:00",
+      "category": "Threat actors"
+    },
+    {
+      "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
+      "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-20T13:51:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "The Key to AI Software Security Isn’t Speed, It’s Maturity",
+      "url": "https://www.securityweek.com/the-key-to-ai-software-security-isnt-speed-its-maturity/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-20T13:34:23+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-20T13:18:36+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Ahold Delhaize Restoring Services Disrupted by Cyberattack",
+      "url": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-20T13:02:18+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+      "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-20T12:59:44+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "AI Platform Cairn Abused to Hack Over 100 Organizations",
+      "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-20T12:47:22+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say",
+      "url": "https://www.securityweek.com/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-20T12:33:12+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Windows Server 2025 gets support for quick machine recovery",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-20T12:16:32+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+      "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-20T11:41:06+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "What Security Teams Can Do To Tame Wild Code",
+      "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-20T11:33:04+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+      "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-20T11:32:59+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
       "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
@@ -20,6 +146,20 @@
       "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
       "source": "BleepingComputer",
       "published_at": "2026-10-20T11:18:35+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+      "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-20T11:06:25+00:00",
+      "category": "Threat actors"
+    },
+    {
+      "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+      "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-20T10:56:08+00:00",
       "category": "Cyber news"
     },
     {
@@ -128,20 +268,6 @@
       "category": "Malware"
     },
     {
-      "title": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
-      "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-19T15:47:50+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack",
-      "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-19T15:20:53+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Microsoft fixes game, app crashes caused by recent Windows update",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
       "source": "BleepingComputer",
@@ -170,38 +296,10 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "ConnectWise Suspends Cloud Services in Response to Cyberattack",
-      "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-19T13:16:20+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
       "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
       "source": "The Hacker News",
       "published_at": "2026-10-19T13:05:45+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-19T12:44:44+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure",
-      "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-19T12:44:39+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "One Compromised Login Exposed Millions of California Students’ Records",
-      "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-19T11:55:50+00:00",
       "category": "Cyber news"
     },
     {
@@ -210,97 +308,6 @@
       "source": "The Hacker News",
       "published_at": "2026-10-19T11:50:00+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack",
-      "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-19T11:13:23+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-      "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-19T10:06:40+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-19T08:58:41+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-      "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-19T06:29:44+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-      "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-19T06:07:08+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-18T14:23:16+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-18T08:23:02+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-17T15:18:51+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-      "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-17T11:11:56+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-17T06:16:46+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-16T17:48:45+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
-      "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-16T16:43:39+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
-      "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-16T16:16:44+00:00",
-      "category": "Phishing"
     },
     {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
@@ -399,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-20T11:36:33.278514+00:00"
+      "last_success_at": "2026-10-20T17:04:02.514443+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-20T11:36:33.278514+00:00"
+      "last_success_at": "2026-10-20T17:04:02.514443+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-20T11:36:33.278514+00:00"
+      "last_success_at": "2026-10-20T17:04:02.514443+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -422,8 +429,8 @@
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 13,
-      "last_success_at": "2026-10-20T11:36:33.278514+00:00"
+      "items": 14,
+      "last_success_at": "2026-10-20T17:04:02.514443+00:00"
     }
   ]
 }
