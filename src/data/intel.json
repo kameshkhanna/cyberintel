@@ -1,8 +1,56 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-10-20T17:01:59.275692+00:00",
-  "total": 1748,
+  "updated_at": "2026-10-20T21:36:10.896013+00:00",
+  "total": 1754,
   "items": [
+    {
+      "cveID": "CVE-2026-96656",
+      "vendorProject": "Plex",
+      "product": "Media Server",
+      "vulnerabilityName": "Plex Media Server External Control of File Name or Path Vulnerability",
+      "dateAdded": "2026-10-20",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-96655",
+      "vendorProject": "Plex",
+      "product": "Media Server",
+      "vulnerabilityName": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "dateAdded": "2026-10-20",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-96654",
+      "vendorProject": "Plex",
+      "product": "Media Server",
+      "vulnerabilityName": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+      "dateAdded": "2026-10-20",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-96652",
+      "vendorProject": "Plex",
+      "product": "Media Server",
+      "vulnerabilityName": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "dateAdded": "2026-10-20",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-110936",
+      "vendorProject": "Siemens",
+      "product": "Software Center",
+      "vulnerabilityName": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+      "dateAdded": "2026-10-20",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-106931",
+      "vendorProject": "EG Secure Solutions",
+      "product": "SiteGuard Server Edition",
+      "vulnerabilityName": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+      "dateAdded": "2026-10-20",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-102764",
       "vendorProject": "BeyondTrust",
@@ -1154,54 +1202,6 @@
       "vulnerabilityName": "Nx Console Embedded Malicious Code Vulnerability",
       "dateAdded": "2026-05-27",
       "knownRansomwareCampaignUse": "Known"
-    },
-    {
-      "cveID": "CVE-2026-45321",
-      "vendorProject": "TanStack",
-      "product": "TanStack",
-      "vulnerabilityName": "TanStack Unspecified Vulnerability",
-      "dateAdded": "2026-05-27",
-      "knownRansomwareCampaignUse": "Known"
-    },
-    {
-      "cveID": "CVE-2026-48172",
-      "vendorProject": "LiteSpeed",
-      "product": "cPanel Plugin",
-      "vulnerabilityName": "LiteSpeed cPanel Plugin Privilege Escalation Vulnerability",
-      "dateAdded": "2026-05-26",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-9082",
-      "vendorProject": "Drupal",
-      "product": "Core",
-      "vulnerabilityName": "Drupal Core SQL Injection Vulnerability",
-      "dateAdded": "2026-05-22",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-34926",
-      "vendorProject": "Trend Micro",
-      "product": "Apex One",
-      "vulnerabilityName": "Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability",
-      "dateAdded": "2026-05-21",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2025-34291",
-      "vendorProject": "Langflow",
-      "product": "Langflow",
-      "vulnerabilityName": "Langflow Origin Validation Error Vulnerability",
-      "dateAdded": "2026-05-21",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-45498",
-      "vendorProject": "Microsoft",
-      "product": "Defender",
-      "vulnerabilityName": "Microsoft Defender Denial of Service Vulnerability",
-      "dateAdded": "2026-05-20",
-      "knownRansomwareCampaignUse": "Unknown"
     }
   ]
 }
