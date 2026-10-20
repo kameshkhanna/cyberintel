@@ -1,23 +1,34 @@
 name: Update public intelligence snapshots
+
 on:
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:
+
 permissions:
-  contents: write
+  contents: read
+
 concurrency:
   group: intelligence-refresh
   cancel-in-progress: false
+
 jobs:
-  update:
+  collect:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    permissions:
+      contents: read
+    outputs:
+      kev: ${{ steps.kev.outcome }}
+      cve: ${{ steps.cve.outcome }}
+      shodan: ${{ steps.shodan.outcome }}
+      news: ${{ steps.news.outcome }}
     steps:
       - uses: actions/checkout@v5
         with:
           ref: main
-          persist-credentials: true
+          persist-credentials: false
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
@@ -51,24 +62,72 @@ jobs:
           COLLECTOR_SHODAN: ${{ steps.shodan.outcome }}
           COLLECTOR_NEWS: ${{ steps.news.outcome }}
         run: python scripts/validate_publish.py
+      - name: Upload allowlisted intelligence snapshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: validated-intelligence-snapshots
+          retention-days: 1
+          if-no-files-found: error
+          path: |
+            src/data/intel.json
+            src/data/vulnerabilities.json
+            src/data/shodan.json
+            src/data/shodan-history.json
+            src/data/world.json
+            src/data/source-health.json
+
+  publish:
+    needs: collect
+    if: github.ref == 'refs/heads/main' && needs.collect.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Download allowlisted intelligence snapshots
+        uses: actions/download-artifact@v4
+        with:
+          name: validated-intelligence-snapshots
+          path: src/data
+      - name: Revalidate downloaded snapshots
+        env:
+          COLLECTOR_KEV: ${{ needs.collect.outputs.kev }}
+          COLLECTOR_CVE: ${{ needs.collect.outputs.cve }}
+          COLLECTOR_SHODAN: ${{ needs.collect.outputs.shodan }}
+          COLLECTOR_NEWS: ${{ needs.collect.outputs.news }}
+        run: python scripts/validate_publish.py
       - name: Commit validated snapshots
         run: |
-          if [[ -n "$(git status --porcelain src/data/)" ]]; then
+          git add -- src/data/intel.json src/data/vulnerabilities.json src/data/shodan.json src/data/shodan-history.json src/data/world.json src/data/source-health.json
+          if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add src/data/intel.json src/data/shodan.json src/data/shodan-history.json src/data/world.json src/data/source-health.json
-            if [[ -f src/data/vulnerabilities.json ]]; then git add src/data/vulnerabilities.json; fi
             git commit -m 'chore: publish validated intelligence snapshots'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+
+  notify:
+    needs: [collect, publish]
+    if: always() && needs.collect.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
       - name: Mark partial collector failures for GitHub notification
-        if: always()
         env:
-          KEV: ${{ steps.kev.outcome }}
-          CVE: ${{ steps.cve.outcome }}
-          SHODAN: ${{ steps.shodan.outcome }}
-          NEWS: ${{ steps.news.outcome }}
+          KEV: ${{ needs.collect.outputs.kev }}
+          CVE: ${{ needs.collect.outputs.cve }}
+          SHODAN: ${{ needs.collect.outputs.shodan }}
+          NEWS: ${{ needs.collect.outputs.news }}
         run: |
           for value in "$KEV" "$CVE" "$SHODAN" "$NEWS"; do
             if [[ "$value" == failure ]]; then
