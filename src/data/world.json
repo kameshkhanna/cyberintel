@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-10-21T17:13:23.290675+00:00",
+  "updated_at": "2026-10-21T21:44:05.731642+00:00",
   "articles": [
+    {
+      "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-21T21:43:27+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
+      "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-21T20:31:48+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+      "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-21T18:57:34+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-21T18:34:42+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-21T18:01:57+00:00",
+      "category": "Malware"
+    },
     {
       "title": "Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections",
       "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/",
@@ -16,11 +51,25 @@
       "category": "Vulnerabilities"
     },
     {
+      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+      "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-21T16:33:47+00:00",
+      "category": "Cyber news"
+    },
+    {
       "title": "OpenAI agents disabled safety monitoring, one lied about it",
       "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
       "source": "BleepingComputer",
       "published_at": "2026-10-21T16:26:53+00:00",
       "category": "Cyber news"
+    },
+    {
+      "title": "Multiple Vulnerabilities in PHP Could Allow for Remote Code Execution",
+      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-remote-code-execution_2026-119",
+      "source": "CIS Advisories",
+      "published_at": "2026-10-21T16:17:13+00:00",
+      "category": "Vulnerabilities"
     },
     {
       "title": "‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targets",
@@ -254,15 +303,8 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-20T15:32:27+00:00",
-      "category": "Ransomware"
-    },
-    {
       "title": "A Vulnerability in BeyondTrust Remote Support Could Allow for Arbitrary Upload of Files",
-      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-beyondtrust-remote-support-could-allow-for-arbitrary-upload-of-files_2026-117",
+      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-beyondtrust-remote-support-could-allow-for-arbitrary-upload-of-files_2026-118",
       "source": "CIS Advisories",
       "published_at": "2026-10-20T14:26:38+00:00",
       "category": "Vulnerabilities"
@@ -275,78 +317,50 @@
       "category": "Cyber news"
     },
     {
-      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-20T14:07:17+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
-      "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-20T13:51:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-20T13:18:36+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
-      "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-20T12:59:44+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Windows Server 2025 gets support for quick machine recovery",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-20T12:16:32+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
-      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-116",
+      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-117",
       "source": "CIS Advisories",
       "published_at": "2026-10-14T13:11:05+00:00",
       "category": "Vulnerabilities"
     },
     {
       "title": "A Vulnerability in Ivanti Connect Secure Could Allow for Arbitrary Code Execution",
-      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-ivanti-connect-secure-could-allow-for-arbitrary-code-execution_2026-115",
+      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-ivanti-connect-secure-could-allow-for-arbitrary-code-execution_2026-116",
       "source": "CIS Advisories",
       "published_at": "2026-10-13T23:57:26+00:00",
       "category": "Vulnerabilities"
     },
     {
       "title": "Critical Patches Issued for Microsoft Products, October 13, 2026",
-      "url": "https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-october-13-2026_2026-114",
+      "url": "https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-october-13-2026_2026-115",
       "source": "CIS Advisories",
       "published_at": "2026-10-13T21:12:19+00:00",
       "category": "Vulnerabilities"
     },
     {
+      "title": "Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution",
+      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2026-114",
+      "source": "CIS Advisories",
+      "published_at": "2026-10-13T19:30:15+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
       "title": "A Vulnerability in Atlassian Data Center Products Could Allow for Arbitrary File Access",
-      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-atlassian-data-center-products-could-allow-for-arbitrary-file-access_2026-112",
+      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-atlassian-data-center-products-could-allow-for-arbitrary-file-access_2026-113",
       "source": "CIS Advisories",
       "published_at": "2026-10-12T06:49:38+00:00",
       "category": "Vulnerabilities"
     },
     {
       "title": "Multiple Vulnerabilities in SonicWall SMA1000 Series Appliances Could Allow for Remote Code Execution.",
-      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-sonicwall-sma1000-series-appliances-could-allow-for-remote-code-execution_2026-113",
+      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-sonicwall-sma1000-series-appliances-could-allow-for-remote-code-execution_2026-111",
       "source": "CIS Advisories",
       "published_at": "2026-10-12T06:48:59+00:00",
       "category": "Vulnerabilities"
     },
     {
       "title": "Multiple Vulnerabilities in Dell System Update Could Allow for Remote Code Execution",
-      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-dell-system-update-could-allow-for-remote-code-execution_2026-111",
+      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-dell-system-update-could-allow-for-remote-code-execution_2026-112",
       "source": "CIS Advisories",
       "published_at": "2026-10-12T06:47:16+00:00",
       "category": "Vulnerabilities"
@@ -385,20 +399,6 @@
       "source": "CIS Advisories",
       "published_at": "2026-10-01T20:37:13+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "A Vulnerability in Cisco Catalyst SD-WAN Manager Could Allow for Authentication Bypass",
-      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-catalyst-sd-wan-manager-could-allow-for-authentication-bypass_2026-105",
-      "source": "CIS Advisories",
-      "published_at": "2026-09-30T17:55:55+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "A Vulnerability in Apple Products Could Allow for Arbitrary Code Execution",
-      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-apple-products-could-allow-for-arbitrary-code-execution_2026-104",
-      "source": "CIS Advisories",
-      "published_at": "2026-09-30T17:48:54+00:00",
-      "category": "Vulnerabilities"
     }
   ],
   "sources": [
@@ -406,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-21T17:13:23.290675+00:00"
+      "last_success_at": "2026-10-21T21:44:05.731642+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-21T17:13:23.290675+00:00"
+      "last_success_at": "2026-10-21T21:44:05.731642+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-21T17:13:23.290675+00:00"
+      "last_success_at": "2026-10-21T21:44:05.731642+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -430,7 +430,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-10-21T17:13:23.290675+00:00"
+      "last_success_at": "2026-10-21T21:44:05.731642+00:00"
     }
   ]
 }
