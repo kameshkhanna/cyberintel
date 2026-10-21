@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-10-20T22:59:48.677802+00:00",
+  "updated_at": "2026-10-21T04:46:42.386880+00:00",
   "articles": [
+    {
+      "title": "Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities",
+      "url": "https://www.securityweek.com/accenture-dragos-sans-launch-10m-initiative-to-defend-small-us-utilities/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-21T04:22:11+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+      "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-21T01:01:50+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+      "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-21T00:46:42+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
       "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
@@ -261,32 +282,11 @@
       "category": "Malware"
     },
     {
-      "title": "Bullhorn takes staffing platform offline to contain cyberattack",
-      "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-19T18:51:13+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
-      "url": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-19T18:15:39+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
       "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
       "source": "The Hacker News",
       "published_at": "2026-10-19T17:32:13+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "OpenCode hack exposes API keys amid AI distillation attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-19T17:27:15+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
@@ -406,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-20T22:59:48.677802+00:00"
+      "last_success_at": "2026-10-21T04:46:42.386880+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-20T22:59:48.677802+00:00"
+      "last_success_at": "2026-10-21T04:46:42.386880+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-20T22:59:48.677802+00:00"
+      "last_success_at": "2026-10-21T04:46:42.386880+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -430,7 +430,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-10-20T22:59:48.677802+00:00"
+      "last_success_at": "2026-10-21T04:46:42.386880+00:00"
     }
   ]
 }
