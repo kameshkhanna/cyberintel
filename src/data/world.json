@@ -1,6 +1,111 @@
 {
-  "updated_at": "2026-10-21T11:49:19.006548+00:00",
+  "updated_at": "2026-10-21T17:13:23.290675+00:00",
   "articles": [
+    {
+      "title": "Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections",
+      "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-21T17:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors",
+      "url": "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-21T16:50:40+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "OpenAI agents disabled safety monitoring, one lied about it",
+      "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-21T16:26:53+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targets",
+      "url": "https://www.securityweek.com/context-bombs-cut-ai-attack-success-by-misleading-agents-with-fake-targets/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-21T15:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7",
+      "url": "https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-21T14:45:00+00:00",
+      "category": "Ransomware"
+    },
+    {
+      "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-21T14:07:05+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
+      "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-21T14:00:10+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+      "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-21T14:00:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security",
+      "url": "https://www.securityweek.com/asymptote-labs-lands-5-5-million-seed-for-ai-agent-runtime-security/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-21T13:17:35+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+      "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-21T13:15:09+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Memory Bugs Account for Most of Chrome’s 353 New Security Fixes",
+      "url": "https://www.securityweek.com/memory-bugs-account-for-most-of-chromes-353-new-security-fixes/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-21T12:57:47+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor",
+      "url": "https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-21T12:34:22+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-21T12:20:34+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+      "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-21T12:05:00+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+      "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-21T11:53:34+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys",
       "url": "https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/",
@@ -93,32 +198,11 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
-      "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-21T07:02:06+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
       "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
       "source": "The Hacker News",
       "published_at": "2026-10-21T06:05:15+00:00",
       "category": "Malware"
-    },
-    {
-      "title": "Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI",
-      "url": "https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-21T06:02:27+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities",
-      "url": "https://www.securityweek.com/accenture-dragos-sans-launch-10m-initiative-to-defend-small-us-utilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-21T04:22:11+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
@@ -163,13 +247,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "US Agencies Detail Incident Response Practices for Rogue AI Agents",
-      "url": "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-20T15:45:00+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
       "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
       "source": "The Hacker News",
@@ -205,13 +282,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
-      "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-20T13:51:01+00:00",
-      "category": "Threat actors"
-    },
-    {
       "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
       "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
       "source": "BleepingComputer",
@@ -219,24 +289,10 @@
       "category": "Cyber news"
     },
     {
-      "title": "The Key to AI Software Security Isn’t Speed, It’s Maturity",
-      "url": "https://www.securityweek.com/the-key-to-ai-software-security-isnt-speed-its-maturity/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-20T13:34:23+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
       "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
       "source": "BleepingComputer",
       "published_at": "2026-10-20T13:18:36+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Ahold Delhaize Restoring Services Disrupted by Cyberattack",
-      "url": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-20T13:02:18+00:00",
       "category": "Cyber news"
     },
     {
@@ -252,62 +308,6 @@
       "source": "BleepingComputer",
       "published_at": "2026-10-20T12:16:32+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
-      "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-20T11:41:06+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "What Security Teams Can Do To Tame Wild Code",
-      "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-20T11:33:04+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
-      "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-20T11:32:59+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
-      "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-20T11:31:22+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
-      "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-20T11:18:35+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
-      "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-20T11:06:25+00:00",
-      "category": "Threat actors"
-    },
-    {
-      "title": "Revolut outage disrupts online banking operations worldwide",
-      "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-20T09:46:44+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-      "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-19T21:49:48+00:00",
-      "category": "Data breaches"
     },
     {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
@@ -406,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-21T11:49:19.006548+00:00"
+      "last_success_at": "2026-10-21T17:13:23.290675+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-21T11:49:19.006548+00:00"
+      "last_success_at": "2026-10-21T17:13:23.290675+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-21T11:49:19.006548+00:00"
+      "last_success_at": "2026-10-21T17:13:23.290675+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -430,7 +430,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-10-21T11:49:19.006548+00:00"
+      "last_success_at": "2026-10-21T17:13:23.290675+00:00"
     }
   ]
 }
