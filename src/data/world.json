@@ -1,6 +1,76 @@
 {
-  "updated_at": "2026-10-22T11:52:29.361161+00:00",
+  "updated_at": "2026-10-22T17:11:28.203244+00:00",
   "articles": [
+    {
+      "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
+      "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T16:12:31+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-22T15:49:32+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hacker Conversations: Corey Thuen and the Evil Bit",
+      "url": "https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-22T14:31:34+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Machine speed attacks require machine speed detection and response",
+      "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-22T14:02:12+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
+      "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T13:38:22+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+      "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-22T13:09:12+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform",
+      "url": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-22T13:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Signal Vulnerability Lets Malicious Callers Block Hang-Ups",
+      "url": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-22T12:34:31+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Tech and Security Companies Respond to PHP2Shell Vulnerabilities",
+      "url": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-22T12:20:23+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+      "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T11:45:00+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "GitLab warns of new max severity code execution vulnerability",
       "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
@@ -149,13 +219,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors",
-      "url": "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-21T16:50:40+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
       "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
       "source": "The Hacker News",
@@ -177,20 +240,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "‘Context Bombs’ Cut AI Attack Success by Misleading Agents With Fake Targets",
-      "url": "https://www.securityweek.com/context-bombs-cut-ai-attack-success-by-misleading-agents-with-fake-targets/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-21T15:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7",
-      "url": "https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-21T14:45:00+00:00",
-      "category": "Ransomware"
-    },
-    {
       "title": "PHP ships emergency patches for critical PHP2Shell flaws",
       "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
       "source": "BleepingComputer",
@@ -210,13 +259,6 @@
       "source": "The Hacker News",
       "published_at": "2026-10-21T14:00:00+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Asymptote Labs Lands $5.5 Million Seed for AI Agent Runtime Security",
-      "url": "https://www.securityweek.com/asymptote-labs-lands-5-5-million-seed-for-ai-agent-runtime-security/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-21T13:17:35+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
@@ -254,20 +296,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "The Harness Is the Hard Part of Agentic Pentesting",
-      "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T10:32:40+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
-      "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T10:30:27+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Microsoft says October updates didn’t actually fix VPN issues",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
       "source": "BleepingComputer",
@@ -275,39 +303,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-      "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T09:05:17+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
       "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
       "source": "BleepingComputer",
       "published_at": "2026-10-21T08:36:24+00:00",
       "category": "Ransomware"
-    },
-    {
-      "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
-      "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-21T01:01:50+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
-      "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-21T00:46:42+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
-      "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-20T20:56:43+00:00",
-      "category": "Vulnerabilities"
     },
     {
       "title": "A Vulnerability in BeyondTrust Remote Support Could Allow for Arbitrary Upload of Files",
@@ -406,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-22T11:52:29.361161+00:00"
+      "last_success_at": "2026-10-22T17:11:28.203244+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-22T11:52:29.361161+00:00"
+      "last_success_at": "2026-10-22T17:11:28.203244+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-22T11:52:29.361161+00:00"
+      "last_success_at": "2026-10-22T17:11:28.203244+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -430,7 +430,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-10-22T11:52:29.361161+00:00"
+      "last_success_at": "2026-10-22T17:11:28.203244+00:00"
     }
   ]
 }
