@@ -1,6 +1,104 @@
 {
-  "updated_at": "2026-10-22T04:44:38.479214+00:00",
+  "updated_at": "2026-10-22T11:52:29.361161+00:00",
   "articles": [
+    {
+      "title": "GitLab warns of new max severity code execution vulnerability",
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-22T11:41:48+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+      "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T11:15:42+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Splunk, SolarWinds Release Fresh Security Updates",
+      "url": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-22T10:45:24+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+      "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T10:44:05+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Cisco Patches 34 Vulnerabilities Across Multiple Products",
+      "url": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-22T10:05:21+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "PHP2Shell Exploitation Started Days Before Patches",
+      "url": "https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-22T09:48:58+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+      "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T08:28:48+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+      "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-22T08:27:11+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+      "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T07:47:22+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU",
+      "url": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-22T07:38:14+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook",
+      "url": "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-22T07:26:54+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+      "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T06:38:31+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+      "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T06:34:10+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T04:21:26+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
       "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
@@ -128,20 +226,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "Memory Bugs Account for Most of Chrome’s 353 New Security Fixes",
-      "url": "https://www.securityweek.com/memory-bugs-account-for-most-of-chromes-353-new-security-fixes/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-21T12:57:47+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "OpenAI Agents Silenced Security Team Alerts, Removed Misalignment Monitor",
-      "url": "https://www.securityweek.com/openai-agents-silenced-security-team-alerts-removed-misalignment-monitor/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-21T12:34:22+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
       "source": "BleepingComputer",
@@ -160,20 +244,6 @@
       "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
       "source": "The Hacker News",
       "published_at": "2026-10-21T11:53:34+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys",
-      "url": "https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-21T11:22:05+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "China Defends DeepSeek After US Ban of Its AI From Government Systems",
-      "url": "https://www.securityweek.com/china-defends-deepseek-after-us-ban-of-its-ai-from-government-systems/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-21T10:54:49+00:00",
       "category": "Cyber news"
     },
     {
@@ -205,13 +275,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "Chinese AI Model Writes More Hackable Code When Told It’s for US Contractor",
-      "url": "https://www.securityweek.com/chinese-ai-model-writes-more-hackable-code-when-told-its-for-us-contractor/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-21T10:03:24+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
       "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
       "source": "The Hacker News",
@@ -219,46 +282,11 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
-      "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T09:01:12+00:00",
-      "category": "Malware"
-    },
-    {
       "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
       "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
       "source": "BleepingComputer",
       "published_at": "2026-10-21T08:36:24+00:00",
       "category": "Ransomware"
-    },
-    {
-      "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-      "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T08:04:17+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-      "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T07:44:22+00:00",
-      "category": "Data breaches"
-    },
-    {
-      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-      "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T07:26:49+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
-      "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T06:05:15+00:00",
-      "category": "Malware"
     },
     {
       "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
@@ -279,34 +307,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
       "source": "BleepingComputer",
       "published_at": "2026-10-20T20:56:43+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Zeabur shutting down after second security breach in two months",
-      "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-20T19:33:02+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-20T18:11:03+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-20T17:09:53+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-      "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-20T15:38:52+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -406,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-22T04:44:38.479214+00:00"
+      "last_success_at": "2026-10-22T11:52:29.361161+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-22T04:44:38.479214+00:00"
+      "last_success_at": "2026-10-22T11:52:29.361161+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-22T04:44:38.479214+00:00"
+      "last_success_at": "2026-10-22T11:52:29.361161+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -430,7 +430,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-10-22T04:44:38.479214+00:00"
+      "last_success_at": "2026-10-22T11:52:29.361161+00:00"
     }
   ]
 }
