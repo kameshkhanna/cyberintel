@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-10-22T17:11:28.203244+00:00",
+  "updated_at": "2026-10-22T21:36:48.111625+00:00",
   "articles": [
+    {
+      "title": "Railway warns devs to rotate secrets after potential breach",
+      "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-22T21:25:31+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Capcom confirms data breach affecting 11.7 million accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-22T20:22:45+00:00",
+      "category": "Data breaches"
+    },
+    {
+      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+      "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-22T19:12:51+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+      "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T19:05:35+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T19:05:17+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
+      "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T18:12:43+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+      "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T17:45:44+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-22T17:18:22+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+      "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-22T17:01:53+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
       "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
@@ -63,13 +126,6 @@
       "source": "SecurityWeek",
       "published_at": "2026-10-22T12:20:23+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-      "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-22T11:45:00+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "GitLab warns of new max severity code execution vulnerability",
@@ -247,67 +303,11 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "ClickFix has never been bigger, and AI tools are its most convincing lure yet",
-      "url": "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-21T14:00:10+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
       "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
       "source": "The Hacker News",
       "published_at": "2026-10-21T14:00:00+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
-      "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T13:15:09+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-21T12:20:34+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
-      "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T12:05:00+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
-      "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T11:53:34+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-      "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T10:36:53+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Microsoft says October updates didn’t actually fix VPN issues",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-21T10:14:53+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-21T08:36:24+00:00",
-      "category": "Ransomware"
     },
     {
       "title": "A Vulnerability in BeyondTrust Remote Support Could Allow for Arbitrary Upload of Files",
@@ -385,20 +385,6 @@
       "source": "CIS Advisories",
       "published_at": "2026-10-02T13:31:11+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "A Vulnerability in Kiteworks EPG (Email Security Gateway) Could Allow for Arbitrary Code Execution",
-      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-kiteworks-epg-email-security-gateway-could-allow-for-arbitrary-code-execution_2026-107",
-      "source": "CIS Advisories",
-      "published_at": "2026-10-01T20:50:47+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "A Vulnerability in WordPress Could Allow for Remote Code Execution",
-      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-wordpress-could-allow-for-remote-code-execution_2026-106",
-      "source": "CIS Advisories",
-      "published_at": "2026-10-01T20:37:13+00:00",
-      "category": "Vulnerabilities"
     }
   ],
   "sources": [
@@ -406,19 +392,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-22T17:11:28.203244+00:00"
+      "last_success_at": "2026-10-22T21:36:48.111625+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-22T17:11:28.203244+00:00"
+      "last_success_at": "2026-10-22T21:36:48.111625+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-22T17:11:28.203244+00:00"
+      "last_success_at": "2026-10-22T21:36:48.111625+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -429,8 +415,8 @@
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 14,
-      "last_success_at": "2026-10-22T17:11:28.203244+00:00"
+      "items": 12,
+      "last_success_at": "2026-10-22T21:36:48.111625+00:00"
     }
   ]
 }
