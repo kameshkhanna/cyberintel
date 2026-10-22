@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-10-21T21:44:05.731642+00:00",
+  "updated_at": "2026-10-22T04:44:38.479214+00:00",
   "articles": [
+    {
+      "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
+      "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-21T22:16:26+00:00",
+      "category": "Phishing"
+    },
     {
       "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
       "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
@@ -310,13 +317,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "DHS bans DeepSeek products across US federal civilian agencies",
-      "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-20T14:19:05+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-117",
       "source": "CIS Advisories",
@@ -406,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-21T21:44:05.731642+00:00"
+      "last_success_at": "2026-10-22T04:44:38.479214+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-21T21:44:05.731642+00:00"
+      "last_success_at": "2026-10-22T04:44:38.479214+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-21T21:44:05.731642+00:00"
+      "last_success_at": "2026-10-22T04:44:38.479214+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -430,7 +430,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-10-21T21:44:05.731642+00:00"
+      "last_success_at": "2026-10-22T04:44:38.479214+00:00"
     }
   ]
 }
