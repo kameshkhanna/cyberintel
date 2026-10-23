@@ -1,8 +1,24 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-10-23T17:05:30.937803+00:00",
-  "total": 1754,
+  "updated_at": "2026-10-23T21:23:31.112734+00:00",
+  "total": 1756,
   "items": [
+    {
+      "cveID": "CVE-2026-114625",
+      "vendorProject": "Arista",
+      "product": "VeloCloud Orchestrator",
+      "vulnerabilityName": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+      "dateAdded": "2026-10-23",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-110447",
+      "vendorProject": "Collabora",
+      "product": "Collabora Online – Built-in CODE Server",
+      "vulnerabilityName": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
+      "dateAdded": "2026-10-23",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-96656",
       "vendorProject": "Plex",
@@ -1185,22 +1201,6 @@
       "product": "PAN-OS",
       "vulnerabilityName": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
       "dateAdded": "2026-05-29",
-      "knownRansomwareCampaignUse": "Known"
-    },
-    {
-      "cveID": "CVE-2026-8398",
-      "vendorProject": "Daemon",
-      "product": "Daemon Tools Lite",
-      "vulnerabilityName": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
-      "dateAdded": "2026-05-27",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-48027",
-      "vendorProject": "Nx",
-      "product": "Nx Console",
-      "vulnerabilityName": "Nx Console Embedded Malicious Code Vulnerability",
-      "dateAdded": "2026-05-27",
       "knownRansomwareCampaignUse": "Known"
     }
   ]

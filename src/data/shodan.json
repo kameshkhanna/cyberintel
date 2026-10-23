@@ -1,140 +1,140 @@
 {
   "source": "Shodan /shodan/host/count",
-  "generated_at": "2026-10-23T17:07:37.789582+00:00",
+  "generated_at": "2026-10-23T21:25:36.611710+00:00",
   "technologies": {
     "Nginx": {
       "query": "product:nginx",
-      "total": 54434088,
+      "total": 54574966,
       "facets": {
         "country": [
           {
             "label": "US",
-            "count": 14549035
+            "count": 14583745
           },
           {
             "label": "CN",
-            "count": 9268625
+            "count": 9300244
           },
           {
             "label": "HK",
-            "count": 3727850
+            "count": 3737219
           },
           {
             "label": "JP",
-            "count": 3102110
+            "count": 3108265
           },
           {
             "label": "DE",
-            "count": 2751592
+            "count": 2758563
           },
           {
             "label": "CA",
-            "count": 2605341
+            "count": 2609777
           },
           {
             "label": "SG",
-            "count": 1696722
+            "count": 1700617
           },
           {
             "label": "FR",
-            "count": 1517478
+            "count": 1520245
           }
         ],
         "port": [
           {
             "label": "80",
-            "count": 11167305
+            "count": 11174019
           },
           {
             "label": "443",
-            "count": 8925131
+            "count": 8989991
           },
           {
             "label": "5000",
-            "count": 458320
+            "count": 459091
           },
           {
             "label": "5001",
-            "count": 418058
+            "count": 418894
           },
           {
             "label": "888",
-            "count": 407152
+            "count": 407739
           },
           {
             "label": "8443",
-            "count": 394911
+            "count": 396606
           },
           {
             "label": "8888",
-            "count": 360459
+            "count": 360925
           },
           {
             "label": "8080",
-            "count": 268017
+            "count": 268366
           }
         ],
         "org": [
           {
             "label": "Meteverse Limited.",
-            "count": 8967765
+            "count": 8985797
           },
           {
             "label": "METEVERSE LIMITED",
-            "count": 2997872
+            "count": 3002677
           },
           {
             "label": "CDNetworks",
-            "count": 2342301
+            "count": 2346468
           },
           {
             "label": "CDNetworks Inc.",
-            "count": 1684542
+            "count": 1687729
           },
           {
             "label": "Aliyun Computing Co., LTD",
-            "count": 1416020
+            "count": 1429200
           },
           {
             "label": "Amazon Technologies Inc.",
-            "count": 1371971
+            "count": 1377311
           },
           {
             "label": "DigitalOcean, LLC",
-            "count": 1337220
+            "count": 1340782
           },
           {
             "label": "China Mobile Communications Group Co., Ltd",
-            "count": 1330564
+            "count": 1333873
           }
         ]
       },
-      "updated_at": "2026-10-23T17:07:37.789582+00:00"
+      "updated_at": "2026-10-23T21:25:36.611710+00:00"
     },
     "Apache HTTP": {
       "query": "product:Apache httpd",
-      "total": 1881,
+      "total": 1893,
       "facets": {
         "country": [
           {
             "label": "US",
-            "count": 909
+            "count": 918
           },
           {
             "label": "KR",
-            "count": 238
+            "count": 239
           },
           {
             "label": "DE",
-            "count": 128
+            "count": 127
           },
           {
             "label": "JP",
-            "count": 115
+            "count": 116
           },
           {
             "label": "CA",
-            "count": 47
+            "count": 48
           },
           {
             "label": "GB",
@@ -142,21 +142,21 @@
           },
           {
             "label": "CN",
-            "count": 41
+            "count": 44
           },
           {
             "label": "FR",
-            "count": 30
+            "count": 32
           }
         ],
         "port": [
           {
             "label": "443",
-            "count": 1001
+            "count": 1012
           },
           {
             "label": "80",
-            "count": 757
+            "count": 758
           },
           {
             "label": "81",
@@ -186,7 +186,7 @@
         "org": [
           {
             "label": "Amazon Technologies Inc.",
-            "count": 398
+            "count": 403
           },
           {
             "label": "Unified Layer",
@@ -206,7 +206,7 @@
           },
           {
             "label": "HostGator.com LLC",
-            "count": 50
+            "count": 49
           },
           {
             "label": "A100 ROW GmbH",
@@ -218,11 +218,11 @@
           }
         ]
       },
-      "updated_at": "2026-10-23T17:07:37.789582+00:00"
+      "updated_at": "2026-10-23T21:25:36.611710+00:00"
     },
     "Microsoft IIS": {
       "query": "product:Microsoft IIS httpd",
-      "total": 4,
+      "total": 3,
       "facets": {
         "country": [
           {
@@ -231,16 +231,16 @@
           },
           {
             "label": "NL",
-            "count": 2
+            "count": 1
           }
         ],
         "port": [
           {
-            "label": "443",
-            "count": 2
+            "label": "80",
+            "count": 1
           },
           {
-            "label": "80",
+            "label": "443",
             "count": 1
           },
           {
@@ -254,10 +254,6 @@
             "count": 1
           },
           {
-            "label": "Rijksuniversiteit Groningen",
-            "count": 1
-          },
-          {
             "label": "Signet B.V.",
             "count": 1
           },
@@ -267,7 +263,7 @@
           }
         ]
       },
-      "updated_at": "2026-10-23T17:07:37.789582+00:00"
+      "updated_at": "2026-10-23T21:25:36.611710+00:00"
     }
   }
 }
