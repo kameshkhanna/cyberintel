@@ -1,6 +1,97 @@
 {
-  "updated_at": "2026-10-23T04:49:41.167439+00:00",
+  "updated_at": "2026-10-23T11:38:49.739924+00:00",
   "articles": [
+    {
+      "title": "URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+      "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-23T11:25:43+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-23T11:11:23+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
+      "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-23T10:31:16+00:00",
+      "category": "Threat actors"
+    },
+    {
+      "title": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
+      "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-23T09:58:34+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+      "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-23T09:36:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-23T08:40:43+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+      "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-23T08:35:45+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "11 Million Impacted by Capcom Data Breach",
+      "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-23T08:34:14+00:00",
+      "category": "Data breaches"
+    },
+    {
+      "title": "Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’",
+      "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-23T08:25:06+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
+      "url": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-23T08:10:46+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Atlassian Patches 75 Flaws in Data Center and Server Products",
+      "url": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-23T07:54:47+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-23T07:40:45+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Iran’s Prince of Persia APT Hosts C&C in US for First Time Since 2016",
+      "url": "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-23T06:39:29+00:00",
+      "category": "Threat actors"
+    },
     {
       "title": "Railway warns devs to rotate secrets after potential breach",
       "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
@@ -121,13 +212,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Tech and Security Companies Respond to PHP2Shell Vulnerabilities",
-      "url": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-22T12:20:23+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "GitLab warns of new max severity code execution vulnerability",
       "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
       "source": "BleepingComputer",
@@ -142,32 +226,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "Splunk, SolarWinds Release Fresh Security Updates",
-      "url": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-22T10:45:24+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
       "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
       "source": "The Hacker News",
       "published_at": "2026-10-22T10:44:05+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "Cisco Patches 34 Vulnerabilities Across Multiple Products",
-      "url": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-22T10:05:21+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "PHP2Shell Exploitation Started Days Before Patches",
-      "url": "https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-22T09:48:58+00:00",
-      "category": "Vulnerabilities"
     },
     {
       "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
@@ -191,38 +254,10 @@
       "category": "Cyber news"
     },
     {
-      "title": "Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU",
-      "url": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-22T07:38:14+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook",
-      "url": "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-22T07:26:54+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
       "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
       "source": "The Hacker News",
       "published_at": "2026-10-22T06:38:31+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-      "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-22T06:34:10+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-22T04:21:26+00:00",
       "category": "Cyber news"
     },
     {
@@ -247,38 +282,10 @@
       "category": "Malware"
     },
     {
-      "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
-      "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T18:57:34+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
       "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
       "source": "BleepingComputer",
       "published_at": "2026-10-21T18:34:42+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
-      "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T18:01:57+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections",
-      "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-21T17:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
-      "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T16:33:47+00:00",
       "category": "Cyber news"
     },
     {
@@ -300,13 +307,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
       "source": "BleepingComputer",
       "published_at": "2026-10-21T14:07:05+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
-      "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-21T14:00:00+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -392,19 +392,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-23T04:49:41.167439+00:00"
+      "last_success_at": "2026-10-23T11:38:49.739924+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-23T04:49:41.167439+00:00"
+      "last_success_at": "2026-10-23T11:38:49.739924+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-23T04:49:41.167439+00:00"
+      "last_success_at": "2026-10-23T11:38:49.739924+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -416,7 +416,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 12,
-      "last_success_at": "2026-10-23T04:49:41.167439+00:00"
+      "last_success_at": "2026-10-23T11:38:49.739924+00:00"
     }
   ]
 }
