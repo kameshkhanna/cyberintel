@@ -1,8 +1,64 @@
 {
-  "updated_at": "2026-10-23T11:38:49.739924+00:00",
+  "updated_at": "2026-10-23T17:07:41.310113+00:00",
   "articles": [
     {
-      "title": "URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+      "title": "Microsoft: Windows Server 2016 reaches end of support in January",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-23T17:05:07+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Quest Diagnostics confirms data breach exposed patient records",
+      "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-23T16:40:07+00:00",
+      "category": "Data breaches"
+    },
+    {
+      "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+      "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-23T15:38:05+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
+      "url": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-23T14:23:37+00:00",
+      "category": "Ransomware"
+    },
+    {
+      "title": "You gave your AI agent access, but who is giving it orders?",
+      "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-23T14:00:10+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-23T13:50:56+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-23T12:48:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge",
+      "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-23T12:45:52+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
       "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
       "source": "The Hacker News",
       "published_at": "2026-10-23T11:25:43+00:00",
@@ -23,7 +79,7 @@
       "category": "Threat actors"
     },
     {
-      "title": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
+      "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
       "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
       "source": "SecurityWeek",
       "published_at": "2026-10-23T09:58:34+00:00",
@@ -58,11 +114,11 @@
       "category": "Data breaches"
     },
     {
-      "title": "Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’",
+      "title": "Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’",
       "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
       "source": "SecurityWeek",
       "published_at": "2026-10-23T08:25:06+00:00",
-      "category": "Cyber news"
+      "category": "Data breaches"
     },
     {
       "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
@@ -198,20 +254,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform",
-      "url": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-22T13:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Signal Vulnerability Lets Malicious Callers Block Hang-Ups",
-      "url": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-22T12:34:31+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "GitLab warns of new max severity code execution vulnerability",
       "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
       "source": "BleepingComputer",
@@ -254,13 +296,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-      "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-22T06:38:31+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
       "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
       "source": "BleepingComputer",
@@ -268,45 +303,10 @@
       "category": "Phishing"
     },
     {
-      "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
-      "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-21T21:43:27+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-      "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-21T20:31:48+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-21T18:34:42+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "OpenAI agents disabled safety monitoring, one lied about it",
-      "url": "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-21T16:26:53+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Multiple Vulnerabilities in PHP Could Allow for Remote Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-remote-code-execution_2026-119",
       "source": "CIS Advisories",
       "published_at": "2026-10-21T16:17:13+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "PHP ships emergency patches for critical PHP2Shell flaws",
-      "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-21T14:07:05+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -378,13 +378,6 @@
       "source": "CIS Advisories",
       "published_at": "2026-10-07T04:18:16+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "A Vulnerability in Fortinet FortiMail Could Allow for Arbitrary Code Execution",
-      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-fortinet-fortimail-could-allow-for-arbitrary-code-execution_2026-108",
-      "source": "CIS Advisories",
-      "published_at": "2026-10-02T13:31:11+00:00",
-      "category": "Vulnerabilities"
     }
   ],
   "sources": [
@@ -392,19 +385,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-23T11:38:49.739924+00:00"
+      "last_success_at": "2026-10-23T17:07:41.310113+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-23T11:38:49.739924+00:00"
+      "last_success_at": "2026-10-23T17:07:41.310113+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-23T11:38:49.739924+00:00"
+      "last_success_at": "2026-10-23T17:07:41.310113+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -415,8 +408,8 @@
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 12,
-      "last_success_at": "2026-10-23T11:38:49.739924+00:00"
+      "items": 11,
+      "last_success_at": "2026-10-23T17:07:41.310113+00:00"
     }
   ]
 }
