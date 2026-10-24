@@ -1,19 +1,40 @@
 {
-  "updated_at": "2026-10-24T11:00:07.971217+00:00",
+  "updated_at": "2026-10-24T15:57:45.139766+00:00",
   "articles": [
+    {
+      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+      "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-24T14:17:32+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-24T11:09:29+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-24T11:03:33+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-24T10:36:33+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
       "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
       "source": "The Hacker News",
       "published_at": "2026-10-24T09:04:24+00:00",
       "category": "Malware"
-    },
-    {
-      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-24T08:45:56+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
@@ -247,25 +268,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-      "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-22T17:45:44+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
       "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
       "source": "BleepingComputer",
       "published_at": "2026-10-22T17:18:22+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-      "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-22T17:01:53+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
@@ -293,13 +300,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
       "source": "BleepingComputer",
       "published_at": "2026-10-22T13:09:12+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "GitLab warns of new max severity code execution vulnerability",
-      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-22T11:41:48+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -385,19 +385,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-24T11:00:07.971217+00:00"
+      "last_success_at": "2026-10-24T15:57:45.139766+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-24T11:00:07.971217+00:00"
+      "last_success_at": "2026-10-24T15:57:45.139766+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-24T11:00:07.971217+00:00"
+      "last_success_at": "2026-10-24T15:57:45.139766+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -409,7 +409,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 11,
-      "last_success_at": "2026-10-24T11:00:07.971217+00:00"
+      "last_success_at": "2026-10-24T15:57:45.139766+00:00"
     }
   ]
 }
