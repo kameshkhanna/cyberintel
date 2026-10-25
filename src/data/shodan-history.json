@@ -60,8 +60,8 @@
     {
       "date": "2026-10-25",
       "totals": {
-        "Nginx": 54643231,
-        "Apache HTTP": 1923,
+        "Nginx": 54975415,
+        "Apache HTTP": 1933,
         "Microsoft IIS": 3
       }
     }
