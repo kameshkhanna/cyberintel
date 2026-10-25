@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-10-25T16:18:16.590295+00:00",
+  "updated_at": "2026-10-25T20:51:35.548592+00:00",
   "articles": [
+    {
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-25T17:44:09+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-25T17:19:46+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
       "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
@@ -268,20 +282,6 @@
       "category": "Malware"
     },
     {
-      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-      "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-22T19:05:35+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-22T19:05:17+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
       "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
       "source": "BleepingComputer",
@@ -385,19 +385,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-25T16:18:16.590295+00:00"
+      "last_success_at": "2026-10-25T20:51:35.548592+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-25T16:18:16.590295+00:00"
+      "last_success_at": "2026-10-25T20:51:35.548592+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-25T16:18:16.590295+00:00"
+      "last_success_at": "2026-10-25T20:51:35.548592+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -409,7 +409,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 11,
-      "last_success_at": "2026-10-25T16:18:16.590295+00:00"
+      "last_success_at": "2026-10-25T20:51:35.548592+00:00"
     }
   ]
 }
