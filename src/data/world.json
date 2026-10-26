@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-26T04:46:59.883379+00:00",
+  "updated_at": "2026-10-26T13:01:58.397716+00:00",
   "articles": [
+    {
+      "title": "953 Online Stores Infected in Long-Lasting Malware Campaign",
+      "url": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-26T12:46:44+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts",
+      "url": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-26T11:47:52+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+      "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-26T11:23:56+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+      "url": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-26T10:26:52+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages",
+      "url": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-26T10:21:57+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-26T09:54:02+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-26T09:19:57+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Mythos 5 Ignored Real-World Harm in July Attack",
+      "url": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-26T09:10:03+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-26T08:35:51+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+      "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-26T07:49:46+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+      "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-26T06:03:48+00:00",
+      "category": "Malware"
+    },
     {
       "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
       "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
@@ -177,13 +254,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-      "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-23T11:11:23+00:00",
-      "category": "Malware"
-    },
-    {
       "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
       "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
       "source": "SecurityWeek",
@@ -198,67 +268,11 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-      "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-23T09:36:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-23T08:40:43+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-      "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-23T08:35:45+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "11 Million Impacted by Capcom Data Breach",
       "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
       "source": "SecurityWeek",
       "published_at": "2026-10-23T08:34:14+00:00",
       "category": "Data breaches"
-    },
-    {
-      "title": "Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’",
-      "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-23T08:25:06+00:00",
-      "category": "Data breaches"
-    },
-    {
-      "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
-      "url": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-23T08:10:46+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Atlassian Patches 75 Flaws in Data Center and Server Products",
-      "url": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-23T07:54:47+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-      "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-23T07:40:45+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Iran’s Prince of Persia APT Hosts C&C in US for First Time Since 2016",
-      "url": "https://www.securityweek.com/irans-prince-of-persia-apt-hosts-cc-in-us-for-first-time-since-2016/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-23T06:39:29+00:00",
-      "category": "Threat actors"
     },
     {
       "title": "Railway warns devs to rotate secrets after potential breach",
@@ -287,20 +301,6 @@
       "source": "BleepingComputer",
       "published_at": "2026-10-22T17:18:22+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-22T15:49:32+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Machine speed attacks require machine speed detection and response",
-      "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-22T14:02:12+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Multiple Vulnerabilities in PHP Could Allow for Remote Code Execution",
@@ -385,19 +385,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-26T04:46:59.883379+00:00"
+      "last_success_at": "2026-10-26T13:01:58.397716+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-26T04:46:59.883379+00:00"
+      "last_success_at": "2026-10-26T13:01:58.397716+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-26T04:46:59.883379+00:00"
+      "last_success_at": "2026-10-26T13:01:58.397716+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -409,7 +409,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 11,
-      "last_success_at": "2026-10-26T04:46:59.883379+00:00"
+      "last_success_at": "2026-10-26T13:01:58.397716+00:00"
     }
   ]
 }
