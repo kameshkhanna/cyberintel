@@ -1,8 +1,24 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-10-26T22:39:21.830226+00:00",
-  "total": 1756,
+  "updated_at": "2026-10-27T05:01:53.856662+00:00",
+  "total": 1758,
   "items": [
+    {
+      "cveID": "CVE-2026-109619",
+      "vendorProject": "PHP Group",
+      "product": "PHP",
+      "vulnerabilityName": "PHP Stale Internal Request-State Vulnerability",
+      "dateAdded": "2026-10-26",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-109618",
+      "vendorProject": "PHP Group",
+      "product": "PHP",
+      "vulnerabilityName": "PHP Memory Corruption Vulnerability",
+      "dateAdded": "2026-10-26",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-114625",
       "vendorProject": "Arista",
@@ -1186,22 +1202,6 @@
       "vulnerabilityName": "Linux Kernel Improper Authentication Vulnerability",
       "dateAdded": "2026-06-02",
       "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2024-21182",
-      "vendorProject": "Oracle",
-      "product": "WebLogic Server",
-      "vulnerabilityName": "Oracle WebLogic Server Unspecified Vulnerability",
-      "dateAdded": "2026-06-01",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-0257",
-      "vendorProject": "Palo Alto Networks",
-      "product": "PAN-OS",
-      "vulnerabilityName": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
-      "dateAdded": "2026-05-29",
-      "knownRansomwareCampaignUse": "Known"
     }
   ]
 }
