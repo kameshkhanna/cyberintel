@@ -1,6 +1,83 @@
 {
-  "updated_at": "2026-10-27T12:11:23.463792+00:00",
+  "updated_at": "2026-10-27T18:01:50.440107+00:00",
   "articles": [
+    {
+      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+      "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-27T16:15:39+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
+      "url": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-27T15:26:12+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution",
+      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2026-121",
+      "source": "CIS Advisories",
+      "published_at": "2026-10-27T14:41:09+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "A Vulnerability in Brotli Library Could Allow for Remote Code Execution",
+      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-brotli-library-could-allow-for-remote-code-execution_2026-120",
+      "source": "CIS Advisories",
+      "published_at": "2026-10-27T14:39:26+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+      "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-27T14:09:46+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+      "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-27T14:01:11+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-27T13:59:48+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-27T13:59:09+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
+      "url": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-27T13:30:28+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
+      "url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-27T13:13:58+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+      "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-27T12:09:50+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
       "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
@@ -14,6 +91,27 @@
       "source": "SecurityWeek",
       "published_at": "2026-10-27T11:49:57+00:00",
       "category": "Vulnerabilities"
+    },
+    {
+      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-27T11:46:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-27T11:32:46+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+      "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-27T11:32:31+00:00",
+      "category": "Malware"
     },
     {
       "title": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
@@ -121,13 +219,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
-      "url": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-26T20:20:56+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "DreamHost forces password resets in ongoing \"incident\"",
       "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
       "source": "BleepingComputer",
@@ -168,20 +259,6 @@
       "source": "BleepingComputer",
       "published_at": "2026-10-26T15:38:24+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
-      "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-26T14:52:14+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Genesys Hack Exposes Customer Data From Internal Systems",
-      "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-26T14:40:48+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
@@ -233,73 +310,10 @@
       "category": "Malware"
     },
     {
-      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
-      "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-26T09:19:57+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
       "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
       "source": "The Hacker News",
       "published_at": "2026-10-26T08:35:51+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-      "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-26T07:49:46+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-      "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-26T06:03:48+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-      "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-25T17:44:09+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
-      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-25T17:19:46+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-25T15:49:38+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-      "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-25T06:54:29+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-      "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-24T14:17:32+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-24T11:09:29+00:00",
       "category": "Cyber news"
     },
     {
@@ -385,19 +399,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-27T12:11:23.463792+00:00"
+      "last_success_at": "2026-10-27T18:01:50.440107+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-27T12:11:23.463792+00:00"
+      "last_success_at": "2026-10-27T18:01:50.440107+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-27T12:11:23.463792+00:00"
+      "last_success_at": "2026-10-27T18:01:50.440107+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -408,8 +422,8 @@
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 11,
-      "last_success_at": "2026-10-27T12:11:23.463792+00:00"
+      "items": 13,
+      "last_success_at": "2026-10-27T18:01:50.440107+00:00"
     }
   ]
 }
