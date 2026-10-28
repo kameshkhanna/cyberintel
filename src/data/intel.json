@@ -1,8 +1,24 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-10-28T12:52:45.265125+00:00",
-  "total": 1760,
+  "updated_at": "2026-10-28T22:33:45.608194+00:00",
+  "total": 1762,
   "items": [
+    {
+      "cveID": "CVE-2026-46300",
+      "vendorProject": "Linux",
+      "product": "Kernel",
+      "vulnerabilityName": "Linux Kernel Missing Initialization of a Variable Vulnerability",
+      "dateAdded": "2026-10-28",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-41709",
+      "vendorProject": "Broadcom",
+      "product": "VMware ESX",
+      "vulnerabilityName": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
+      "dateAdded": "2026-10-28",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-48356",
       "vendorProject": "Adobe",
@@ -1185,22 +1201,6 @@
       "product": "LiteLLM",
       "vulnerabilityName": "BerriAI LiteLLM Command Injection Vulnerability",
       "dateAdded": "2026-06-08",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-28318",
-      "vendorProject": "SolarWinds",
-      "product": "Serv-U",
-      "vulnerabilityName": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
-      "dateAdded": "2026-06-05",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-45247",
-      "vendorProject": "Mirasvit",
-      "product": "Mirasvit Full Page Cache Warmer",
-      "vulnerabilityName": "Mirasvit Full Page Cache Warmer Deserialization of Untrusted Data Vulnerability",
-      "dateAdded": "2026-06-03",
       "knownRansomwareCampaignUse": "Unknown"
     }
   ]

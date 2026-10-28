@@ -1,6 +1,118 @@
 {
-  "updated_at": "2026-10-28T12:54:48.833016+00:00",
+  "updated_at": "2026-10-28T22:35:52.929865+00:00",
   "articles": [
+    {
+      "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+      "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-28T20:47:22+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Discord to let search engines index public server messages",
+      "url": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-28T18:44:16+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+      "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T18:08:33+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+      "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T17:08:09+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+      "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-28T16:45:47+00:00",
+      "category": "Data breaches"
+    },
+    {
+      "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+      "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T16:23:34+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+      "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T16:02:45+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-28T16:00:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
+      "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-28T15:05:06+00:00",
+      "category": "Ransomware"
+    },
+    {
+      "title": "Microsoft urges Entra ID admins to migrate users to passkeys",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-28T14:48:32+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-28T14:00:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Upwind Security Raises $400 Million at $3.8 Billion Valuation",
+      "url": "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-28T13:56:50+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+      "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-28T13:50:59+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
+      "url": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-28T13:39:35+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices",
+      "url": "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-28T13:10:34+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+      "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T12:48:03+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "Hackers now scanning systems for recently-patched Oracle flaw",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
@@ -14,6 +126,20 @@
       "source": "SecurityWeek",
       "published_at": "2026-10-28T12:00:59+00:00",
       "category": "Vulnerabilities"
+    },
+    {
+      "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+      "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T11:50:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Wazuh and AI for Enhanced SOC Workflows",
+      "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T11:30:00+00:00",
+      "category": "Cyber news"
     },
     {
       "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
@@ -177,39 +303,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
-      "url": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-27T16:15:39+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
-      "url": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-27T15:26:12+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2026-121",
       "source": "CIS Advisories",
       "published_at": "2026-10-27T14:41:09+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
-      "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-27T14:09:46+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
-      "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-27T14:01:11+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
@@ -224,104 +322,6 @@
       "source": "The Hacker News",
       "published_at": "2026-10-27T13:59:09+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
-      "url": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-27T13:30:28+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
-      "url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-27T13:13:58+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-      "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-27T12:09:50+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
-      "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-27T12:02:06+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
-      "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-27T11:46:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
-      "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-27T11:32:46+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-      "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-27T11:32:31+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
-      "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-27T10:36:12+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
-      "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-27T09:33:06+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Energy giant ENGIE discloses data breach affecting customers",
-      "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-27T09:25:50+00:00",
-      "category": "Data breaches"
-    },
-    {
-      "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-      "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-27T08:22:43+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-27T08:20:54+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
-      "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-27T06:34:47+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "University of Copenhagen data breach exposes data of 525,000 people",
-      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-26T22:20:36+00:00",
-      "category": "Data breaches"
     },
     {
       "title": "Multiple Vulnerabilities in PHP Could Allow for Remote Code Execution",
@@ -399,19 +399,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-28T12:54:48.833016+00:00"
+      "last_success_at": "2026-10-28T22:35:52.929865+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-28T12:54:48.833016+00:00"
+      "last_success_at": "2026-10-28T22:35:52.929865+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-28T12:54:48.833016+00:00"
+      "last_success_at": "2026-10-28T22:35:52.929865+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -423,7 +423,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 13,
-      "last_success_at": "2026-10-28T12:54:48.833016+00:00"
+      "last_success_at": "2026-10-28T22:35:52.929865+00:00"
     }
   ]
 }
