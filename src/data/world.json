@@ -1,6 +1,125 @@
 {
-  "updated_at": "2026-10-28T05:42:48.204296+00:00",
+  "updated_at": "2026-10-28T12:54:48.833016+00:00",
   "articles": [
+    {
+      "title": "Hackers now scanning systems for recently-patched Oracle flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-28T12:19:57+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "China-Linked Hackers Exploit PHP2Shell to Root Firewalls",
+      "url": "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-28T12:00:59+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+      "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T11:15:51+00:00",
+      "category": "Threat actors"
+    },
+    {
+      "title": "Long-Hidden Flaws Patched in EPICS Research Facility Control Software",
+      "url": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-28T10:48:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-28T10:46:23+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Nobody Trusts the Security Questionnaire. We Rely on It Anyway.",
+      "url": "https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-28T10:30:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+      "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T10:30:00+00:00",
+      "category": "Phishing"
+    },
+    {
+      "title": "Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise",
+      "url": "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-28T09:48:24+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-28T09:43:15+00:00",
+      "category": "Ransomware"
+    },
+    {
+      "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
+      "url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-28T09:14:23+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts",
+      "url": "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-28T08:37:24+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+      "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T08:15:07+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+      "url": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T07:37:50+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+      "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T07:13:21+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+      "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T06:20:37+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+      "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T06:04:58+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+      "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-28T05:42:26+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-122",
@@ -135,13 +254,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
-      "url": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-27T11:49:57+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
       "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
       "source": "The Hacker News",
@@ -163,32 +275,11 @@
       "category": "Malware"
     },
     {
-      "title": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
-      "url": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-27T10:44:20+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
       "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
       "source": "BleepingComputer",
       "published_at": "2026-10-27T10:36:12+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal",
-      "url": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-27T10:02:24+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover",
-      "url": "https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-27T09:44:50+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
@@ -219,31 +310,10 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems",
-      "url": "https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-27T07:14:27+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
       "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
       "source": "The Hacker News",
       "published_at": "2026-10-27T06:34:47+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-      "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-27T04:37:59+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
-      "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-27T01:30:00+00:00",
       "category": "Cyber news"
     },
     {
@@ -252,76 +322,6 @@
       "source": "BleepingComputer",
       "published_at": "2026-10-26T22:20:36+00:00",
       "category": "Data breaches"
-    },
-    {
-      "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
-      "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-26T21:08:28+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-26T20:46:49+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "DreamHost forces password resets in ongoing \"incident\"",
-      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-26T19:26:20+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-      "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-26T18:12:22+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-      "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-26T17:45:57+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-      "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-26T15:52:40+00:00",
-      "category": "Ransomware"
-    },
-    {
-      "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-26T14:06:13+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-      "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-26T11:52:41+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-      "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-26T11:23:56+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-      "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-26T09:54:02+00:00",
-      "category": "Malware"
     },
     {
       "title": "Multiple Vulnerabilities in PHP Could Allow for Remote Code Execution",
@@ -399,19 +399,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-28T05:42:48.204296+00:00"
+      "last_success_at": "2026-10-28T12:54:48.833016+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-28T05:42:48.204296+00:00"
+      "last_success_at": "2026-10-28T12:54:48.833016+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-28T05:42:48.204296+00:00"
+      "last_success_at": "2026-10-28T12:54:48.833016+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -423,7 +423,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 13,
-      "last_success_at": "2026-10-28T05:42:48.204296+00:00"
+      "last_success_at": "2026-10-28T12:54:48.833016+00:00"
     }
   ]
 }
