@@ -1,8 +1,24 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-10-29T12:58:31.097397+00:00",
-  "total": 1762,
+  "updated_at": "2026-10-29T22:44:39.582895+00:00",
+  "total": 1764,
   "items": [
+    {
+      "cveID": "CVE-2026-97229",
+      "vendorProject": "GitLab",
+      "product": "Community Edition and Enterprise Edition",
+      "vulnerabilityName": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+      "dateAdded": "2026-10-29",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-76418",
+      "vendorProject": "Cisco",
+      "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
+      "vulnerabilityName": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
+      "dateAdded": "2026-10-29",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-46300",
       "vendorProject": "Linux",
@@ -1185,22 +1201,6 @@
       "product": "Chromium V8",
       "vulnerabilityName": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
       "dateAdded": "2026-06-09",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-50751",
-      "vendorProject": "Check Point",
-      "product": "Security Gateway",
-      "vulnerabilityName": "Check Point Security Gateway Improper Authentication Vulnerability",
-      "dateAdded": "2026-06-08",
-      "knownRansomwareCampaignUse": "Known"
-    },
-    {
-      "cveID": "CVE-2026-42271",
-      "vendorProject": "BerriAI",
-      "product": "LiteLLM",
-      "vulnerabilityName": "BerriAI LiteLLM Command Injection Vulnerability",
-      "dateAdded": "2026-06-08",
       "knownRansomwareCampaignUse": "Unknown"
     }
   ]
