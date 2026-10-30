@@ -1,6 +1,111 @@
 {
-  "updated_at": "2026-10-30T05:47:57.095123+00:00",
+  "updated_at": "2026-10-30T12:55:24.968250+00:00",
   "articles": [
+    {
+      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+      "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-30T12:21:56+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+      "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-30T12:04:13+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+      "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-30T11:58:53+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Microsoft finally fixes VPN issues caused by September updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-30T11:20:26+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
+      "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-30T11:07:11+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+      "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-30T10:40:45+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-30T10:16:07+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+      "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-30T09:41:36+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+      "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-30T09:32:27+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-30T09:18:13+00:00",
+      "category": "Threat actors"
+    },
+    {
+      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-30T08:55:47+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
+      "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-30T08:44:49+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
+      "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-30T08:16:26+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-30T07:45:30+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-30T07:27:05+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
       "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
@@ -149,32 +254,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
-      "url": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-29T13:42:52+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
       "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
       "source": "The Hacker News",
       "published_at": "2026-10-29T13:42:40+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts",
-      "url": "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-29T13:26:49+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Over 41,000 DHS Employee Records Leaked Online",
-      "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-29T12:54:14+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
@@ -212,31 +296,10 @@
       "category": "Cyber news"
     },
     {
-      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-29T11:10:13+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net",
-      "url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-29T11:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
       "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
       "source": "The Hacker News",
       "published_at": "2026-10-29T10:44:46+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
-      "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-29T10:29:25+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -247,74 +310,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
-      "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-29T09:47:10+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
       "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
       "source": "The Hacker News",
       "published_at": "2026-10-29T09:05:39+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-      "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T08:24:22+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T06:22:33+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-      "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T05:50:17+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
-      "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-28T20:47:22+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Discord to let search engines index public server messages",
-      "url": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-28T18:44:16+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-      "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-28T18:08:33+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-      "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-28T17:08:09+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
-      "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-28T16:23:34+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
@@ -413,19 +413,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-30T05:47:57.095123+00:00"
+      "last_success_at": "2026-10-30T12:55:24.968250+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-30T05:47:57.095123+00:00"
+      "last_success_at": "2026-10-30T12:55:24.968250+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-30T05:47:57.095123+00:00"
+      "last_success_at": "2026-10-30T12:55:24.968250+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -437,7 +437,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-30T05:47:57.095123+00:00"
+      "last_success_at": "2026-10-30T12:55:24.968250+00:00"
     }
   ]
 }
