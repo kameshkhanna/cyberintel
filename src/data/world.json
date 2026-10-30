@@ -1,6 +1,90 @@
 {
-  "updated_at": "2026-10-30T12:55:24.968250+00:00",
+  "updated_at": "2026-10-30T22:19:29.406598+00:00",
   "articles": [
+    {
+      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-30T21:09:46+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-30T16:58:44+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-30T15:58:20+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-30T15:17:28+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
+      "url": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-30T15:09:25+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+      "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-30T14:41:35+00:00",
+      "category": "Data breaches"
+    },
+    {
+      "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-30T14:36:54+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-30T14:08:14+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+      "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-30T14:00:10+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
+      "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-30T14:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
+      "url": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-30T13:36:12+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "CISA says max severity GitLab flaw now exploited in the wild",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-30T13:00:32+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
       "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
@@ -184,20 +268,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
-      "url": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-29T16:30:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
-      "url": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-29T16:10:31+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
       "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
       "source": "The Hacker News",
@@ -212,60 +282,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
-      "url": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-29T15:01:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI",
-      "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-29T15:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-29T14:35:40+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
-      "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-29T14:18:03+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "3 Ways AI Agents Already Operate in Your Browser",
-      "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-29T14:00:10+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-29T13:59:48+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
       "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
       "source": "The Hacker News",
       "published_at": "2026-10-29T13:42:40+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-29T12:00:07+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
@@ -294,27 +315,6 @@
       "source": "The Hacker News",
       "published_at": "2026-10-29T11:33:15+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T10:44:46+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-      "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T10:26:33+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-      "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T09:05:39+00:00",
-      "category": "Vulnerabilities"
     },
     {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
@@ -399,13 +399,6 @@
       "source": "CIS Advisories",
       "published_at": "2026-10-12T06:47:16+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "A Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway Could Allow for Remote Code Execution",
-      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-citrix-netscaler-adc-and-citrix-netscaler-gateway-could-allow-for-remote-code-execution_2026-110",
-      "source": "CIS Advisories",
-      "published_at": "2026-10-09T21:02:14+00:00",
-      "category": "Vulnerabilities"
     }
   ],
   "sources": [
@@ -413,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-30T12:55:24.968250+00:00"
+      "last_success_at": "2026-10-30T22:19:29.406598+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-30T12:55:24.968250+00:00"
+      "last_success_at": "2026-10-30T22:19:29.406598+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-30T12:55:24.968250+00:00"
+      "last_success_at": "2026-10-30T22:19:29.406598+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -436,8 +429,8 @@
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 15,
-      "last_success_at": "2026-10-30T12:55:24.968250+00:00"
+      "items": 14,
+      "last_success_at": "2026-10-30T22:19:29.406598+00:00"
     }
   ]
 }

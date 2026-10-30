@@ -1,8 +1,24 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-10-30T12:53:22.092108+00:00",
-  "total": 1764,
+  "updated_at": "2026-10-30T22:17:21.560768+00:00",
+  "total": 1766,
   "items": [
+    {
+      "cveID": "CVE-2026-118527",
+      "vendorProject": "Ivanti",
+      "product": "Connect Secure",
+      "vulnerabilityName": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+      "dateAdded": "2026-10-30",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-111357",
+      "vendorProject": "Ivanti",
+      "product": "Connect Secure",
+      "vulnerabilityName": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+      "dateAdded": "2026-10-30",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-97229",
       "vendorProject": "GitLab",
@@ -1184,22 +1200,6 @@
       "vendorProject": "Arista",
       "product": "Extensible Operating System",
       "vulnerabilityName": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
-      "dateAdded": "2026-06-09",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-20245",
-      "vendorProject": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "vulnerabilityName": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
-      "dateAdded": "2026-06-09",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-11645",
-      "vendorProject": "Google",
-      "product": "Chromium V8",
-      "vulnerabilityName": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
       "dateAdded": "2026-06-09",
       "knownRansomwareCampaignUse": "Unknown"
     }
