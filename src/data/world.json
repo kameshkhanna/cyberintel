@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-10-31T12:27:55.909749+00:00",
+  "updated_at": "2026-10-31T21:33:43.052948+00:00",
   "articles": [
+    {
+      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-31T18:01:12+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+      "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-31T15:35:11+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Reddit to lock content behind logins to fight scrapers",
+      "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-31T14:05:15+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+      "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-31T13:10:19+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+      "source": "BleepingComputer",
+      "published_at": "2026-10-31T12:50:09+00:00",
+      "category": "Data breaches"
+    },
     {
       "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
       "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
@@ -254,46 +289,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-      "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-29T22:09:24+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Japan Airlines suffers third-party data breach exposing passenger info",
-      "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-29T22:08:04+00:00",
-      "category": "Data breaches"
-    },
-    {
-      "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-      "url": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-29T21:47:25+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-29T19:23:41+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
       "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
       "source": "The Hacker News",
       "published_at": "2026-10-29T19:11:58+00:00",
       "category": "Malware"
-    },
-    {
-      "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-29T18:38:26+00:00",
-      "category": "Vulnerabilities"
     },
     {
       "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
@@ -406,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-31T12:27:55.909749+00:00"
+      "last_success_at": "2026-10-31T21:33:43.052948+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-31T12:27:55.909749+00:00"
+      "last_success_at": "2026-10-31T21:33:43.052948+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-31T12:27:55.909749+00:00"
+      "last_success_at": "2026-10-31T21:33:43.052948+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -430,7 +430,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-10-31T12:27:55.909749+00:00"
+      "last_success_at": "2026-10-31T21:33:43.052948+00:00"
     }
   ]
 }
