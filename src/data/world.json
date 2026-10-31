@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-10-31T05:40:42.575047+00:00",
+  "updated_at": "2026-10-31T12:27:55.909749+00:00",
   "articles": [
+    {
+      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+      "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-31T12:01:56+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+      "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+      "source": "SecurityWeek",
+      "published_at": "2026-10-31T11:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+      "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-31T08:27:43+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-31T05:33:41+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+      "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "source": "The Hacker News",
+      "published_at": "2026-10-31T04:56:12+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
       "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
@@ -170,13 +205,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
-      "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-30T08:16:26+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
       "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
       "source": "The Hacker News",
@@ -289,34 +317,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-      "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T11:39:41+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-      "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T11:39:18+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-      "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T11:33:41+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-      "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T11:33:15+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-122",
       "source": "CIS Advisories",
@@ -406,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-10-31T05:40:42.575047+00:00"
+      "last_success_at": "2026-10-31T12:27:55.909749+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-10-31T05:40:42.575047+00:00"
+      "last_success_at": "2026-10-31T12:27:55.909749+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-10-31T05:40:42.575047+00:00"
+      "last_success_at": "2026-10-31T12:27:55.909749+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -430,7 +430,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-10-31T05:40:42.575047+00:00"
+      "last_success_at": "2026-10-31T12:27:55.909749+00:00"
     }
   ]
 }
