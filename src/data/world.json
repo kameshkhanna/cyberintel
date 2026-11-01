@@ -1,6 +1,27 @@
 {
-  "updated_at": "2026-11-01T13:23:17.097705+00:00",
+  "updated_at": "2026-11-01T22:02:20.623315+00:00",
   "articles": [
+    {
+      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-01T19:57:53+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-01T15:11:21+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-01T13:53:11+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
       "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
@@ -254,13 +275,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-30T09:18:13+00:00",
-      "category": "Threat actors"
-    },
-    {
       "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
       "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
       "source": "The Hacker News",
@@ -301,20 +315,6 @@
       "source": "CIS Advisories",
       "published_at": "2026-10-30T01:50:09+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-29T23:35:52+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Binance probes potential $5.8 billion crypto-theft hack",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-      "source": "BleepingComputer",
-      "published_at": "2026-10-29T22:45:23+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
@@ -406,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-01T13:23:17.097705+00:00"
+      "last_success_at": "2026-11-01T22:02:20.623315+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-01T13:23:17.097705+00:00"
+      "last_success_at": "2026-11-01T22:02:20.623315+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-01T13:23:17.097705+00:00"
+      "last_success_at": "2026-11-01T22:02:20.623315+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -430,7 +430,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-11-01T13:23:17.097705+00:00"
+      "last_success_at": "2026-11-01T22:02:20.623315+00:00"
     }
   ]
 }
