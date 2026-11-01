@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-11-01T06:02:41.013252+00:00",
+  "updated_at": "2026-11-01T13:23:17.097705+00:00",
   "articles": [
+    {
+      "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+      "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-01T11:15:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-01T08:51:31+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-01T07:25:40+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-01T07:03:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+      "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-01T07:02:58+00:00",
+      "category": "Malware"
+    },
     {
       "title": "Northflank security breach leads to abuse of customers' AI API keys",
       "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
@@ -233,13 +268,6 @@
       "category": "Malware"
     },
     {
-      "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
-      "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
-      "source": "SecurityWeek",
-      "published_at": "2026-10-30T08:44:49+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
       "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
       "source": "The Hacker News",
@@ -287,34 +315,6 @@
       "source": "BleepingComputer",
       "published_at": "2026-10-29T22:45:23+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-      "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T19:11:58+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-      "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T15:57:05+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-      "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T15:20:29+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-      "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-      "source": "The Hacker News",
-      "published_at": "2026-10-29T13:42:40+00:00",
-      "category": "Vulnerabilities"
     },
     {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
@@ -406,19 +406,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-01T06:02:41.013252+00:00"
+      "last_success_at": "2026-11-01T13:23:17.097705+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-01T06:02:41.013252+00:00"
+      "last_success_at": "2026-11-01T13:23:17.097705+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-01T06:02:41.013252+00:00"
+      "last_success_at": "2026-11-01T13:23:17.097705+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -430,7 +430,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-11-01T06:02:41.013252+00:00"
+      "last_success_at": "2026-11-01T13:23:17.097705+00:00"
     }
   ]
 }
