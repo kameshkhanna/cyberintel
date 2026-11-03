@@ -1,8 +1,16 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-11-03T14:11:04.246589+00:00",
-  "total": 1766,
+  "updated_at": "2026-11-03T23:21:37.420847+00:00",
+  "total": 1767,
   "items": [
+    {
+      "cveID": "CVE-2026-119977",
+      "vendorProject": "WordPress",
+      "product": "WordPress Core",
+      "vulnerabilityName": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+      "dateAdded": "2026-11-03",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-118527",
       "vendorProject": "Ivanti",
@@ -1193,14 +1201,6 @@
       "product": "Sentry",
       "vulnerabilityName": "Ivanti Sentry OS Command Injection Vulnerability",
       "dateAdded": "2026-06-11",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-7473",
-      "vendorProject": "Arista",
-      "product": "Extensible Operating System",
-      "vulnerabilityName": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
-      "dateAdded": "2026-06-09",
       "knownRansomwareCampaignUse": "Unknown"
     }
   ]

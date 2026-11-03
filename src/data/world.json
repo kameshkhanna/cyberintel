@@ -1,6 +1,97 @@
 {
-  "updated_at": "2026-11-03T14:13:39.561710+00:00",
+  "updated_at": "2026-11-03T23:23:42.451832+00:00",
   "articles": [
+    {
+      "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-03T22:18:50+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+      "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-03T21:28:44+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Binance says fake job interview led to $6.3 billion crypto heist",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-03T20:05:50+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+      "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-03T18:51:04+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+      "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-03T18:46:38+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+      "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-03T18:16:19+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+      "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-03T16:55:58+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+      "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-03T15:59:19+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+      "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-03T15:41:53+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+      "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-03T15:16:32+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Barracuda warns of critical flaws allowing root access to devices",
+      "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-03T15:06:16+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+      "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-03T15:00:10+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
+      "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-03T14:32:38+00:00",
+      "category": "Data breaches"
+    },
     {
       "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
       "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
@@ -205,101 +296,10 @@
       "category": "Cyber news"
     },
     {
-      "title": "Hackers disrupt refrigeration systems at European supermarkets",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-02T14:28:39+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Microsoft fixes Smart App Control broken by October Windows update",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-02T13:57:29+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Revolve Data Breach Impacts at Least 200,000 People",
-      "url": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-02T13:35:21+00:00",
-      "category": "Data breaches"
-    },
-    {
-      "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-02T12:47:00+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
       "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
       "source": "The Hacker News",
       "published_at": "2026-11-02T11:50:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-      "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-02T11:30:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
-      "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-02T11:28:42+00:00",
-      "category": "Ransomware"
-    },
-    {
-      "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-      "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-02T11:08:45+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
-      "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-02T10:49:59+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Ivanti patches two more Connect Secure zero-days chained in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-02T09:33:26+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-      "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-02T05:51:07+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-01T19:57:53+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-      "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-01T08:51:31+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
-      "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-01T07:25:40+00:00",
       "category": "Cyber news"
     },
     {
@@ -364,20 +364,6 @@
       "source": "CIS Advisories",
       "published_at": "2026-10-13T23:57:26+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Critical Patches Issued for Microsoft Products, October 13, 2026",
-      "url": "https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-october-13-2026_2026-115",
-      "source": "CIS Advisories",
-      "published_at": "2026-10-13T21:12:19+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution",
-      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2026-114",
-      "source": "CIS Advisories",
-      "published_at": "2026-10-13T19:30:15+00:00",
-      "category": "Vulnerabilities"
     }
   ],
   "sources": [
@@ -385,19 +371,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-03T14:13:39.561710+00:00"
+      "last_success_at": "2026-11-03T23:23:42.451832+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-03T14:13:39.561710+00:00"
+      "last_success_at": "2026-11-03T23:23:42.451832+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-03T14:13:39.561710+00:00"
+      "last_success_at": "2026-11-03T23:23:42.451832+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -408,8 +394,8 @@
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 11,
-      "last_success_at": "2026-11-03T14:13:39.561710+00:00"
+      "items": 9,
+      "last_success_at": "2026-11-03T23:23:42.451832+00:00"
     }
   ]
 }
