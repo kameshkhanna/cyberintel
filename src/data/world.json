@@ -1,6 +1,216 @@
 {
-  "updated_at": "2026-11-04T06:20:08.358768+00:00",
+  "updated_at": "2026-11-04T19:45:59.346819+00:00",
   "articles": [
+    {
+      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-04T19:05:19+00:00",
+      "category": "Data breaches"
+    },
+    {
+      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-04T18:02:56+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+      "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-04T17:00:46+00:00",
+      "category": "Threat actors"
+    },
+    {
+      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+      "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-04T17:00:38+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+      "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-04T16:58:46+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-04T16:06:43+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "mSecure password manager hack prompts password reset warnings",
+      "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-04T16:00:18+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+      "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-04T15:00:10+00:00",
+      "category": "Phishing"
+    },
+    {
+      "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-04T14:42:25+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
+      "url": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-04T14:34:44+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-04T14:27:52+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
+      "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-04T14:24:54+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Agentic Data Security Firm Sentra Raises $150 Million",
+      "url": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-04T14:09:20+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "US charges two Canadians accused of hacking US universities",
+      "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-04T13:13:20+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
+      "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-04T12:43:20+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
+      "url": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-04T12:27:58+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-04T12:11:05+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+      "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-04T12:07:04+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+      "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-04T11:46:27+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+      "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-04T11:34:20+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+      "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-04T11:24:31+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
+      "url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-04T10:54:48+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical",
+      "url": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-04T10:38:46+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist",
+      "url": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-04T10:36:32+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-04T09:39:54+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "North Korea Launches Missiles Toward the Sea as Pyongyang Protests Against US Claims on Binance Hack",
+      "url": "https://www.securityweek.com/north-korea-launches-missiles-toward-the-sea-as-pyongyang-protests-against-us-claims-on-binance-hack/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-04T09:23:22+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million",
+      "url": "https://www.securityweek.com/meta-shares-top-muse-bug-bounty-findings-as-payouts-reach-1-2-million/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-04T08:27:05+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+      "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-04T08:17:11+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+      "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-04T07:46:15+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+      "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-04T05:43:11+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
@@ -86,221 +296,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
-      "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-03T14:32:38+00:00",
-      "category": "Data breaches"
-    },
-    {
-      "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
-      "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-03T14:12:44+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-03T14:00:00+00:00",
-      "category": "Ransomware"
-    },
-    {
-      "title": "Police seizes over 100 servers in investment scam crackdown",
-      "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-03T13:33:49+00:00",
-      "category": "Phishing"
-    },
-    {
-      "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
-      "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-03T12:21:49+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Critical Node-RED Flaw Exploited in Attacks",
-      "url": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-03T12:10:19+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
-      "url": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-03T12:05:52+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
       "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
       "source": "The Hacker News",
       "published_at": "2026-11-03T11:23:53+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
-      "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-03T11:18:20+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
-      "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-03T11:00:45+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Harvard University data breach exposed info of 851,000 accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-03T10:53:25+00:00",
-      "category": "Data breaches"
-    },
-    {
-      "title": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
-      "url": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-03T09:49:12+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
-      "url": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-03T09:22:09+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "NATO’s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training",
-      "url": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-03T08:49:03+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-03T08:31:48+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Over 100 European Stores Hit as Supermarket Fridge Attacks Return",
-      "url": "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-03T07:43:24+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-      "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-03T07:43:07+00:00",
-      "category": "Ransomware"
-    },
-    {
-      "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
-      "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-03T07:27:07+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-03T05:34:41+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
-      "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-03T05:34:37+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-02T21:40:14+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
-      "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-02T19:00:45+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-      "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-02T18:16:34+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-      "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-02T16:57:56+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-      "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-02T15:50:26+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
-      "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-02T15:03:07+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Your Mobile Carrier Stores Your Call Logs for Years",
-      "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-02T15:01:11+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
-      "url": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-02T15:01:11+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-      "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-02T14:46:05+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk",
-      "url": "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-02T14:44:18+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-      "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-02T11:50:00+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "A Vulnerability in Cisco Secure Firewall ASA and FTD Could Allow for Denial of Service",
@@ -350,13 +350,6 @@
       "source": "CIS Advisories",
       "published_at": "2026-10-20T14:26:38+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
-      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-117",
-      "source": "CIS Advisories",
-      "published_at": "2026-10-14T13:11:05+00:00",
-      "category": "Vulnerabilities"
     }
   ],
   "sources": [
@@ -364,19 +357,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-04T06:20:08.358768+00:00"
+      "last_success_at": "2026-11-04T19:45:59.346819+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-04T06:20:08.358768+00:00"
+      "last_success_at": "2026-11-04T19:45:59.346819+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-04T06:20:08.358768+00:00"
+      "last_success_at": "2026-11-04T19:45:59.346819+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -387,8 +380,8 @@
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 8,
-      "last_success_at": "2026-11-04T06:20:08.358768+00:00"
+      "items": 7,
+      "last_success_at": "2026-11-04T19:45:59.346819+00:00"
     }
   ]
 }
