@@ -1,8 +1,16 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-11-04T19:43:55.495971+00:00",
-  "total": 1767,
+  "updated_at": "2026-11-05T06:44:01.784152+00:00",
+  "total": 1768,
   "items": [
+    {
+      "cveID": "CVE-2024-27834",
+      "vendorProject": "Apple",
+      "product": "Multiple Products",
+      "vulnerabilityName": "Apple Multiple Products Improper Authentication Vulnerability",
+      "dateAdded": "2026-11-04",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-119977",
       "vendorProject": "WordPress",
@@ -1194,14 +1202,6 @@
       "vulnerabilityName": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
       "dateAdded": "2026-06-12",
       "knownRansomwareCampaignUse": "Known"
-    },
-    {
-      "cveID": "CVE-2026-10520",
-      "vendorProject": "Ivanti",
-      "product": "Sentry",
-      "vulnerabilityName": "Ivanti Sentry OS Command Injection Vulnerability",
-      "dateAdded": "2026-06-11",
-      "knownRansomwareCampaignUse": "Unknown"
     }
   ]
 }
