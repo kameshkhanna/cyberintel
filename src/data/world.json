@@ -1,6 +1,181 @@
 {
-  "updated_at": "2026-11-06T06:43:01.933193+00:00",
+  "updated_at": "2026-11-06T19:25:23.928722+00:00",
   "articles": [
+    {
+      "title": "Fake security tools on GitHub push backdoors and infostealers",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-06T18:46:52+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
+      "url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-06T18:28:41+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-06T17:04:23+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-06T16:08:38+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+      "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-06T15:25:31+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-06T15:21:49+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+      "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-06T15:00:10+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-06T14:58:32+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
+      "url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-06T14:40:09+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Chainalysis says breach exposed credentials for all customers",
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-06T14:17:07+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "DigiCert Data Breach Impacts Business Customer Information",
+      "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-06T14:00:07+00:00",
+      "category": "Data breaches"
+    },
+    {
+      "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+      "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-06T13:19:52+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
+      "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-06T13:02:26+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
+      "url": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-06T12:47:55+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-06T12:37:22+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Researchers Find Residential Proxies on White House Network",
+      "url": "https://www.securityweek.com/researchers-find-residential-proxies-on-white-house-network/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-06T12:16:13+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
+      "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-06T12:07:42+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+      "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-06T12:06:43+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-06T12:06:35+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "The Flood is Coming And The Pipes Were Already Full",
+      "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-06T11:30:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+      "url": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-06T09:33:51+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+      "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-06T09:22:28+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-06T08:04:49+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+      "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-06T05:58:54+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+      "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-06T05:39:10+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
       "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
@@ -41,13 +216,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
       "source": "BleepingComputer",
       "published_at": "2026-11-05T17:45:29+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
-      "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-05T17:32:37+00:00",
       "category": "Cyber news"
     },
     {
@@ -93,27 +261,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
-      "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-05T13:22:12+00:00",
-      "category": "Phishing"
-    },
-    {
-      "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
-      "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-05T12:58:32+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
-      "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-05T12:33:49+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
       "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
       "source": "The Hacker News",
@@ -128,52 +275,10 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "The Agent Smith Dilemma: Governing Agentic Identities",
-      "url": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-05T11:15:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
-      "url": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-05T11:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
-      "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-05T10:56:41+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
-      "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-05T10:37:13+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
       "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
       "source": "The Hacker News",
       "published_at": "2026-11-05T10:06:19+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
-      "url": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-05T10:02:00+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
-      "url": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-05T09:18:29+00:00",
       "category": "Cyber news"
     },
     {
@@ -196,111 +301,6 @@
       "source": "The Hacker News",
       "published_at": "2026-11-05T07:06:33+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-05T05:17:04+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Vercel rolls out new protection against stolen session cookie attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-04T21:31:18+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-04T20:58:19+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-04T19:05:19+00:00",
-      "category": "Data breaches"
-    },
-    {
-      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
-      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-04T18:02:56+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-      "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-04T17:00:46+00:00",
-      "category": "Threat actors"
-    },
-    {
-      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-      "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-04T17:00:38+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-      "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-04T16:58:46+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-      "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-04T16:06:43+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "mSecure password manager hack prompts password reset warnings",
-      "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-04T16:00:18+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-04T14:27:52+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-      "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-04T12:07:04+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-      "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-04T11:46:27+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-      "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-04T11:34:20+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-      "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-04T11:24:31+00:00",
-      "category": "Malware"
     },
     {
       "title": "A Vulnerability in Cisco Secure Firewall ASA and FTD Could Allow for Denial of Service",
@@ -357,19 +357,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-06T06:43:01.933193+00:00"
+      "last_success_at": "2026-11-06T19:25:23.928722+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-06T06:43:01.933193+00:00"
+      "last_success_at": "2026-11-06T19:25:23.928722+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-06T06:43:01.933193+00:00"
+      "last_success_at": "2026-11-06T19:25:23.928722+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -381,7 +381,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 7,
-      "last_success_at": "2026-11-06T06:43:01.933193+00:00"
+      "last_success_at": "2026-11-06T19:25:23.928722+00:00"
     }
   ]
 }
