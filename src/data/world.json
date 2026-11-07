@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-11-07T13:00:41.924446+00:00",
+  "updated_at": "2026-11-07T21:50:37.375311+00:00",
   "articles": [
+    {
+      "title": "Hackers pull off $133 million French bank heist via service provider",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-07T15:25:35+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+      "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-07T14:10:19+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
       "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
@@ -240,20 +254,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
-      "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-05T19:24:26+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-05T17:45:29+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
       "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
       "source": "The Hacker News",
@@ -364,19 +364,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-07T13:00:41.924446+00:00"
+      "last_success_at": "2026-11-07T21:50:37.375311+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-07T13:00:41.924446+00:00"
+      "last_success_at": "2026-11-07T21:50:37.375311+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-07T13:00:41.924446+00:00"
+      "last_success_at": "2026-11-07T21:50:37.375311+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -388,7 +388,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 8,
-      "last_success_at": "2026-11-07T13:00:41.924446+00:00"
+      "last_success_at": "2026-11-07T21:50:37.375311+00:00"
     }
   ]
 }
