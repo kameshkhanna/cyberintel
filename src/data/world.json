@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-11-07T05:58:44.839281+00:00",
+  "updated_at": "2026-11-07T13:00:41.924446+00:00",
   "articles": [
+    {
+      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-07T10:16:23+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-07T06:44:17+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
       "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
@@ -205,13 +219,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
-      "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-06T03:03:29+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
       "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
       "source": "BleepingComputer",
@@ -303,13 +310,6 @@
       "category": "Malware"
     },
     {
-      "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
-      "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-05T07:06:33+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "A Vulnerability in Cisco Secure Firewall ASA and FTD Could Allow for Denial of Service",
       "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-secure-firewall-asa-and-ftd-could-allow-for-denial-of-service_2026-124",
       "source": "CIS Advisories",
@@ -364,19 +364,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-07T05:58:44.839281+00:00"
+      "last_success_at": "2026-11-07T13:00:41.924446+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-07T05:58:44.839281+00:00"
+      "last_success_at": "2026-11-07T13:00:41.924446+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-07T05:58:44.839281+00:00"
+      "last_success_at": "2026-11-07T13:00:41.924446+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -388,7 +388,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 8,
-      "last_success_at": "2026-11-07T05:58:44.839281+00:00"
+      "last_success_at": "2026-11-07T13:00:41.924446+00:00"
     }
   ]
 }
