@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-11-08T06:00:51.728320+00:00",
+  "updated_at": "2026-11-08T13:24:40.439557+00:00",
   "articles": [
+    {
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-08T12:14:00+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Hackers pull off $133 million French bank heist via service provider",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
@@ -198,13 +205,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
-      "url": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-06T09:33:51+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "MetaMask says recent attack didn't affect wallet infrastructure",
       "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
       "source": "BleepingComputer",
@@ -364,19 +364,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-08T06:00:51.728320+00:00"
+      "last_success_at": "2026-11-08T13:24:40.439557+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-08T06:00:51.728320+00:00"
+      "last_success_at": "2026-11-08T13:24:40.439557+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-08T06:00:51.728320+00:00"
+      "last_success_at": "2026-11-08T13:24:40.439557+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -388,7 +388,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 8,
-      "last_success_at": "2026-11-08T06:00:51.728320+00:00"
+      "last_success_at": "2026-11-08T13:24:40.439557+00:00"
     }
   ]
 }
