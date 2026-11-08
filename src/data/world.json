@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-11-08T13:24:40.439557+00:00",
+  "updated_at": "2026-11-08T22:04:28.788592+00:00",
   "articles": [
+    {
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-08T15:43:08+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
       "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
@@ -247,13 +254,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
-      "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-05T20:15:08+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
       "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
       "source": "The Hacker News",
@@ -364,19 +364,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-08T13:24:40.439557+00:00"
+      "last_success_at": "2026-11-08T22:04:28.788592+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-08T13:24:40.439557+00:00"
+      "last_success_at": "2026-11-08T22:04:28.788592+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-08T13:24:40.439557+00:00"
+      "last_success_at": "2026-11-08T22:04:28.788592+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -388,7 +388,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 8,
-      "last_success_at": "2026-11-08T13:24:40.439557+00:00"
+      "last_success_at": "2026-11-08T22:04:28.788592+00:00"
     }
   ]
 }
