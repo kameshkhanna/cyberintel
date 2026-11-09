@@ -1,8 +1,40 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-11-09T06:23:37.767938+00:00",
-  "total": 1769,
+  "updated_at": "2026-11-09T22:19:52.329518+00:00",
+  "total": 1773,
   "items": [
+    {
+      "cveID": "CVE-2026-123218",
+      "vendorProject": "IBM",
+      "product": "Aspera Faspex",
+      "vulnerabilityName": "IBM Aspera Faspex Incorrect Authorization Vulnerability",
+      "dateAdded": "2026-11-09",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-123158",
+      "vendorProject": "OpenBSD",
+      "product": "OpenSSH",
+      "vulnerabilityName": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+      "dateAdded": "2026-11-09",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-116779",
+      "vendorProject": "SignalWire",
+      "product": "FreeSwitch",
+      "vulnerabilityName": "SignalWire FreeSwitch Code Injection Vulnerability",
+      "dateAdded": "2026-11-09",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-102895",
+      "vendorProject": "GPUStack",
+      "product": "GPUStack",
+      "vulnerabilityName": "GPUStack Improper Authentication Vulnerability",
+      "dateAdded": "2026-11-09",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-19868",
       "vendorProject": "SonicWall",
@@ -1169,38 +1201,6 @@
       "product": "EDS5000",
       "vulnerabilityName": "Lantronix EDS5000 Code Injection Vulnerability",
       "dateAdded": "2026-06-23",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-20253",
-      "vendorProject": "Splunk",
-      "product": "Enterprise",
-      "vulnerabilityName": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
-      "dateAdded": "2026-06-18",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-48907",
-      "vendorProject": "Widget Factory",
-      "product": "Joomla Content Editor ",
-      "vulnerabilityName": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
-      "dateAdded": "2026-06-16",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-54420",
-      "vendorProject": "LiteSpeed",
-      "product": "cPanel Plugin",
-      "vulnerabilityName": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
-      "dateAdded": "2026-06-15",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-20262",
-      "vendorProject": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "vulnerabilityName": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
-      "dateAdded": "2026-06-15",
       "knownRansomwareCampaignUse": "Unknown"
     }
   ]
