@@ -1,8 +1,56 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-11-10T07:15:25.679560+00:00",
-  "total": 1773,
+  "updated_at": "2026-11-10T19:42:20.360921+00:00",
+  "total": 1779,
   "items": [
+    {
+      "cveID": "CVE-2026-20320",
+      "vendorProject": "Cisco",
+      "product": "BroadWorks",
+      "vulnerabilityName": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+      "dateAdded": "2026-11-10",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-125350",
+      "vendorProject": "Google",
+      "product": "Chromium",
+      "vulnerabilityName": "Google Chromium Use-After-Free Vulnerability",
+      "dateAdded": "2026-11-10",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-124194",
+      "vendorProject": "Microsoft",
+      "product": "Office",
+      "vulnerabilityName": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+      "dateAdded": "2026-11-10",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-116606",
+      "vendorProject": "Barracuda Networks",
+      "product": "Barracuda Email Security Gateway (ESG)",
+      "vulnerabilityName": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "dateAdded": "2026-11-10",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-111793",
+      "vendorProject": "Openwave Messaging Limited",
+      "product": "Webtop Media Transcoder",
+      "vulnerabilityName": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+      "dateAdded": "2026-11-10",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-111560",
+      "vendorProject": "Barracuda Networks",
+      "product": "Multiple Products",
+      "vulnerabilityName": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+      "dateAdded": "2026-11-10",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-123218",
       "vendorProject": "IBM",
@@ -1153,54 +1201,6 @@
       "product": "SimpleHelp",
       "vulnerabilityName": "SimpleHelp Authentication Bypass Vulnerability",
       "dateAdded": "2026-06-29",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-20230",
-      "vendorProject": "Cisco",
-      "product": "Unified Communications Manager",
-      "vulnerabilityName": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
-      "dateAdded": "2026-06-25",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-12569",
-      "vendorProject": "PTC",
-      "product": "Windchill and FlexPLM",
-      "vulnerabilityName": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
-      "dateAdded": "2026-06-25",
-      "knownRansomwareCampaignUse": "Known"
-    },
-    {
-      "cveID": "CVE-2026-34910",
-      "vendorProject": "Ubiquiti",
-      "product": "UniFi OS",
-      "vulnerabilityName": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
-      "dateAdded": "2026-06-23",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-34909",
-      "vendorProject": "Ubiquiti",
-      "product": "UniFi OS",
-      "vulnerabilityName": "Ubiquiti UniFi OS Path Traversal Vulnerability",
-      "dateAdded": "2026-06-23",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-34908",
-      "vendorProject": "Ubiquiti",
-      "product": "UniFi OS",
-      "vulnerabilityName": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
-      "dateAdded": "2026-06-23",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2025-67038",
-      "vendorProject": "Lantronix",
-      "product": "EDS5000",
-      "vulnerabilityName": "Lantronix EDS5000 Code Injection Vulnerability",
-      "dateAdded": "2026-06-23",
       "knownRansomwareCampaignUse": "Unknown"
     }
   ]
