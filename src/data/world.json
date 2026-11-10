@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-11-09T22:21:55.617222+00:00",
+  "updated_at": "2026-11-10T07:17:30.290294+00:00",
   "articles": [
+    {
+      "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+      "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-10T06:52:54+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+      "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-10T06:44:36+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+      "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-10T06:31:42+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Chrome Update Patches Exploited XML Zero-Day, Eighth This Year",
+      "url": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-10T06:12:24+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+      "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-09T23:52:12+00:00",
+      "category": "Ransomware"
+    },
     {
       "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
       "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
@@ -240,25 +275,11 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-07T10:16:23+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
       "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
       "source": "The Hacker News",
       "published_at": "2026-11-07T06:44:17+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-07T00:00:55+00:00",
-      "category": "Vulnerabilities"
     },
     {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
@@ -287,27 +308,6 @@
       "source": "The Hacker News",
       "published_at": "2026-11-06T14:58:32+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-      "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-06T12:06:43+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-      "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-06T12:06:35+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "The Flood is Coming And The Pipes Were Already Full",
-      "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-06T11:30:00+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "A Vulnerability in Cisco Secure Firewall ASA and FTD Could Allow for Denial of Service",
@@ -364,19 +364,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-09T22:21:55.617222+00:00"
+      "last_success_at": "2026-11-10T07:17:30.290294+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-09T22:21:55.617222+00:00"
+      "last_success_at": "2026-11-10T07:17:30.290294+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-09T22:21:55.617222+00:00"
+      "last_success_at": "2026-11-10T07:17:30.290294+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -388,7 +388,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 8,
-      "last_success_at": "2026-11-09T22:21:55.617222+00:00"
+      "last_success_at": "2026-11-10T07:17:30.290294+00:00"
     }
   ]
 }
