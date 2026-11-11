@@ -1,11 +1,158 @@
 {
-  "updated_at": "2026-11-11T06:16:53.539607+00:00",
+  "updated_at": "2026-11-11T14:28:35.132167+00:00",
   "articles": [
+    {
+      "title": "Asus, Zoom Release Security Patches",
+      "url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-11T13:58:38+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+      "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-11T13:37:19+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-11T12:32:27+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
+      "url": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-11T12:24:33+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-11T12:19:40+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Fortinet Patches Nearly 100 Vulnerabilities",
+      "url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-11T12:10:14+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-11T12:01:59+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+      "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-11T12:00:53+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Bay Raises $50 Million to Control What Enterprise AI Agents Can Do",
+      "url": "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-11T11:30:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Microsoft fixes audio issues caused by September security updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-11T11:18:36+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks",
+      "url": "https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-11T11:16:40+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure",
+      "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-11T10:35:15+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-11T10:12:08+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-11T09:07:27+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+      "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-11T09:01:07+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
+      "url": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-11T08:42:44+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-11T08:17:53+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
+      "url": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-11T07:53:51+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+      "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-11T07:49:04+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+      "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-11T07:21:05+00:00",
+      "category": "Malware"
+    },
     {
       "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
       "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
       "source": "The Hacker News",
       "published_at": "2026-11-11T06:04:02+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Multiple Vulnerabilities in Fortinet Products Could Allow for Arbitrary Code Execution",
+      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-fortinet-products-could-allow-for-arbitrary-code-execution_2026-133",
+      "source": "CIS Advisories",
+      "published_at": "2026-11-11T05:39:09+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -65,13 +212,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
-      "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-10T19:19:46+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
       "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
       "source": "The Hacker News",
@@ -100,13 +240,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
-      "url": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-10T18:11:54+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
       "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
       "source": "The Hacker News",
@@ -126,20 +259,6 @@
       "source": "CIS Advisories",
       "published_at": "2026-11-10T17:09:47+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
-      "url": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-10T16:45:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
-      "url": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-10T16:42:02+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
@@ -184,46 +303,11 @@
       "category": "Ransomware"
     },
     {
-      "title": "Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders",
-      "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-10T15:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "WhiteMatter Raises $20 Million in Series A Funding",
-      "url": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-10T14:58:19+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-127",
       "source": "CIS Advisories",
       "published_at": "2026-11-10T14:55:05+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities",
-      "url": "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-10T14:46:28+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
-      "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-10T13:27:44+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes",
-      "url": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-10T12:17:13+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
@@ -237,6 +321,13 @@
       "url": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
       "source": "BleepingComputer",
       "published_at": "2026-11-10T12:07:03+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-10T12:00:00+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -268,27 +359,6 @@
       "category": "Malware"
     },
     {
-      "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
-      "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T10:04:32+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-      "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T10:02:40+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
-      "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-10T09:56:28+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Multiple Vulnerabilities in SonicWall SonicOS Could Allow for Authentication Bypass",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-sonicwall-sonicos-could-allow-for-authentication-bypass_2026-126",
       "source": "CIS Advisories",
@@ -296,66 +366,66 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-      "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T09:08:20+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-      "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T08:51:25+00:00",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-09T12:00:00+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-      "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T08:16:14+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Fireworks AI discloses new breach after cloud provider hack",
-      "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T07:49:58+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-      "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T06:52:54+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-      "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T06:44:36+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-      "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T06:31:42+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-      "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-09T23:52:12+00:00",
-      "category": "Ransomware"
     },
     {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-125",
       "source": "CIS Advisories",
       "published_at": "2026-11-06T19:15:50+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-06T12:00:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Post-Quantum Questions to Ask Your Vendors",
+      "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-05T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
+      "url": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-05T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-04T12:00:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-03T12:00:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Subnet Solutions PowerSYSTEM Center",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-03T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "published_at": "2026-10-30T12:00:00+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -370,6 +440,41 @@
       "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-gitlab-could-allow-for-remote-code-execution_2026-123",
       "source": "CIS Advisories",
       "published_at": "2026-10-30T01:50:09+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Hitachi Energy TRO600 series products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
+      "source": "CISA Advisories",
+      "published_at": "2026-10-29T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "published_at": "2026-10-29T12:00:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Siemens Mendix SAML Module",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+      "source": "CISA Advisories",
+      "published_at": "2026-10-29T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hitachi Energy CoreTec Product",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
+      "source": "CISA Advisories",
+      "published_at": "2026-10-29T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "published_at": "2026-10-28T12:00:00+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -394,6 +499,34 @@
       "category": "Vulnerabilities"
     },
     {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "published_at": "2026-10-27T12:00:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
+      "source": "CISA Advisories",
+      "published_at": "2026-10-27T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "EPICS Base",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+      "source": "CISA Advisories",
+      "published_at": "2026-10-27T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "published_at": "2026-10-26T12:00:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
       "title": "Multiple Vulnerabilities in PHP Could Allow for Remote Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-remote-code-execution_2026-119",
       "source": "CIS Advisories",
@@ -406,31 +539,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-11T06:16:53.539607+00:00"
+      "last_success_at": "2026-11-11T14:28:35.132167+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-11T06:16:53.539607+00:00"
+      "last_success_at": "2026-11-11T14:28:35.132167+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-11T06:16:53.539607+00:00"
+      "last_success_at": "2026-11-11T14:28:35.132167+00:00"
     },
     {
       "source": "CISA Advisories",
-      "status": "failed",
-      "items": 0,
-      "last_success_at": null
+      "status": "ok",
+      "items": 18,
+      "last_success_at": "2026-11-11T14:28:35.132167+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 14,
-      "last_success_at": "2026-11-11T06:16:53.539607+00:00"
+      "items": 15,
+      "last_success_at": "2026-11-11T14:28:35.132167+00:00"
     }
   ]
 }
