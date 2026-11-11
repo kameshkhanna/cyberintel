@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T19:44:23.725707+00:00",
+  "updated_at": "2026-11-11T06:16:51.478605+00:00",
   "scope": "Latest CISA KEV entries, not the entire NVD catalog",
   "sources": {
-    "cisa_kev": "2026-11-10T19:42:20.360921+00:00",
+    "cisa_kev": "2026-11-11T06:14:43.841049+00:00",
     "nvd_success": 20,
     "nvd_requested": 20,
     "epss_available": true
@@ -40,9 +40,9 @@
       "date_added": "2026-11-10",
       "due_date": null,
       "description": "Use after free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "cvss": null,
-      "cvss_severity": null,
-      "cvss_version": null,
+      "cvss": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_version": "cvssMetricV31",
       "epss": null,
       "epss_percentile": null,
       "epss_date": null,
