@@ -1,6 +1,174 @@
 {
-  "updated_at": "2026-11-12T00:43:51.562655+00:00",
+  "updated_at": "2026-11-12T15:14:53.121591+00:00",
   "articles": [
+    {
+      "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+      "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-12T15:07:20+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+      "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-12T15:00:10+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Apify rotates API tokens, prompts 2FA resets after breach",
+      "url": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-12T14:36:47+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
+      "url": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-12T13:42:09+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
+      "url": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-12T13:39:03+00:00",
+      "category": "Phishing"
+    },
+    {
+      "title": "Daylight Lands $80 Million for AI-Powered Security Operations",
+      "url": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-12T13:12:11+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-12T12:11:11+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+      "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-12T12:09:14+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+      "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-12T12:02:51+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+      "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-12T11:51:43+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+      "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-12T11:51:31+00:00",
+      "category": "Threat actors"
+    },
+    {
+      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-12T11:33:15+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Notion Customer Data Compromised in Fireworks AI Hack",
+      "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-12T11:08:52+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+      "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-12T10:39:34+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Microsoft confirms Windows security updates installation issues",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-12T10:24:07+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+      "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-12T09:39:55+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Hackers plant GSocket on Linux servers for persistent access",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-12T09:38:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+      "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-12T09:25:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+      "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-12T09:23:21+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
+      "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-12T08:38:47+00:00",
+      "category": "Ransomware"
+    },
+    {
+      "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+      "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-12T08:20:37+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-12T06:42:47+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-12T05:12:26+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+      "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-12T04:39:48+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Baker Tilly notifies clients of data breach at third-party provider",
       "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
@@ -86,20 +254,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Asus, Zoom Release Security Patches",
-      "url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-11T13:58:38+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
-      "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-11T13:37:19+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "N-able releases security hotfixes for zero-day vulnerabilities",
       "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
       "source": "BleepingComputer",
@@ -107,25 +261,11 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
-      "url": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-11T12:24:33+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
       "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
       "source": "The Hacker News",
       "published_at": "2026-11-11T12:19:40+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "Fortinet Patches Nearly 100 Vulnerabilities",
-      "url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-11T12:10:14+00:00",
-      "category": "Vulnerabilities"
     },
     {
       "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
@@ -142,52 +282,10 @@
       "category": "Cyber news"
     },
     {
-      "title": "Bay Raises $50 Million to Control What Enterprise AI Agents Can Do",
-      "url": "https://www.securityweek.com/bay-raises-50-million-to-control-what-enterprise-ai-agents-can-do/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-11T11:30:00+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Microsoft fixes audio issues caused by September security updates",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
       "source": "BleepingComputer",
       "published_at": "2026-11-11T11:18:36+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Dreeze Emerges From Stealth With $33M to Rebuild Cloud Apps After Cyberattacks",
-      "url": "https://www.securityweek.com/dreeze-emerges-from-stealth-with-33m-to-rebuild-cloud-apps-after-cyberattacks/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-11T11:16:40+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "ICS Patch Tuesday: Siemens Flags High-Severity Flaws, Node2Shell Exposure",
-      "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-flags-high-severity-flaws-node2shell-exposure/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-11T10:35:15+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-11T10:12:08+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-11T09:07:27+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
-      "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-11T09:01:07+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -205,39 +303,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
-      "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-11T07:21:05+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-      "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-11T06:04:02+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Multiple Vulnerabilities in Fortinet Products Could Allow for Arbitrary Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-fortinet-products-could-allow-for-arbitrary-code-execution_2026-133",
       "source": "CIS Advisories",
       "published_at": "2026-11-11T05:39:09+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
-      "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T22:20:19+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
-      "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T20:54:55+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Critical Patches Issued for Microsoft Products, November 10, 2026",
@@ -254,53 +324,11 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Microsoft releases Windows 10 KB5131096 extended security update",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T20:04:36+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2026-130",
       "source": "CIS Advisories",
       "published_at": "2026-11-10T20:00:59+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T19:31:11+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-      "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T19:23:10+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-      "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T19:19:39+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T18:12:21+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-      "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T17:43:23+00:00",
-      "category": "Malware"
     },
     {
       "title": "Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution",
@@ -317,39 +345,11 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T16:00:55+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
-      "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T15:58:44+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
-      "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T15:33:59+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-127",
       "source": "CIS Advisories",
       "published_at": "2026-11-10T14:55:05+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
-      "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T12:15:31+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
@@ -532,31 +532,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-12T00:43:51.562655+00:00"
+      "last_success_at": "2026-11-12T15:14:53.121591+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-12T00:43:51.562655+00:00"
+      "last_success_at": "2026-11-12T15:14:53.121591+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-12T00:43:51.562655+00:00"
+      "last_success_at": "2026-11-12T15:14:53.121591+00:00"
     },
     {
       "source": "CISA Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-12T00:43:51.562655+00:00"
+      "last_success_at": "2026-11-12T15:14:53.121591+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-11-12T00:43:51.562655+00:00"
+      "last_success_at": "2026-11-12T15:14:53.121591+00:00"
     }
   ]
 }
