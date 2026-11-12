@@ -1,6 +1,90 @@
 {
-  "updated_at": "2026-11-11T14:28:35.132167+00:00",
+  "updated_at": "2026-11-12T00:43:51.562655+00:00",
   "articles": [
+    {
+      "title": "Baker Tilly notifies clients of data breach at third-party provider",
+      "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-11T23:01:31+00:00",
+      "category": "Data breaches"
+    },
+    {
+      "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+      "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-11T22:56:21+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+      "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-11T21:27:40+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+      "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-11T20:54:20+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online",
+      "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-11T16:29:42+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-11T16:24:18+00:00",
+      "category": "Ransomware"
+    },
+    {
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-11T16:12:46+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-11T15:42:47+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+      "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-11T15:34:27+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-11T15:12:59+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+      "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-11T15:01:11+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-11T14:01:00+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "Asus, Zoom Release Security Patches",
       "url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
@@ -107,24 +191,10 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
-      "url": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-11T08:42:44+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
       "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
       "source": "The Hacker News",
       "published_at": "2026-11-11T08:17:53+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
-      "url": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-11T07:53:51+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -219,20 +289,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T19:07:36+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T18:33:26+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
       "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
       "source": "The Hacker News",
@@ -261,25 +317,11 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T16:17:16+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
       "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
       "source": "The Hacker News",
       "published_at": "2026-11-10T16:00:55+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
-      "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T15:59:19+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
@@ -296,13 +338,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "Ransomware recovery is now a client retention metric",
-      "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T15:01:11+00:00",
-      "category": "Ransomware"
-    },
-    {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-127",
       "source": "CIS Advisories",
@@ -317,46 +352,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
-      "url": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T12:07:03+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
       "source": "CISA Advisories",
       "published_at": "2026-11-10T12:00:00+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Beyond the Alert: The Case for Rich Network Data",
-      "url": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T11:38:13+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
-      "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T10:16:51+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-10T10:10:20+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-      "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-10T10:07:29+00:00",
-      "category": "Malware"
     },
     {
       "title": "Multiple Vulnerabilities in SonicWall SonicOS Could Allow for Authentication Bypass",
@@ -525,13 +525,6 @@
       "source": "CISA Advisories",
       "published_at": "2026-10-26T12:00:00+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Multiple Vulnerabilities in PHP Could Allow for Remote Code Execution",
-      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-remote-code-execution_2026-119",
-      "source": "CIS Advisories",
-      "published_at": "2026-10-21T16:17:13+00:00",
-      "category": "Vulnerabilities"
     }
   ],
   "sources": [
@@ -539,31 +532,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-11T14:28:35.132167+00:00"
+      "last_success_at": "2026-11-12T00:43:51.562655+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-11T14:28:35.132167+00:00"
+      "last_success_at": "2026-11-12T00:43:51.562655+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-11T14:28:35.132167+00:00"
+      "last_success_at": "2026-11-12T00:43:51.562655+00:00"
     },
     {
       "source": "CISA Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-11T14:28:35.132167+00:00"
+      "last_success_at": "2026-11-12T00:43:51.562655+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 15,
-      "last_success_at": "2026-11-11T14:28:35.132167+00:00"
+      "items": 14,
+      "last_success_at": "2026-11-12T00:43:51.562655+00:00"
     }
   ]
 }

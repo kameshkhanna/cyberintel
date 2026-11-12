@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T14:28:49.017090+00:00",
+  "generated_at": "2026-11-12T00:44:01.862251+00:00",
   "meaning": "Last validated build-time snapshot; not a live uptime monitor",
   "overall": "current",
   "sources": [
@@ -8,7 +8,7 @@
       "label": "CISA KEV",
       "status": "current",
       "items": 150,
-      "updated_at": "2026-11-11T14:26:31.026072+00:00",
+      "updated_at": "2026-11-12T00:41:28.793341+00:00",
       "age_hours": 0.0,
       "collector": "success"
     },
@@ -16,8 +16,8 @@
       "key": "news",
       "label": "Global Cyber Watch",
       "status": "current",
-      "items": 76,
-      "updated_at": "2026-11-11T14:28:35.132167+00:00",
+      "items": 75,
+      "updated_at": "2026-11-12T00:43:51.562655+00:00",
       "age_hours": 0.0,
       "collector": "success"
     },
@@ -26,7 +26,7 @@
       "label": "Shodan snapshots",
       "status": "current",
       "items": 3,
-      "updated_at": "2026-11-11T14:28:32.366257+00:00",
+      "updated_at": "2026-11-12T00:43:48.289542+00:00",
       "age_hours": 0.0,
       "collector": "success"
     },
@@ -35,7 +35,7 @@
       "label": "NVD / EPSS enrichment",
       "status": "current",
       "items": 20,
-      "updated_at": "2026-11-11T14:28:32.299586+00:00",
+      "updated_at": "2026-11-12T00:43:48.210545+00:00",
       "age_hours": 0.0,
       "collector": "success"
     }

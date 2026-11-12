@@ -200,6 +200,14 @@
         "Apache HTTP": 2182,
         "Microsoft IIS": 3
       }
+    },
+    {
+      "date": "2026-11-12",
+      "totals": {
+        "Nginx": 56646436,
+        "Apache HTTP": 2176,
+        "Microsoft IIS": 3
+      }
     }
   ]
 }
