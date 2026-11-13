@@ -1,8 +1,24 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-11-13T06:42:43.014937+00:00",
-  "total": 1779,
+  "updated_at": "2026-11-13T19:39:49.317669+00:00",
+  "total": 1781,
   "items": [
+    {
+      "cveID": "CVE-2026-123039",
+      "vendorProject": "Check Point",
+      "product": "Multiple Products",
+      "vulnerabilityName": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+      "dateAdded": "2026-11-13",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-114713",
+      "vendorProject": "UnrealIRCd",
+      "product": "UnrealIRCd",
+      "vulnerabilityName": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+      "dateAdded": "2026-11-13",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-20320",
       "vendorProject": "Cisco",
@@ -1185,22 +1201,6 @@
       "product": "ColdFusion",
       "vulnerabilityName": "Adobe ColdFusion Path Traversal Vulnerability",
       "dateAdded": "2026-07-07",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-45659",
-      "vendorProject": "Microsoft",
-      "product": "SharePoint Server",
-      "vulnerabilityName": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
-      "dateAdded": "2026-07-01",
-      "knownRansomwareCampaignUse": "Known"
-    },
-    {
-      "cveID": "CVE-2026-48558",
-      "vendorProject": "SimpleHelp ",
-      "product": "SimpleHelp",
-      "vulnerabilityName": "SimpleHelp Authentication Bypass Vulnerability",
-      "dateAdded": "2026-06-29",
       "knownRansomwareCampaignUse": "Unknown"
     }
   ]
