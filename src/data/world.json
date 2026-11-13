@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-11-12T23:39:28.547083+00:00",
+  "updated_at": "2026-11-13T06:47:55.455425+00:00",
   "articles": [
+    {
+      "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-13T05:43:28+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
+      "url": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-13T02:28:21+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
       "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
@@ -233,13 +247,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
-      "url": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-12T08:38:47+00:00",
-      "category": "Ransomware"
-    },
-    {
       "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
       "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
       "source": "The Hacker News",
@@ -293,13 +300,6 @@
       "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
       "source": "The Hacker News",
       "published_at": "2026-11-11T16:12:46+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-      "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-11T15:34:27+00:00",
       "category": "Cyber news"
     },
     {
@@ -532,19 +532,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-12T23:39:28.547083+00:00"
+      "last_success_at": "2026-11-13T06:47:55.455425+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-12T23:39:28.547083+00:00"
+      "last_success_at": "2026-11-13T06:47:55.455425+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-12T23:39:28.547083+00:00"
+      "last_success_at": "2026-11-13T06:47:55.455425+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -556,7 +556,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-11-12T23:39:28.547083+00:00"
+      "last_success_at": "2026-11-13T06:47:55.455425+00:00"
     }
   ]
 }
