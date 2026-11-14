@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-11-13T19:44:04.240454+00:00",
+  "updated_at": "2026-11-14T06:24:33.710031+00:00",
   "articles": [
+    {
+      "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
+      "url": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-13T21:33:27+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
       "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
@@ -174,13 +181,6 @@
       "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/",
       "source": "SecurityWeek",
       "published_at": "2026-11-13T07:39:04+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
-      "url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-13T07:20:50+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -532,19 +532,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-13T19:44:04.240454+00:00"
+      "last_success_at": "2026-11-14T06:24:33.710031+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-13T19:44:04.240454+00:00"
+      "last_success_at": "2026-11-14T06:24:33.710031+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-13T19:44:04.240454+00:00"
+      "last_success_at": "2026-11-14T06:24:33.710031+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -556,7 +556,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-11-13T19:44:04.240454+00:00"
+      "last_success_at": "2026-11-14T06:24:33.710031+00:00"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-13T19:44:01.945386+00:00",
+  "updated_at": "2026-11-14T06:24:30.748680+00:00",
   "scope": "Latest CISA KEV entries, not the entire NVD catalog",
   "sources": {
-    "cisa_kev": "2026-11-13T19:39:49.317669+00:00",
-    "nvd_success": 14,
+    "cisa_kev": "2026-11-14T06:19:56.574992+00:00",
+    "nvd_success": 15,
     "nvd_requested": 20,
     "epss_available": true
   },
@@ -62,7 +62,7 @@
       "product": "BroadWorks",
       "date_added": "2026-11-10",
       "due_date": null,
-      "description": "A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.\r\n\r This vulnerability exists because XML entries are improperly parsed due to external entity resolution being allowed by default. An attacker could exploit this vulnerability by sending a crafted XML message to the Open Client Interface &ndash; Provisioning (OCI-P) service. A successful exploit could allow the attacker to view sensitive files from the filesystem with the privileges of the Cisco BroadWorks user.",
+      "description": "A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system. \r\n\r This vulnerability exists because XML entries are improperly parsed due to external entity resolution being allowed by default. An attacker could exploit this vulnerability by sending a crafted XML message to the Open Client Interface &ndash; Provisioning (OCI-P) service. A successful exploit could allow the attacker to view sensitive files from the filesystem with the privileges of the Cisco BroadWorks user.",
       "cvss": 7.5,
       "cvss_severity": "HIGH",
       "cvss_version": "cvssMetricV31",
@@ -177,10 +177,10 @@
       "product": "Multiple Products",
       "date_added": "2026-11-10",
       "due_date": null,
-      "description": "",
-      "cvss": null,
-      "cvss_severity": null,
-      "cvss_version": null,
+      "description": "Improper neutralization of shell metacharacters in the timezone configuration field in certain Barracuda appliance products using common Barracuda code allows an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed.",
+      "cvss": 8.6,
+      "cvss_severity": "HIGH",
+      "cvss_version": "cvssMetricV40",
       "epss": 0.09082,
       "epss_percentile": 0.95373,
       "epss_date": "2026-11-13",
@@ -191,7 +191,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "unavailable"
+      "nvd_status": "available"
     },
     {
       "id": "CVE-2026-123218",
@@ -200,10 +200,10 @@
       "product": "Aspera Faspex",
       "date_added": "2026-11-09",
       "due_date": null,
-      "description": "IBM Aspera Faspex 5.0.0 through 5.0.19 could allow an authorized user to craft a specific message to bypass user authorization and gain full administrative privileges.",
-      "cvss": 9.8,
-      "cvss_severity": "CRITICAL",
-      "cvss_version": "cvssMetricV31",
+      "description": "",
+      "cvss": null,
+      "cvss_severity": null,
+      "cvss_version": null,
       "epss": 0.00535,
       "epss_percentile": 0.45678,
       "epss_date": "2026-11-13",
@@ -214,7 +214,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "available"
+      "nvd_status": "unavailable"
     },
     {
       "id": "CVE-2026-123158",
@@ -292,10 +292,10 @@
       "product": "SonicOS SSLVPN",
       "date_added": "2026-11-06",
       "due_date": null,
-      "description": "",
-      "cvss": null,
-      "cvss_severity": null,
-      "cvss_version": null,
+      "description": "An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
+      "cvss": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_version": "cvssMetricV31",
       "epss": 0.00532,
       "epss_percentile": 0.45511,
       "epss_date": "2026-11-13",
@@ -306,7 +306,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "unavailable"
+      "nvd_status": "available"
     },
     {
       "id": "CVE-2024-27834",
@@ -315,10 +315,10 @@
       "product": "Multiple Products",
       "date_added": "2026-11-04",
       "due_date": null,
-      "description": "The issue was addressed with improved checks. This issue is fixed in Safari 17.5, iOS 16.7.8 and iPadOS 16.7.8, iOS 17.5 and iPadOS 17.5, macOS Sonoma 14.5, tvOS 17.5, watchOS 10.5. An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication.",
-      "cvss": 5.5,
-      "cvss_severity": "MEDIUM",
-      "cvss_version": "cvssMetricV31",
+      "description": "",
+      "cvss": null,
+      "cvss_severity": null,
+      "cvss_version": null,
       "epss": 0.01502,
       "epss_percentile": 0.74706,
       "epss_date": "2026-11-13",
@@ -329,7 +329,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "available"
+      "nvd_status": "unavailable"
     },
     {
       "id": "CVE-2026-119977",
@@ -384,10 +384,10 @@
       "product": "Connect Secure",
       "date_added": "2026-10-30",
       "due_date": null,
-      "description": "",
-      "cvss": null,
-      "cvss_severity": null,
-      "cvss_version": null,
+      "description": "Ivanti Connect Secure 22.8R2.4 mishandles the manner in which the dsinvoked broker trusts DSCache configuration data, leading to privilege escalation to root, as exploited in the wild in October 2026.",
+      "cvss": 7.0,
+      "cvss_severity": "HIGH",
+      "cvss_version": "cvssMetricV31",
       "epss": 0.00533,
       "epss_percentile": 0.45557,
       "epss_date": "2026-11-13",
@@ -398,7 +398,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "unavailable"
+      "nvd_status": "available"
     },
     {
       "id": "CVE-2026-97229",
