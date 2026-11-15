@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-11-15T06:34:13.491832+00:00",
+  "updated_at": "2026-11-15T18:53:51.544950+00:00",
   "articles": [
+    {
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-15T18:29:53+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "TSMC employee data breach linked to cloud provider",
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-15T15:23:48+00:00",
+      "category": "Data breaches"
+    },
+    {
+      "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+      "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-15T12:51:33+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-15T11:27:31+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-15T08:22:04+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-14T19:00:00+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Cursor confirms security breach led to malicious Claude Code extension",
       "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
@@ -163,24 +205,10 @@
       "category": "Cyber news"
     },
     {
-      "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
-      "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-13T10:48:40+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Check Point warns of zero-day flaw exploited for root access",
       "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
       "source": "BleepingComputer",
       "published_at": "2026-11-13T10:44:22+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
-      "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-13T09:36:56+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -233,20 +261,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-      "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-12T19:51:16+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-12T19:12:55+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
       "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
       "source": "The Hacker News",
@@ -287,20 +301,6 @@
       "source": "The Hacker News",
       "published_at": "2026-11-12T15:15:40+00:00",
       "category": "Malware"
-    },
-    {
-      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-      "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-12T13:08:28+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-      "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-12T12:09:14+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Multiple Vulnerabilities in Fortinet Products Could Allow for Arbitrary Code Execution",
@@ -532,19 +532,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-15T06:34:13.491832+00:00"
+      "last_success_at": "2026-11-15T18:53:51.544950+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-15T06:34:13.491832+00:00"
+      "last_success_at": "2026-11-15T18:53:51.544950+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-15T06:34:13.491832+00:00"
+      "last_success_at": "2026-11-15T18:53:51.544950+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -556,7 +556,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-11-15T06:34:13.491832+00:00"
+      "last_success_at": "2026-11-15T18:53:51.544950+00:00"
     }
   ]
 }
