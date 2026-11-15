@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-14T22:27:25.548220+00:00",
+  "updated_at": "2026-11-15T06:34:11.024989+00:00",
   "scope": "Latest CISA KEV entries, not the entire NVD catalog",
   "sources": {
-    "cisa_kev": "2026-11-14T22:22:37.457376+00:00",
-    "nvd_success": 17,
+    "cisa_kev": "2026-11-15T06:27:49.867466+00:00",
+    "nvd_success": 15,
     "nvd_requested": 20,
     "epss_available": true
   },
@@ -85,10 +85,10 @@
       "product": "Chromium",
       "date_added": "2026-11-10",
       "due_date": null,
-      "description": "",
-      "cvss": null,
-      "cvss_severity": null,
-      "cvss_version": null,
+      "description": "Use after free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "cvss": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_version": "cvssMetricV31",
       "epss": 0.00962,
       "epss_percentile": 0.62184,
       "epss_date": "2026-11-14",
@@ -99,7 +99,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "unavailable"
+      "nvd_status": "available"
     },
     {
       "id": "CVE-2026-124194",
@@ -154,10 +154,10 @@
       "product": "Webtop Media Transcoder",
       "date_added": "2026-11-10",
       "due_date": null,
-      "description": "Openwave Webtop Media Transcoder does not enforce administrator-defined file type restrictions to restrict the file-types to be converted. This may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
-      "cvss": 4.3,
-      "cvss_severity": "MEDIUM",
-      "cvss_version": "cvssMetricV31",
+      "description": "",
+      "cvss": null,
+      "cvss_severity": null,
+      "cvss_version": null,
       "epss": 0.00638,
       "epss_percentile": 0.51153,
       "epss_date": "2026-11-14",
@@ -168,7 +168,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "available"
+      "nvd_status": "unavailable"
     },
     {
       "id": "CVE-2026-111560",
@@ -246,10 +246,10 @@
       "product": "FreeSwitch",
       "date_added": "2026-11-09",
       "due_date": null,
-      "description": "FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a software implementation that runs on any commodity hardware. Prior to 1.11.3, sofia_presence_handle_sip_i_message() split the To user of an inbound SIP MESSAGE on a plus sign and treated the left side as a chat protocol selector. Selecting the api chat proto reached switch_api_execute(), allowing a peer whose MESSAGE was accepted to run FreeSWITCH API commands, including operating-system command sinks, with the daemon's privileges. Inbound chat is enabled on the stock internal and external profiles, and any authenticated profile account is sufficient; stock directory users without password material can also remove that barrier in affected configurations. The flaw permits configuration and credential disclosure, arbitrary call control, and command execution, and exploitation has been observed in the wild. This issue is fixed in version 1.11.3.",
-      "cvss": 9.8,
-      "cvss_severity": "CRITICAL",
-      "cvss_version": "cvssMetricV31",
+      "description": "",
+      "cvss": null,
+      "cvss_severity": null,
+      "cvss_version": null,
       "epss": 0.02473,
       "epss_percentile": 0.84795,
       "epss_date": "2026-11-14",
@@ -260,7 +260,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "available"
+      "nvd_status": "unavailable"
     },
     {
       "id": "CVE-2026-102895",
@@ -269,10 +269,10 @@
       "product": "GPUStack",
       "date_added": "2026-11-09",
       "due_date": null,
-      "description": "",
-      "cvss": null,
-      "cvss_severity": null,
-      "cvss_version": null,
+      "description": "GPUStack is an open-source GPU cluster manager for AI model serving and GPU instance provisioning. Prior to 2.2.0, get_current_user in gpustack/api/auth.py treated a loopback request source as the built-in administrator when force_auth_localhost was false, which was the default. A remote request could appear to originate from 127.0.0.1 because client_ip_getter accepted a same-host reverse proxy peer or a client-supplied X-GPUStack-Real-IP loopback value. The bypass allowed unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml. Exploitation was observed in the wild against a 2.1.1 deployment. This issue is fixed in version 2.2.0.",
+      "cvss": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_version": "cvssMetricV31",
       "epss": 0.00517,
       "epss_percentile": 0.44564,
       "epss_date": "2026-11-14",
@@ -283,7 +283,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "unavailable"
+      "nvd_status": "available"
     },
     {
       "id": "CVE-2026-19868",
@@ -292,10 +292,10 @@
       "product": "SonicOS SSLVPN",
       "date_added": "2026-11-06",
       "due_date": null,
-      "description": "An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
-      "cvss": 7.5,
-      "cvss_severity": "HIGH",
-      "cvss_version": "cvssMetricV31",
+      "description": "",
+      "cvss": null,
+      "cvss_severity": null,
+      "cvss_version": null,
       "epss": 0.00532,
       "epss_percentile": 0.45539,
       "epss_date": "2026-11-14",
@@ -306,7 +306,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "available"
+      "nvd_status": "unavailable"
     },
     {
       "id": "CVE-2024-27834",
@@ -315,10 +315,10 @@
       "product": "Multiple Products",
       "date_added": "2026-11-04",
       "due_date": null,
-      "description": "The issue was addressed with improved checks. This issue is fixed in Safari 17.5, iOS 16.7.8 and iPadOS 16.7.8, iOS 17.5 and iPadOS 17.5, macOS Sonoma 14.5, tvOS 17.5, watchOS 10.5. An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication.",
-      "cvss": 5.5,
-      "cvss_severity": "MEDIUM",
-      "cvss_version": "cvssMetricV31",
+      "description": "",
+      "cvss": null,
+      "cvss_severity": null,
+      "cvss_version": null,
       "epss": 0.01502,
       "epss_percentile": 0.74724,
       "epss_date": "2026-11-14",
@@ -329,7 +329,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "available"
+      "nvd_status": "unavailable"
     },
     {
       "id": "CVE-2026-119977",
@@ -384,10 +384,10 @@
       "product": "Connect Secure",
       "date_added": "2026-10-30",
       "due_date": null,
-      "description": "Ivanti Connect Secure 22.8R2.4 mishandles the manner in which the dsinvoked broker trusts DSCache configuration data, leading to privilege escalation to root, as exploited in the wild in October 2026.",
-      "cvss": 7.0,
-      "cvss_severity": "HIGH",
-      "cvss_version": "cvssMetricV31",
+      "description": "",
+      "cvss": null,
+      "cvss_severity": null,
+      "cvss_version": null,
       "epss": 0.00533,
       "epss_percentile": 0.45585,
       "epss_date": "2026-11-14",
@@ -398,7 +398,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "available"
+      "nvd_status": "unavailable"
     },
     {
       "id": "CVE-2026-97229",
@@ -430,10 +430,10 @@
       "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
       "date_added": "2026-10-29",
       "due_date": null,
-      "description": "",
-      "cvss": null,
-      "cvss_severity": null,
-      "cvss_version": null,
+      "description": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to logic errors when secondary authentication is configured on a tunnel group. An attacker could exploit this vulnerability by sending a crafted request when connecting to the SSL remote access VPN. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition.",
+      "cvss": 8.6,
+      "cvss_severity": "HIGH",
+      "cvss_version": "cvssMetricV31",
       "epss": 0.00821,
       "epss_percentile": 0.57859,
       "epss_date": "2026-11-14",
@@ -444,7 +444,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "unavailable"
+      "nvd_status": "available"
     },
     {
       "id": "CVE-2026-46300",
