@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-15T18:53:48.878746+00:00",
+  "updated_at": "2026-11-16T06:30:16.551613+00:00",
   "scope": "Latest CISA KEV entries, not the entire NVD catalog",
   "sources": {
-    "cisa_kev": "2026-11-15T18:49:47.467886+00:00",
-    "nvd_success": 18,
+    "cisa_kev": "2026-11-16T06:25:16.823019+00:00",
+    "nvd_success": 14,
     "nvd_requested": 20,
     "epss_available": true
   },
@@ -39,10 +39,10 @@
       "product": "UnrealIRCd",
       "date_added": "2026-11-13",
       "due_date": null,
-      "description": "The labeled-response module in UnrealIRCd 6.0.0 before 6.2.7.1 does not escape the IRCv3 \"label\" message tag when echoing it into replies, which allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
-      "cvss": 8.6,
-      "cvss_severity": "HIGH",
-      "cvss_version": "cvssMetricV31",
+      "description": "",
+      "cvss": null,
+      "cvss_severity": null,
+      "cvss_version": null,
       "epss": 0.00508,
       "epss_percentile": 0.43875,
       "epss_date": "2026-11-15",
@@ -53,7 +53,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "available"
+      "nvd_status": "unavailable"
     },
     {
       "id": "CVE-2026-20320",
@@ -108,10 +108,10 @@
       "product": "Office",
       "date_added": "2026-11-10",
       "due_date": null,
-      "description": "Product ui does not warn user of unsafe actions in Microsoft Office Outlook allows an unauthorized attacker to perform spoofing over a network.",
-      "cvss": 6.5,
-      "cvss_severity": "MEDIUM",
-      "cvss_version": "cvssMetricV31",
+      "description": "",
+      "cvss": null,
+      "cvss_severity": null,
+      "cvss_version": null,
       "epss": 0.0162,
       "epss_percentile": 0.7647,
       "epss_date": "2026-11-15",
@@ -122,7 +122,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "available"
+      "nvd_status": "unavailable"
     },
     {
       "id": "CVE-2026-116606",
@@ -131,10 +131,10 @@
       "product": "Barracuda Email Security Gateway (ESG)",
       "date_added": "2026-11-10",
       "due_date": null,
-      "description": "An authentication bypass in Barracuda Email Security Gateway versions earlier than 9.4.0.030 allows an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration.",
-      "cvss": 9.3,
-      "cvss_severity": "CRITICAL",
-      "cvss_version": "cvssMetricV40",
+      "description": "",
+      "cvss": null,
+      "cvss_severity": null,
+      "cvss_version": null,
       "epss": 0.10947,
       "epss_percentile": 0.95956,
       "epss_date": "2026-11-15",
@@ -145,7 +145,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "available"
+      "nvd_status": "unavailable"
     },
     {
       "id": "CVE-2026-111793",
@@ -315,10 +315,10 @@
       "product": "Multiple Products",
       "date_added": "2026-11-04",
       "due_date": null,
-      "description": "The issue was addressed with improved checks. This issue is fixed in Safari 17.5, iOS 16.7.8 and iPadOS 16.7.8, iOS 17.5 and iPadOS 17.5, macOS Sonoma 14.5, tvOS 17.5, watchOS 10.5. An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication.",
-      "cvss": 5.5,
-      "cvss_severity": "MEDIUM",
-      "cvss_version": "cvssMetricV31",
+      "description": "",
+      "cvss": null,
+      "cvss_severity": null,
+      "cvss_version": null,
       "epss": 0.01502,
       "epss_percentile": 0.74723,
       "epss_date": "2026-11-15",
@@ -329,7 +329,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "available"
+      "nvd_status": "unavailable"
     },
     {
       "id": "CVE-2026-119977",
@@ -338,10 +338,10 @@
       "product": "WordPress Core",
       "date_added": "2026-11-03",
       "due_date": null,
-      "description": "WordPress Core is vulnerable to Remote Code Execution in versions 4.7 through 7.1.3. This is due to predictable, web-accessible staging paths used during full-package core upgrades. This makes it possible for unauthenticated attackers to execute code on the server during the upgrade window.",
-      "cvss": 8.1,
-      "cvss_severity": "HIGH",
-      "cvss_version": "cvssMetricV31",
+      "description": "",
+      "cvss": null,
+      "cvss_severity": null,
+      "cvss_version": null,
       "epss": 0.01199,
       "epss_percentile": 0.68665,
       "epss_date": "2026-11-15",
@@ -352,7 +352,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "available"
+      "nvd_status": "unavailable"
     },
     {
       "id": "CVE-2026-118527",
@@ -453,10 +453,10 @@
       "product": "Kernel",
       "date_added": "2026-10-28",
       "due_date": null,
-      "description": "",
-      "cvss": null,
-      "cvss_severity": null,
-      "cvss_version": null,
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: skbuff: preserve shared-frag marker during coalescing\n\nskb_try_coalesce() can attach paged frags from @from to @to.  If @from\nhas SKBFL_SHARED_FRAG set, the resulting @to skb can contain the same\nexternally-owned or page-cache-backed frags, but the shared-frag marker\nis currently lost.\n\nThat breaks the invariant relied on by later in-place writers.  In\nparticular, ESP input checks skb_has_shared_frag() before deciding\nwhether an uncloned nonlinear skb can skip skb_cow_data().  If TCP\nreceive coalescing has moved shared frags into an unmarked skb, ESP can\nsee skb_has_shared_frag() as false and decrypt in place over page-cache\nbacked frags.\n\nPropagate SKBFL_SHARED_FRAG when skb_try_coalesce() transfers paged\nfrags.  The tailroom copy path does not need the marker because it copies\nbytes into @to's linear data rather than transferring frag descriptors.",
+      "cvss": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_version": "cvssMetricV31",
       "epss": 0.1613,
       "epss_percentile": 0.96979,
       "epss_date": "2026-11-15",
@@ -467,7 +467,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "unavailable"
+      "nvd_status": "available"
     }
   ],
   "disclaimer": "KEV entry confirms observed exploitation somewhere, not vulnerability of your assets. CVSS is severity, EPSS is statistical probability, Shodan banners are indicative only."

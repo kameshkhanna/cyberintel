@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T18:53:51.544950+00:00",
+  "updated_at": "2026-11-16T06:30:19.741916+00:00",
   "articles": [
     {
       "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
@@ -532,19 +532,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-15T18:53:51.544950+00:00"
+      "last_success_at": "2026-11-16T06:30:19.741916+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-15T18:53:51.544950+00:00"
+      "last_success_at": "2026-11-16T06:30:19.741916+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-15T18:53:51.544950+00:00"
+      "last_success_at": "2026-11-16T06:30:19.741916+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -556,7 +556,7 @@
       "source": "CIS Advisories",
       "status": "ok",
       "items": 14,
-      "last_success_at": "2026-11-15T18:53:51.544950+00:00"
+      "last_success_at": "2026-11-16T06:30:19.741916+00:00"
     }
   ]
 }
