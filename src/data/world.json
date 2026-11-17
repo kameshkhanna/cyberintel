@@ -1,6 +1,272 @@
 {
-  "updated_at": "2026-11-17T07:55:19.689826+00:00",
+  "updated_at": "2026-11-17T20:55:50.788633+00:00",
   "articles": [
+    {
+      "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-17T20:51:21+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+      "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-17T19:34:20+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-17T19:24:07+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+      "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-17T18:21:24+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
+      "url": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-17T18:16:17+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Tor releases emergency update amid ongoing DDoS attack",
+      "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-17T18:04:15+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
+      "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-17T16:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-17T15:17:36+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+      "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-17T15:17:28+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-17T15:01:11+00:00",
+      "category": "Phishing"
+    },
+    {
+      "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
+      "url": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-17T14:55:30+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
+      "url": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-17T14:14:24+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool",
+      "url": "https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-17T14:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "MSP ScreenConnect Servers Targeted in Month-Long Campaign",
+      "url": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-17T13:24:43+00:00",
+      "category": "Threat actors"
+    },
+    {
+      "title": "Access Dental Management Data Breach Impacts Over 340,000",
+      "url": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-17T12:59:04+00:00",
+      "category": "Data breaches"
+    },
+    {
+      "title": "Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity",
+      "url": "https://www.securityweek.com/corma-receives-125-million-to-train-foundation-models-for-defensive-cybersecurity/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-17T12:51:54+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
+      "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-17T12:28:45+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-17T12:25:06+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+      "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-17T12:14:36+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
+      "url": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Dorsett Controls InfoScan",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Siemens Mendix Studio Pro",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Siemens meta-iot2050",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Siemens SIMATIC WinCC",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Siemens RUGGEDCOM APE1808",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Siemens Industrial Automation Software Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Siemens SIMATIC",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Siemens Industrial Software Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Siemens ROS#",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Siemens Simcenter Femap",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+      "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-17T11:20:18+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-17T11:19:51+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+      "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-17T11:07:31+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Optimizely Vulnerability Exploited to Serve Malware on Major Websites",
+      "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-17T10:22:20+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+      "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-17T09:44:22+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+      "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-17T08:35:42+00:00",
+      "category": "Data breaches"
+    },
     {
       "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
       "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
@@ -65,66 +331,10 @@
       "category": "Cyber news"
     },
     {
-      "title": "Trump Administration Moves to Block China From Indirect Access to American AI Technology",
-      "url": "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-16T20:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
       "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
       "source": "BleepingComputer",
       "published_at": "2026-11-16T19:57:13+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-16T16:43:24+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Cursor Supply Chain Attack Started at Fireworks AI",
-      "url": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-16T15:45:43+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Fandango says hackers stole payment card details from checkout pages",
-      "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-16T15:44:21+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
-      "url": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-16T15:31:25+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks",
-      "url": "https://www.securityweek.com/barracuda-hacked-amid-surge-in-artex-powered-cyberattacks/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-16T15:07:32+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
-      "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-16T15:01:11+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Google warns that fully-automated AI attacks are coming soon",
-      "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-16T14:00:00+00:00",
       "category": "Cyber news"
     },
     {
@@ -142,20 +352,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-16T12:53:18+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
-      "url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-16T12:48:03+00:00",
-      "category": "Malware"
-    },
-    {
       "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
       "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
       "source": "The Hacker News",
@@ -170,74 +366,11 @@
       "category": "Malware"
     },
     {
-      "title": "Australian retail giant Coles investigates cybersecurity incident",
-      "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-16T11:18:09+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
-      "url": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-16T11:15:48+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
-      "url": "https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-16T11:05:42+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Uber Data Breach Impacts 150,000 People",
-      "url": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-16T11:02:48+00:00",
-      "category": "Data breaches"
-    },
-    {
-      "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-16T11:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
       "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
       "source": "The Hacker News",
       "published_at": "2026-11-16T09:32:57+00:00",
       "category": "Malware"
-    },
-    {
-      "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
-      "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-16T09:30:04+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Tor Updates DoS Defenses Again as Relay Attacks Continue",
-      "url": "https://www.securityweek.com/tor-updates-dos-defenses-again-as-relay-attacks-continue/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-16T08:55:32+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Microsoft pushes Windows emergency updates to fix activation failures",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-16T08:26:52+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
-      "url": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-16T08:15:12+00:00",
-      "category": "Phishing"
     },
     {
       "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
@@ -261,52 +394,45 @@
       "category": "Cyber news"
     },
     {
-      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-15T08:22:04+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-14T12:38:35+00:00",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-13T12:00:00+00:00",
       "category": "Vulnerabilities"
     },
     {
-      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-      "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-13T16:53:08+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
-      "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-13T15:27:05+00:00",
+      "title": "Siemens Desigo, Gridscale",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-12T12:00:00+00:00",
       "category": "Cyber news"
     },
     {
-      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-      "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-13T14:28:58+00:00",
+      "title": "Siemens RUGGEDCOM APE1808",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-12T12:00:00+00:00",
       "category": "Cyber news"
     },
     {
-      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-      "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-13T13:54:20+00:00",
+      "title": "Siemens Building Automation and Energy Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-12T12:00:00+00:00",
       "category": "Cyber news"
     },
     {
-      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
-      "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-13T11:52:31+00:00",
+      "title": "Siemens Industrial Edge Management",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-12T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Siemens RUGGEDCOM APE1808",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-12T12:00:00+00:00",
       "category": "Cyber news"
     },
     {
@@ -359,13 +485,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-10T12:00:00+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Multiple Vulnerabilities in SonicWall SonicOS Could Allow for Authentication Bypass",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-sonicwall-sonicos-could-allow-for-authentication-bypass_2026-126",
       "source": "CIS Advisories",
@@ -373,66 +492,10 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-09T12:00:00+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-125",
       "source": "CIS Advisories",
       "published_at": "2026-11-06T19:15:50+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-06T12:00:00+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Post-Quantum Questions to Ask Your Vendors",
-      "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-05T12:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
-      "url": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-05T12:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-04T12:00:00+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-03T12:00:00+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Subnet Solutions PowerSYSTEM Center",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-03T12:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "published_at": "2026-10-30T12:00:00+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -450,41 +513,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Hitachi Energy TRO600 series products",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
-      "source": "CISA Advisories",
-      "published_at": "2026-10-29T12:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "published_at": "2026-10-29T12:00:00+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Siemens Mendix SAML Module",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
-      "source": "CISA Advisories",
-      "published_at": "2026-10-29T12:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Hitachi Energy CoreTec Product",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
-      "source": "CISA Advisories",
-      "published_at": "2026-10-29T12:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "published_at": "2026-10-28T12:00:00+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-122",
       "source": "CIS Advisories",
@@ -497,41 +525,6 @@
       "source": "CIS Advisories",
       "published_at": "2026-10-28T01:14:11+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution",
-      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2026-121",
-      "source": "CIS Advisories",
-      "published_at": "2026-10-27T14:41:09+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "published_at": "2026-10-27T12:00:00+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
-      "source": "CISA Advisories",
-      "published_at": "2026-10-27T12:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "EPICS Base",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
-      "source": "CISA Advisories",
-      "published_at": "2026-10-27T12:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "published_at": "2026-10-26T12:00:00+00:00",
-      "category": "Vulnerabilities"
     }
   ],
   "sources": [
@@ -539,31 +532,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-17T07:55:19.689826+00:00"
+      "last_success_at": "2026-11-17T20:55:50.788633+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-17T07:55:19.689826+00:00"
+      "last_success_at": "2026-11-17T20:55:50.788633+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-17T07:55:19.689826+00:00"
+      "last_success_at": "2026-11-17T20:55:50.788633+00:00"
     },
     {
       "source": "CISA Advisories",
-      "status": "failed",
-      "items": 0,
-      "last_success_at": "2026-11-12T15:14:53.121591+00:00"
+      "status": "ok",
+      "items": 18,
+      "last_success_at": "2026-11-17T20:55:50.788633+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 15,
-      "last_success_at": "2026-11-17T07:55:19.689826+00:00"
+      "items": 14,
+      "last_success_at": "2026-11-17T20:55:50.788633+00:00"
     }
   ]
 }

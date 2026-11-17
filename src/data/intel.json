@@ -1,8 +1,16 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-11-17T07:52:56.541306+00:00",
-  "total": 1781,
+  "updated_at": "2026-11-17T20:53:48.586874+00:00",
+  "total": 1782,
   "items": [
+    {
+      "cveID": "CVE-2026-115731",
+      "vendorProject": "Perforce",
+      "product": "Puppet Enterprise",
+      "vulnerabilityName": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+      "dateAdded": "2026-11-17",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-123039",
       "vendorProject": "Check Point",
@@ -1192,14 +1200,6 @@
       "vendorProject": "JoomShaper",
       "product": "SP Page Builder",
       "vulnerabilityName": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "dateAdded": "2026-07-07",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-48282",
-      "vendorProject": "Adobe",
-      "product": "ColdFusion",
-      "vulnerabilityName": "Adobe ColdFusion Path Traversal Vulnerability",
       "dateAdded": "2026-07-07",
       "knownRansomwareCampaignUse": "Unknown"
     }
