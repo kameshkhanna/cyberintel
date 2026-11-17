@@ -1,6 +1,55 @@
 {
-  "updated_at": "2026-11-16T22:02:45.031777+00:00",
+  "updated_at": "2026-11-17T07:55:19.689826+00:00",
   "articles": [
+    {
+      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-17T07:25:44+00:00",
+      "category": "Ransomware"
+    },
+    {
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-17T07:12:13+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+      "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-17T06:29:27+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+      "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-17T05:00:34+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-17T02:12:17+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Multiple Vulnerabilities in Microsoft Products Could Allow for Remote Code Execution",
+      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-products-could-allow-for-remote-code-execution_2026-134",
+      "source": "CIS Advisories",
+      "published_at": "2026-11-17T01:07:49+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+      "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-16T22:54:00+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
       "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
@@ -205,20 +254,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-15T18:29:53+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "TSMC employee data breach linked to cloud provider",
-      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-15T15:23:48+00:00",
-      "category": "Data breaches"
-    },
-    {
       "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
       "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
       "source": "The Hacker News",
@@ -231,13 +266,6 @@
       "source": "The Hacker News",
       "published_at": "2026-11-15T08:22:04+00:00",
       "category": "Malware"
-    },
-    {
-      "title": "Cursor confirms security breach led to malicious Claude Code extension",
-      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-14T17:27:25+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
@@ -280,27 +308,6 @@
       "source": "The Hacker News",
       "published_at": "2026-11-13T11:52:31+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-      "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-13T11:10:40+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-      "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-13T10:55:03+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-13T08:05:49+00:00",
-      "category": "Vulnerabilities"
     },
     {
       "title": "Multiple Vulnerabilities in Fortinet Products Could Allow for Arbitrary Code Execution",
@@ -532,19 +539,19 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-16T22:02:45.031777+00:00"
+      "last_success_at": "2026-11-17T07:55:19.689826+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-16T22:02:45.031777+00:00"
+      "last_success_at": "2026-11-17T07:55:19.689826+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-16T22:02:45.031777+00:00"
+      "last_success_at": "2026-11-17T07:55:19.689826+00:00"
     },
     {
       "source": "CISA Advisories",
@@ -555,8 +562,8 @@
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 14,
-      "last_success_at": "2026-11-16T22:02:45.031777+00:00"
+      "items": 15,
+      "last_success_at": "2026-11-17T07:55:19.689826+00:00"
     }
   ]
 }
