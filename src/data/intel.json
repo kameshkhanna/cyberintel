@@ -1,8 +1,40 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-11-18T07:26:12.841288+00:00",
-  "total": 1782,
+  "updated_at": "2026-11-18T20:28:59.671654+00:00",
+  "total": 1786,
   "items": [
+    {
+      "cveID": "CVE-2026-90817",
+      "vendorProject": "Vanderbilt University",
+      "product": "Research Electronic Data Capture (REDCap)",
+      "vulnerabilityName": "Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+      "dateAdded": "2026-11-18",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-90436",
+      "vendorProject": "Apache",
+      "product": "Axis",
+      "vulnerabilityName": "Apache Axis Unsafe Reflection Vulnerability",
+      "dateAdded": "2026-11-18",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-40217",
+      "vendorProject": "BerriAI",
+      "product": "LiteLLM",
+      "vulnerabilityName": "BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+      "dateAdded": "2026-11-18",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2024-10441",
+      "vendorProject": "Synology",
+      "product": "DiskStation Manager (DSM)",
+      "vulnerabilityName": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+      "dateAdded": "2026-11-18",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-115731",
       "vendorProject": "Perforce",
@@ -1169,38 +1201,6 @@
       "product": "Forms",
       "vulnerabilityName": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
       "dateAdded": "2026-07-10",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-48939",
-      "vendorProject": "iCagenda",
-      "product": "iCagenda",
-      "vulnerabilityName": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "dateAdded": "2026-07-10",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-56290",
-      "vendorProject": "Joomlack",
-      "product": "Page Builder",
-      "vulnerabilityName": "Joomlack Page Builder Improper Access Control Vulnerability",
-      "dateAdded": "2026-07-07",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-55255",
-      "vendorProject": "Langflow",
-      "product": "Langflow",
-      "vulnerabilityName": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
-      "dateAdded": "2026-07-07",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-48908",
-      "vendorProject": "JoomShaper",
-      "product": "SP Page Builder",
-      "vulnerabilityName": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "dateAdded": "2026-07-07",
       "knownRansomwareCampaignUse": "Unknown"
     }
   ]

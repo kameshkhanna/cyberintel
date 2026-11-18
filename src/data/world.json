@@ -1,6 +1,195 @@
 {
-  "updated_at": "2026-11-18T07:28:15.909024+00:00",
+  "updated_at": "2026-11-18T20:31:16.658924+00:00",
   "articles": [
+    {
+      "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+      "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-18T19:39:33+00:00",
+      "category": "Data breaches"
+    },
+    {
+      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+      "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-18T18:31:17+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+      "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-18T18:15:39+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+      "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-18T17:10:45+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-18T16:58:42+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
+      "url": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-18T15:30:42+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+      "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-18T15:00:10+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+      "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-18T14:11:28+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
+      "url": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-18T13:33:47+00:00",
+      "category": "Threat actors"
+    },
+    {
+      "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
+      "url": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-18T13:19:32+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+      "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-18T12:28:30+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+      "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-18T12:15:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
+      "url": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-18T12:14:23+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
+      "url": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-18T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+      "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-18T11:55:49+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+      "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-18T11:50:25+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Chrome 158 Patches 204 Vulnerabilities",
+      "url": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-18T11:43:22+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
+      "url": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-18T11:05:39+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+      "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-18T11:03:57+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Critical Perforce Puppet RCE Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-18T10:37:08+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-18T10:35:05+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Microsoft announces Windows Server 2028 with hardened security",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-18T09:24:31+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
+      "url": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-18T08:47:18+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-18T08:24:31+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-18T08:24:23+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-18T08:24:18+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Java4Shell Vulnerability Puts Enterprise Applications at Risk of Takeover",
+      "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-18T07:43:34+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
       "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
@@ -16,25 +205,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "Critical Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-      "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-18T04:27:41+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Multiple Vulnerabilities in Oracle Products Could Allow for Remote Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-oracle-products-could-allow-for-remote-code-execution_2026-135",
       "source": "CIS Advisories",
       "published_at": "2026-11-18T02:37:59+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
-      "url": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-18T02:15:07+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
@@ -79,13 +254,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
-      "url": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-17T18:16:17+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Tor releases emergency update amid ongoing DDoS attack",
       "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
       "source": "BleepingComputer",
@@ -121,55 +289,6 @@
       "category": "Phishing"
     },
     {
-      "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
-      "url": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-17T14:55:30+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
-      "url": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-17T14:14:24+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Pretxt Emerges Stealth With $5M Seed and an AI Supervision Tool",
-      "url": "https://www.securityweek.com/pretxt-emerges-stealth-with-5m-seed-and-an-ai-supervision-tool/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-17T14:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "MSP ScreenConnect Servers Targeted in Month-Long Campaign",
-      "url": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-17T13:24:43+00:00",
-      "category": "Threat actors"
-    },
-    {
-      "title": "Access Dental Management Data Breach Impacts Over 340,000",
-      "url": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-17T12:59:04+00:00",
-      "category": "Data breaches"
-    },
-    {
-      "title": "Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity",
-      "url": "https://www.securityweek.com/corma-receives-125-million-to-train-foundation-models-for-defensive-cybersecurity/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-17T12:51:54+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
-      "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-17T12:28:45+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
       "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
       "source": "The Hacker News",
@@ -181,13 +300,6 @@
       "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
       "source": "The Hacker News",
       "published_at": "2026-11-17T12:14:36+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
-      "url": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-17T12:00:00+00:00",
       "category": "Cyber news"
     },
     {
@@ -289,123 +401,11 @@
       "category": "Malware"
     },
     {
-      "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-17T11:19:51+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-      "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-17T11:07:31+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
-      "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-17T09:44:22+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-      "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-17T08:35:42+00:00",
-      "category": "Data breaches"
-    },
-    {
-      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-      "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-17T07:25:44+00:00",
-      "category": "Ransomware"
-    },
-    {
-      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-17T07:12:13+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
-      "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-17T06:29:27+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
-      "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-17T05:00:34+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-17T02:12:17+00:00",
-      "category": "Malware"
-    },
-    {
       "title": "Multiple Vulnerabilities in Microsoft Products Could Allow for Remote Code Execution",
       "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-products-could-allow-for-remote-code-execution_2026-134",
       "source": "CIS Advisories",
       "published_at": "2026-11-17T01:07:49+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
-      "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-16T22:54:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-      "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-16T21:31:44+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-      "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-16T14:00:00+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-      "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-16T13:27:20+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-      "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-16T12:34:21+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-      "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-16T12:33:18+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-      "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-16T09:32:57+00:00",
-      "category": "Malware"
     },
     {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
@@ -525,31 +525,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-18T07:28:15.909024+00:00"
+      "last_success_at": "2026-11-18T20:31:16.658924+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-18T07:28:15.909024+00:00"
+      "last_success_at": "2026-11-18T20:31:16.658924+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-18T07:28:15.909024+00:00"
+      "last_success_at": "2026-11-18T20:31:16.658924+00:00"
     },
     {
       "source": "CISA Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-18T07:28:15.909024+00:00"
+      "last_success_at": "2026-11-18T20:31:16.658924+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
       "items": 13,
-      "last_success_at": "2026-11-18T07:28:15.909024+00:00"
+      "last_success_at": "2026-11-18T20:31:16.658924+00:00"
     }
   ]
 }
