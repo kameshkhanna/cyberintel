@@ -1,18 +1,235 @@
 {
-  "updated_at": "2026-11-19T07:24:30.023576+00:00",
+  "updated_at": "2026-11-19T20:36:09.356471+00:00",
   "articles": [
+    {
+      "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+      "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-19T19:21:06+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-19T18:47:58+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+      "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-19T18:20:01+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+      "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-19T16:59:56+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Multiple Vulnerabilities in NGINX Could Allow for Remote Code Execution",
+      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-nginx-could-allow-for-remote-code-execution_2026-136",
+      "source": "CIS Advisories",
+      "published_at": "2026-11-19T16:55:05+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+      "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-19T16:28:23+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "PHP Patches Seven Critical RCE Vulnerabilities",
+      "url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-19T15:54:20+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-19T15:18:07+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-19T15:11:06+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Five warning signs of ransomware breach before encryption or data theft",
+      "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-19T15:00:10+00:00",
+      "category": "Ransomware"
+    },
+    {
+      "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-19T14:57:24+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+      "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-19T14:33:06+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+      "url": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-19T14:17:32+00:00",
+      "category": "Ransomware"
+    },
+    {
+      "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+      "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-19T13:12:20+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-19T13:08:08+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
+      "url": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-19T12:23:34+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-19T12:13:24+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "The Governance Gap in Open-Weight AI and What to Do About It",
+      "url": "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-19T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Elecbrakes EB2, VM1, ELBC2000",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-19T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "libumqtt",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-19T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Autonomy Logic OpenPLC Runtime",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-19T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Everything Is a Web Application, Including Your Firewall",
+      "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-19T11:52:23+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-19T11:46:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
+      "url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-19T10:41:05+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Microsoft confirms app installation, launch issues after hotpatch",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-19T10:35:05+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
+      "url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-19T10:26:51+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+      "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-19T09:31:26+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "NVIDIA investigating Gentlemen ransomware breach claims",
+      "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-19T09:23:21+00:00",
+      "category": "Ransomware"
+    },
+    {
+      "title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
+      "url": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-19T09:10:58+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+      "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-19T08:42:11+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+      "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-19T08:14:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+      "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-19T08:00:00+00:00",
+      "category": "Ransomware"
+    },
     {
       "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
       "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
       "source": "The Hacker News",
       "published_at": "2026-11-19T04:33:46+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
-      "url": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-19T03:25:23+00:00",
       "category": "Cyber news"
     },
     {
@@ -65,13 +282,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
-      "url": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-18T15:30:42+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
       "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
       "source": "BleepingComputer",
@@ -86,20 +296,6 @@
       "category": "Malware"
     },
     {
-      "title": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
-      "url": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-18T13:33:47+00:00",
-      "category": "Threat actors"
-    },
-    {
-      "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
-      "url": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-18T13:19:32+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
       "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
       "source": "The Hacker News",
@@ -111,20 +307,6 @@
       "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
       "source": "The Hacker News",
       "published_at": "2026-11-18T12:15:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
-      "url": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-18T12:14:23+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
-      "url": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-18T12:00:00+00:00",
       "category": "Cyber news"
     },
     {
@@ -149,88 +331,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "Chrome 158 Patches 204 Vulnerabilities",
-      "url": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-18T11:43:22+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Microsoft Agent Framework Releases Poisoned With Credential Stealer",
-      "url": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-18T11:05:39+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
-      "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-18T11:03:57+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Critical Perforce Puppet RCE Exploited in Attacks",
-      "url": "https://www.securityweek.com/critical-perforce-puppet-rce-exploited-in-attacks/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-18T10:37:08+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
       "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
       "source": "BleepingComputer",
       "published_at": "2026-11-18T10:35:05+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Microsoft announces Windows Server 2028 with hardened security",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-18T09:24:31+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Oracle Patches 950 Vulnerabilities With November 2026 CSPU",
-      "url": "https://www.securityweek.com/oracle-patches-640-vulnerabilities-with-november-2026-cspu/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-18T08:47:18+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-      "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-18T08:24:31+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
-      "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-18T08:24:23+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "British Scattered Spider hacker sentenced to 6 years in prison",
-      "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-18T08:24:18+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
-      "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-18T06:45:26+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
-      "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-18T05:58:04+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Multiple Vulnerabilities in Oracle Products Could Allow for Remote Code Execution",
@@ -240,85 +345,8 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-17T23:04:21+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
-      "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-17T21:27:17+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
-      "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-17T20:51:21+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
-      "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-17T19:34:20+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
-      "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-17T19:24:07+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
-      "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-17T18:21:24+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Tor releases emergency update amid ongoing DDoS attack",
-      "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-17T18:04:15+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-17T15:17:36+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
-      "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-17T15:17:28+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-17T12:25:06+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-      "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-17T12:14:36+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Siemens ROS#",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+      "title": "Siemens Simcenter Femap",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
       "source": "CISA Advisories",
       "published_at": "2026-11-17T12:00:00+00:00",
       "category": "Cyber news"
@@ -359,8 +387,8 @@
       "category": "Cyber news"
     },
     {
-      "title": "Siemens Simcenter Femap",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+      "title": "Siemens ROS#",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
       "source": "CISA Advisories",
       "published_at": "2026-11-17T12:00:00+00:00",
       "category": "Cyber news"
@@ -380,18 +408,18 @@
       "category": "Cyber news"
     },
     {
-      "title": "Siemens RUGGEDCOM APE1808",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-17T12:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
       "source": "CISA Advisories",
       "published_at": "2026-11-17T12:00:00+00:00",
       "category": "Vulnerabilities"
+    },
+    {
+      "title": "Siemens meta-iot2050",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
     },
     {
       "title": "Siemens SIMATIC WinCC",
@@ -401,8 +429,8 @@
       "category": "Cyber news"
     },
     {
-      "title": "Siemens meta-iot2050",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+      "title": "Siemens RUGGEDCOM APE1808",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
       "source": "CISA Advisories",
       "published_at": "2026-11-17T12:00:00+00:00",
       "category": "Cyber news"
@@ -420,27 +448,6 @@
       "source": "CISA Advisories",
       "published_at": "2026-11-13T12:00:00+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Siemens RUGGEDCOM APE1808",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-12T12:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Siemens Desigo, Gridscale",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-12T12:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Siemens Industrial Edge Management",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-12T12:00:00+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Multiple Vulnerabilities in Fortinet Products Could Allow for Arbitrary Code Execution",
@@ -525,31 +532,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-19T07:24:30.023576+00:00"
+      "last_success_at": "2026-11-19T20:36:09.356471+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-19T07:24:30.023576+00:00"
+      "last_success_at": "2026-11-19T20:36:09.356471+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-19T07:24:30.023576+00:00"
+      "last_success_at": "2026-11-19T20:36:09.356471+00:00"
     },
     {
       "source": "CISA Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-19T07:24:30.023576+00:00"
+      "last_success_at": "2026-11-19T20:36:09.356471+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 13,
-      "last_success_at": "2026-11-19T07:24:30.023576+00:00"
+      "items": 14,
+      "last_success_at": "2026-11-19T20:36:09.356471+00:00"
     }
   ]
 }
