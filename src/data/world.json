@@ -1,6 +1,48 @@
 {
-  "updated_at": "2026-11-19T20:36:09.356471+00:00",
+  "updated_at": "2026-11-20T07:14:33.326020+00:00",
   "articles": [
+    {
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-20T06:33:31+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+      "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-20T05:30:01+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "VMware patches vCenter zero-day exploited in attacks since September",
+      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-20T00:26:25+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-19T22:25:42+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+      "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-19T21:15:59+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
+      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-138",
+      "source": "CIS Advisories",
+      "published_at": "2026-11-19T20:59:57+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
       "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
@@ -58,11 +100,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
       "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
       "source": "The Hacker News",
       "published_at": "2026-11-19T15:11:06+00:00",
-      "category": "Cyber news"
+      "category": "Vulnerabilities"
     },
     {
       "title": "Five warning signs of ransomware breach before encryption or data theft",
@@ -282,13 +324,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
-      "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-18T15:00:10+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
       "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
       "source": "The Hacker News",
@@ -303,38 +338,10 @@
       "category": "Cyber news"
     },
     {
-      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
-      "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-18T12:15:00+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "source": "CISA Advisories",
       "published_at": "2026-11-18T12:00:00+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-      "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-18T11:55:49+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
-      "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-18T11:50:25+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-18T10:35:05+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -511,20 +518,6 @@
       "source": "CIS Advisories",
       "published_at": "2026-11-06T19:15:50+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "A Vulnerability in Cisco Secure Firewall ASA and FTD Could Allow for Denial of Service",
-      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-secure-firewall-asa-and-ftd-could-allow-for-denial-of-service_2026-124",
-      "source": "CIS Advisories",
-      "published_at": "2026-10-30T02:01:18+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "A Vulnerability in GitLab Could Allow for Remote Code Execution",
-      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-gitlab-could-allow-for-remote-code-execution_2026-123",
-      "source": "CIS Advisories",
-      "published_at": "2026-10-30T01:50:09+00:00",
-      "category": "Vulnerabilities"
     }
   ],
   "sources": [
@@ -532,31 +525,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-19T20:36:09.356471+00:00"
+      "last_success_at": "2026-11-20T07:14:33.326020+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-19T20:36:09.356471+00:00"
+      "last_success_at": "2026-11-20T07:14:33.326020+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-19T20:36:09.356471+00:00"
+      "last_success_at": "2026-11-20T07:14:33.326020+00:00"
     },
     {
       "source": "CISA Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-19T20:36:09.356471+00:00"
+      "last_success_at": "2026-11-20T07:14:33.326020+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 14,
-      "last_success_at": "2026-11-19T20:36:09.356471+00:00"
+      "items": 13,
+      "last_success_at": "2026-11-20T07:14:33.326020+00:00"
     }
   ]
 }
