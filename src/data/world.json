@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-11-21T07:06:00.648251+00:00",
+  "updated_at": "2026-11-21T19:16:25.196202+00:00",
   "articles": [
+    {
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-21T18:01:58+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+      "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-21T15:17:27+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-21T14:26:04+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-21T12:08:50+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+      "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-21T11:53:07+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-21T11:05:53+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-21T11:03:17+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+      "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-21T08:49:20+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-21T08:49:13+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "A Vulnerability in VMware Products Could Allow for Authentication Bypass",
       "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-vmware-products-could-allow-for-authentication-bypass_2026-140",
@@ -268,20 +331,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
-      "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-19T16:28:23+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "PHP Patches Seven Critical RCE Vulnerabilities",
-      "url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-19T15:54:20+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
       "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
       "source": "The Hacker News",
@@ -293,27 +342,6 @@
       "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
       "source": "The Hacker News",
       "published_at": "2026-11-19T15:11:06+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Five warning signs of ransomware breach before encryption or data theft",
-      "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-19T15:00:10+00:00",
-      "category": "Ransomware"
-    },
-    {
-      "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-19T14:57:24+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-      "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-19T14:33:06+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -336,34 +364,6 @@
       "source": "CISA Advisories",
       "published_at": "2026-11-19T12:00:00+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "Everything Is a Web Application, Including Your Firewall",
-      "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-19T11:52:23+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-19T09:31:26+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
-      "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-19T08:42:11+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-      "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-19T08:14:00+00:00",
-      "category": "Vulnerabilities"
     },
     {
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
@@ -546,31 +546,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-21T07:06:00.648251+00:00"
+      "last_success_at": "2026-11-21T19:16:25.196202+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-21T07:06:00.648251+00:00"
+      "last_success_at": "2026-11-21T19:16:25.196202+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-21T07:06:00.648251+00:00"
+      "last_success_at": "2026-11-21T19:16:25.196202+00:00"
     },
     {
       "source": "CISA Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-21T07:06:00.648251+00:00"
+      "last_success_at": "2026-11-21T19:16:25.196202+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
       "items": 16,
-      "last_success_at": "2026-11-21T07:06:00.648251+00:00"
+      "last_success_at": "2026-11-21T19:16:25.196202+00:00"
     }
   ]
 }
