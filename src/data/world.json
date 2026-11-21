@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-11-20T20:17:20.945626+00:00",
+  "updated_at": "2026-11-21T07:06:00.648251+00:00",
   "articles": [
+    {
+      "title": "A Vulnerability in VMware Products Could Allow for Authentication Bypass",
+      "url": "https://www.cisecurity.org/advisory/a-vulnerability-in-vmware-products-could-allow-for-authentication-bypass_2026-140",
+      "source": "CIS Advisories",
+      "published_at": "2026-11-20T20:40:39+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Multiple Vulnerabilities in Mitel MiCollab Could Allow for Arbitrary Code Execution",
+      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mitel-micollab-could-allow-for-arbitrary-code-execution_2026-139",
+      "source": "CIS Advisories",
+      "published_at": "2026-11-20T20:39:44+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
       "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
@@ -532,31 +546,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-20T20:17:20.945626+00:00"
+      "last_success_at": "2026-11-21T07:06:00.648251+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-20T20:17:20.945626+00:00"
+      "last_success_at": "2026-11-21T07:06:00.648251+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-20T20:17:20.945626+00:00"
+      "last_success_at": "2026-11-21T07:06:00.648251+00:00"
     },
     {
       "source": "CISA Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-20T20:17:20.945626+00:00"
+      "last_success_at": "2026-11-21T07:06:00.648251+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
-      "items": 14,
-      "last_success_at": "2026-11-20T20:17:20.945626+00:00"
+      "items": 16,
+      "last_success_at": "2026-11-21T07:06:00.648251+00:00"
     }
   ]
 }

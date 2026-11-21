@@ -272,6 +272,14 @@
         "Apache HTTP": 2130,
         "Microsoft IIS": 1
       }
+    },
+    {
+      "date": "2026-11-21",
+      "totals": {
+        "Nginx": 56965881,
+        "Apache HTTP": 2133,
+        "Microsoft IIS": 1
+      }
     }
   ]
 }
