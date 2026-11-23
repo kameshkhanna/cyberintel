@@ -1,8 +1,24 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-11-23T07:34:44.027016+00:00",
-  "total": 1790,
+  "updated_at": "2026-11-23T23:51:37.813206+00:00",
+  "total": 1792,
   "items": [
+    {
+      "cveID": "CVE-2026-134624",
+      "vendorProject": "N-able",
+      "product": "MailAssure",
+      "vulnerabilityName": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+      "dateAdded": "2026-11-23",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-133968",
+      "vendorProject": "Project MONAI",
+      "product": "MONAI Label",
+      "vulnerabilityName": "Project MONAI MONAI Label Path Traversal Vulnerability",
+      "dateAdded": "2026-11-23",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-76466",
       "vendorProject": "Cisco",
@@ -65,7 +81,7 @@
       "product": "DiskStation Manager (DSM)",
       "vulnerabilityName": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
       "dateAdded": "2026-11-18",
-      "knownRansomwareCampaignUse": "Unknown"
+      "knownRansomwareCampaignUse": "Known"
     },
     {
       "cveID": "CVE-2026-115731",
@@ -1185,22 +1201,6 @@
       "product": "KNX Protocol Connection Authorization Option 1",
       "vulnerabilityName": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
       "dateAdded": "2026-07-15",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-56164",
-      "vendorProject": "Microsoft",
-      "product": "SharePoint Server",
-      "vulnerabilityName": "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
-      "dateAdded": "2026-07-14",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-56155",
-      "vendorProject": "Microsoft",
-      "product": "Active Directory Federation Services",
-      "vulnerabilityName": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability",
-      "dateAdded": "2026-07-14",
       "knownRansomwareCampaignUse": "Unknown"
     }
   ]
