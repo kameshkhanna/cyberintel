@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-11-23T23:53:42.972507+00:00",
+  "updated_at": "2026-11-24T09:54:33.252354+00:00",
   "articles": [
+    {
+      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+      "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-24T06:02:57+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-24T06:02:45+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
       "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
@@ -58,7 +72,7 @@
       "category": "Cyber news"
     },
     {
-      "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+      "title": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack",
       "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
       "source": "SecurityWeek",
       "published_at": "2026-11-23T15:06:49+00:00",
@@ -317,20 +331,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-      "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-20T16:58:16+00:00",
-      "category": "Malware"
-    },
-    {
-      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-      "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-20T12:20:00+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "source": "CISA Advisories",
@@ -546,31 +546,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-23T23:53:42.972507+00:00"
+      "last_success_at": "2026-11-24T09:54:33.252354+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-23T23:53:42.972507+00:00"
+      "last_success_at": "2026-11-24T09:54:33.252354+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-23T23:53:42.972507+00:00"
+      "last_success_at": "2026-11-24T09:54:33.252354+00:00"
     },
     {
       "source": "CISA Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-23T23:53:42.972507+00:00"
+      "last_success_at": "2026-11-24T09:54:33.252354+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
       "items": 16,
-      "last_success_at": "2026-11-23T23:53:42.972507+00:00"
+      "last_success_at": "2026-11-24T09:54:33.252354+00:00"
     }
   ]
 }
