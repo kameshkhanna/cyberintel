@@ -1,8 +1,32 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-11-24T09:52:30.996238+00:00",
-  "total": 1792,
+  "updated_at": "2026-11-24T22:24:53.795148+00:00",
+  "total": 1795,
   "items": [
+    {
+      "cveID": "CVE-2026-132224",
+      "vendorProject": "Optimizely",
+      "product": "Web Experimentation",
+      "vulnerabilityName": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+      "dateAdded": "2026-11-24",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-132165",
+      "vendorProject": "Drupal",
+      "product": "Core",
+      "vulnerabilityName": "Drupal Core Remote Code Execution Vulnerability",
+      "dateAdded": "2026-11-24",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-131914",
+      "vendorProject": "Idunno",
+      "product": "AntiCsrf",
+      "vulnerabilityName": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+      "dateAdded": "2026-11-24",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-134624",
       "vendorProject": "N-able",
@@ -1177,30 +1201,6 @@
       "product": "FortiSandbox",
       "vulnerabilityName": "Fortinet FortiSandbox OS Command Injection Vulnerability",
       "dateAdded": "2026-07-16",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-25089",
-      "vendorProject": "Fortinet",
-      "product": "FortiSandbox",
-      "vulnerabilityName": "Fortinet FortiSandbox OS Command Injection Vulnerability",
-      "dateAdded": "2026-07-16",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-46817",
-      "vendorProject": "Oracle",
-      "product": "E-Business Suite",
-      "vulnerabilityName": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
-      "dateAdded": "2026-07-15",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2023-4346",
-      "vendorProject": "KNX Association",
-      "product": "KNX Protocol Connection Authorization Option 1",
-      "vulnerabilityName": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
-      "dateAdded": "2026-07-15",
       "knownRansomwareCampaignUse": "Unknown"
     }
   ]
