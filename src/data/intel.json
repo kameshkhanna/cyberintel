@@ -1,8 +1,88 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-11-25T08:30:25.314675+00:00",
-  "total": 1795,
+  "updated_at": "2026-11-25T21:39:48.610786+00:00",
+  "total": 1805,
   "items": [
+    {
+      "cveID": "CVE-2026-133469",
+      "vendorProject": "Vates",
+      "product": "Xen Orchestra",
+      "vulnerabilityName": "Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+      "dateAdded": "2026-11-25",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-133324",
+      "vendorProject": "Mitel",
+      "product": "MiCollab",
+      "vulnerabilityName": "Mitel MiCollab Not Failing Securely Vulnerability",
+      "dateAdded": "2026-11-25",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-133323",
+      "vendorProject": "Mitel",
+      "product": "MiCollab",
+      "vulnerabilityName": "Mitel MiCollab OS Command Injection Vulnerability",
+      "dateAdded": "2026-11-25",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-133311",
+      "vendorProject": "Mitel",
+      "product": "MiCollab",
+      "vulnerabilityName": "Mitel MiCollab Weak Authentication Vulnerability",
+      "dateAdded": "2026-11-25",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-133303",
+      "vendorProject": "Mitel",
+      "product": "MiCollab",
+      "vulnerabilityName": "Mitel MiCollab XML Injection Vulnerability",
+      "dateAdded": "2026-11-25",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-133275",
+      "vendorProject": "Mitel",
+      "product": "MiCollab",
+      "vulnerabilityName": "Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "dateAdded": "2026-11-25",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-103406",
+      "vendorProject": "Hewlett Packard Enterprise (HPE)",
+      "product": "Juniper Session Smart Conductor and Session Smart Router",
+      "vulnerabilityName": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+      "dateAdded": "2026-11-25",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2025-41450",
+      "vendorProject": "Danfoss",
+      "product": "AK-SM 800A Series",
+      "vulnerabilityName": "Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
+      "dateAdded": "2026-11-25",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2023-25915",
+      "vendorProject": "Danfoss",
+      "product": "AK-SM 800A Series",
+      "vulnerabilityName": "Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+      "dateAdded": "2026-11-25",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2023-25914",
+      "vendorProject": "Danfoss",
+      "product": "AK-SM 800A Series",
+      "vulnerabilityName": "Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+      "dateAdded": "2026-11-25",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-132224",
       "vendorProject": "Optimizely",
@@ -1122,86 +1202,6 @@
       "vulnerabilityName": "Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
       "dateAdded": "2026-07-29",
       "knownRansomwareCampaignUse": "Known"
-    },
-    {
-      "cveID": "CVE-2026-16812",
-      "vendorProject": "Arista",
-      "product": "VeloCloud Orchestrator",
-      "vulnerabilityName": "Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
-      "dateAdded": "2026-07-27",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2025-68686",
-      "vendorProject": "Fortinet",
-      "product": "FortiOS",
-      "vulnerabilityName": "Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
-      "dateAdded": "2026-07-27",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-50522",
-      "vendorProject": "Microsoft",
-      "product": "SharePoint",
-      "vulnerabilityName": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-      "dateAdded": "2026-07-22",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-16232",
-      "vendorProject": "Check Point",
-      "product": "SmartConsole",
-      "vulnerabilityName": "Check Point SmartConsole Improper Authentication Vulnerability",
-      "dateAdded": "2026-07-22",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-63030",
-      "vendorProject": "WordPress",
-      "product": "Core",
-      "vulnerabilityName": "WordPress Core Interpretation Conflict Vulnerability",
-      "dateAdded": "2026-07-21",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-60137",
-      "vendorProject": "WordPress",
-      "product": "Core",
-      "vulnerabilityName": "WordPress Core SQL Injection Vulnerability",
-      "dateAdded": "2026-07-21",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-0770",
-      "vendorProject": "Langflow",
-      "product": "Langflow",
-      "vulnerabilityName": "Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability",
-      "dateAdded": "2026-07-21",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2021-27137",
-      "vendorProject": "DD-WRT",
-      "product": "DD-WRT",
-      "vulnerabilityName": "DD-WRT Stack-Based Buffer Overflow Vulnerability",
-      "dateAdded": "2026-07-21",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-58644",
-      "vendorProject": "Microsoft",
-      "product": "SharePoint",
-      "vulnerabilityName": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-      "dateAdded": "2026-07-16",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-39808",
-      "vendorProject": "Fortinet",
-      "product": "FortiSandbox",
-      "vulnerabilityName": "Fortinet FortiSandbox OS Command Injection Vulnerability",
-      "dateAdded": "2026-07-16",
-      "knownRansomwareCampaignUse": "Unknown"
     }
   ]
 }
