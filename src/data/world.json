@@ -1,6 +1,55 @@
 {
-  "updated_at": "2026-11-24T22:26:59.373749+00:00",
+  "updated_at": "2026-11-25T08:32:29.193009+00:00",
   "articles": [
+    {
+      "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+      "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-25T08:12:24+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+      "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-25T08:01:06+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Hackers reportedly breached CIA intelligence analysis system",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-25T07:45:03+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-25T06:50:19+00:00",
+      "category": "Threat actors"
+    },
+    {
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-25T06:37:06+00:00",
+      "category": "Ransomware"
+    },
+    {
+      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+      "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-25T06:21:12+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+      "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-24T22:41:58+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Rackspace shuts down Spot cloud platform after security breach",
       "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
@@ -205,13 +254,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
-      "url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-24T10:35:04+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
       "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
       "source": "The Hacker News",
@@ -254,13 +296,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
-      "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-23T18:38:40+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
       "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
       "source": "The Hacker News",
@@ -268,25 +303,11 @@
       "category": "Cyber news"
     },
     {
-      "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
-      "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-23T15:47:40+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
       "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
       "source": "The Hacker News",
       "published_at": "2026-11-23T15:10:48+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack",
-      "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-23T15:06:49+00:00",
-      "category": "Vulnerabilities"
     },
     {
       "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
@@ -315,27 +336,6 @@
       "source": "CISA Advisories",
       "published_at": "2026-11-23T12:00:00+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-23T09:11:56+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-23T09:04:08+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
-      "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-23T08:24:15+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "A Vulnerability in VMware Products Could Allow for Authentication Bypass",
@@ -546,31 +546,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-24T22:26:59.373749+00:00"
+      "last_success_at": "2026-11-25T08:32:29.193009+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-24T22:26:59.373749+00:00"
+      "last_success_at": "2026-11-25T08:32:29.193009+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-24T22:26:59.373749+00:00"
+      "last_success_at": "2026-11-25T08:32:29.193009+00:00"
     },
     {
       "source": "CISA Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-24T22:26:59.373749+00:00"
+      "last_success_at": "2026-11-25T08:32:29.193009+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
       "items": 16,
-      "last_success_at": "2026-11-24T22:26:59.373749+00:00"
+      "last_success_at": "2026-11-25T08:32:29.193009+00:00"
     }
   ]
 }
