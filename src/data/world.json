@@ -1,6 +1,111 @@
 {
-  "updated_at": "2026-11-26T08:16:31.672458+00:00",
+  "updated_at": "2026-11-26T21:32:13.308122+00:00",
   "articles": [
+    {
+      "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-26T21:06:22+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-26T19:39:57+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-26T17:58:42+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-26T17:15:27+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+      "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-26T17:06:55+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Multiple Vulnerabilities in Juniper Products Could Allow for Arbitrary Code Execution",
+      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-juniper-products-could-allow-for-arbitrary-code-execution_2026-143",
+      "source": "CIS Advisories",
+      "published_at": "2026-11-26T16:40:54+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-26T15:23:28+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-26T15:13:41+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-26T13:04:06+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-26T11:50:17+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+      "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-26T11:35:25+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-26T10:57:55+00:00",
+      "category": "Phishing"
+    },
+    {
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-26T10:57:25+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+      "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-26T09:12:26+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+      "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-26T08:32:10+00:00",
+      "category": "Cyber news"
+    },
     {
       "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
       "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
@@ -14,13 +119,6 @@
       "source": "The Hacker News",
       "published_at": "2026-11-26T06:44:46+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-26T04:20:22+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
@@ -184,32 +282,11 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
-      "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-25T09:05:13+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Microsoft confirms authentication issues after November updates",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
       "source": "BleepingComputer",
       "published_at": "2026-11-25T09:02:57+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
-      "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-25T08:12:24+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
-      "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-25T08:01:06+00:00",
-      "category": "Vulnerabilities"
     },
     {
       "title": "Hackers reportedly breached CIA intelligence analysis system",
@@ -240,41 +317,6 @@
       "category": "Malware"
     },
     {
-      "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
-      "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-24T22:41:58+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Rackspace shuts down Spot cloud platform after security breach",
-      "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-24T21:37:30+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "New Inception extortion gang launches large-scale vishing campaign",
-      "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-24T20:21:20+00:00",
-      "category": "Ransomware"
-    },
-    {
-      "title": "Turnitin discloses cyberattack affecting customer-facing systems",
-      "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-24T18:59:52+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Radware discloses breach exposing customer cloud access keys",
-      "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-24T17:49:05+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
       "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
       "source": "The Hacker News",
@@ -282,46 +324,11 @@
       "category": "Malware"
     },
     {
-      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
-      "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-24T16:32:56+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-24T16:30:19+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
       "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
       "source": "The Hacker News",
       "published_at": "2026-11-24T13:28:26+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
-      "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-24T13:28:21+00:00",
-      "category": "Data breaches"
-    },
-    {
-      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-24T12:42:09+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
-      "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-24T12:02:00+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "AutomationDirect C-More EA9 Programming Software",
@@ -546,13 +553,6 @@
       "source": "CIS Advisories",
       "published_at": "2026-11-10T09:16:06+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
-      "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-125",
-      "source": "CIS Advisories",
-      "published_at": "2026-11-06T19:15:50+00:00",
-      "category": "Vulnerabilities"
     }
   ],
   "sources": [
@@ -560,31 +560,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-26T08:16:31.672458+00:00"
+      "last_success_at": "2026-11-26T21:32:13.308122+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-26T08:16:31.672458+00:00"
+      "last_success_at": "2026-11-26T21:32:13.308122+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-26T08:16:31.672458+00:00"
+      "last_success_at": "2026-11-26T21:32:13.308122+00:00"
     },
     {
       "source": "CISA Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-26T08:16:31.672458+00:00"
+      "last_success_at": "2026-11-26T21:32:13.308122+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-26T08:16:31.672458+00:00"
+      "last_success_at": "2026-11-26T21:32:13.308122+00:00"
     }
   ]
 }
