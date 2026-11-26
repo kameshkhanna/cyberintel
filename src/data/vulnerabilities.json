@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-25T21:41:50.962111+00:00",
+  "updated_at": "2026-11-26T08:16:27.932391+00:00",
   "scope": "Latest CISA KEV entries, not the entire NVD catalog",
   "sources": {
-    "cisa_kev": "2026-11-25T21:39:48.610786+00:00",
-    "nvd_success": 19,
+    "cisa_kev": "2026-11-26T08:14:25.237546+00:00",
+    "nvd_success": 20,
     "nvd_requested": 20,
     "epss_available": true
   },
@@ -269,7 +269,7 @@
       "product": "Core",
       "date_added": "2026-11-24",
       "due_date": null,
-      "description": "",
+      "description": "Missing Authentication for Critical Function vulnerability in Drupal Drupal core allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Drupal core versions: from 0.0.0 to 10.6.22, from 11.0.0 to 11.3.22, from 11.4.0 to 11.4.13.",
       "cvss": null,
       "cvss_severity": null,
       "cvss_version": null,
@@ -283,7 +283,7 @@
       "source_nvd": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
       "source_cisa": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "source_epss": "https://www.first.org/epss/",
-      "nvd_status": "unavailable"
+      "nvd_status": "available"
     },
     {
       "id": "CVE-2026-131914",

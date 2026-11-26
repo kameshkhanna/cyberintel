@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-11-25T21:41:53.259431+00:00",
+  "updated_at": "2026-11-26T08:16:31.672458+00:00",
   "articles": [
+    {
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-26T07:02:34+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-26T06:44:46+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-26T04:20:22+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-26T03:48:52+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-25T22:05:09+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "1Password customer data stolen after employee GitHub account breach",
       "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
@@ -261,13 +296,6 @@
       "category": "Cyber news"
     },
     {
-      "title": "European Commission confirms data theft in EU Academy breach",
-      "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-24T16:22:44+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
       "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
       "source": "The Hacker News",
@@ -293,13 +321,6 @@
       "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
       "source": "The Hacker News",
       "published_at": "2026-11-24T12:02:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
-      "url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-24T12:01:54+00:00",
       "category": "Cyber news"
     },
     {
@@ -329,27 +350,6 @@
       "source": "CISA Advisories",
       "published_at": "2026-11-24T12:00:00+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
-      "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-24T10:44:49+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
-      "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-24T08:34:20+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
-      "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-24T06:02:57+00:00",
-      "category": "Vulnerabilities"
     },
     {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
@@ -560,31 +560,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-25T21:41:53.259431+00:00"
+      "last_success_at": "2026-11-26T08:16:31.672458+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-25T21:41:53.259431+00:00"
+      "last_success_at": "2026-11-26T08:16:31.672458+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-25T21:41:53.259431+00:00"
+      "last_success_at": "2026-11-26T08:16:31.672458+00:00"
     },
     {
       "source": "CISA Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-25T21:41:53.259431+00:00"
+      "last_success_at": "2026-11-26T08:16:31.672458+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-25T21:41:53.259431+00:00"
+      "last_success_at": "2026-11-26T08:16:31.672458+00:00"
     }
   ]
 }
