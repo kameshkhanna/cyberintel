@@ -1,6 +1,125 @@
 {
-  "updated_at": "2026-11-27T08:30:07.035933+00:00",
+  "updated_at": "2026-11-27T21:16:56.767516+00:00",
   "articles": [
+    {
+      "title": "pCloud confirms password manager hack after suspicious login alerts",
+      "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-27T19:26:04+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "New Boston Scientific data breach exposes personal, medical info",
+      "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-27T18:57:42+00:00",
+      "category": "Data breaches"
+    },
+    {
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-27T17:06:13+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+      "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-27T16:36:11+00:00",
+      "category": "Threat actors"
+    },
+    {
+      "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+      "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-27T15:09:40+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+      "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-27T15:00:10+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-27T14:22:06+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-27T12:00:00+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+      "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-27T11:49:34+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Microsoft removes WSUS server role in Windows Server 2028",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-27T11:18:36+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+      "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-27T11:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-27T10:32:18+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-27T10:10:15+00:00",
+      "category": "Vulnerabilities"
+    },
+    {
+      "title": "SAP confirms security incident after suspicious GitHub activity",
+      "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-27T09:56:36+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "100,000 Potentially Impacted by Colorado Data Breach",
+      "url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+      "source": "SecurityWeek",
+      "published_at": "2026-11-27T09:30:54+00:00",
+      "category": "Data breaches"
+    },
+    {
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "source": "The Hacker News",
+      "published_at": "2026-11-27T09:29:30+00:00",
+      "category": "Malware"
+    },
+    {
+      "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+      "source": "BleepingComputer",
+      "published_at": "2026-11-27T09:08:16+00:00",
+      "category": "Vulnerabilities"
+    },
     {
       "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
       "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
@@ -100,13 +219,6 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
-      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-26T11:50:17+00:00",
-      "category": "Malware"
-    },
-    {
       "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
       "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
       "source": "SecurityWeek",
@@ -163,52 +275,10 @@
       "category": "Malware"
     },
     {
-      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-25T22:05:09+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "1Password customer data stolen after employee GitHub account breach",
-      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-25T21:33:33+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-      "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-25T19:39:31+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-25T16:13:40+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
       "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
       "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
       "source": "SecurityWeek",
       "published_at": "2026-11-25T15:27:36+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
-      "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-25T15:00:10+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-      "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-25T15:00:00+00:00",
       "category": "Vulnerabilities"
     },
     {
@@ -224,20 +294,6 @@
       "source": "CIS Advisories",
       "published_at": "2026-11-25T14:43:29+00:00",
       "category": "Vulnerabilities"
-    },
-    {
-      "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
-      "url": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-25T14:15:25+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
-      "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
-      "source": "SecurityWeek",
-      "published_at": "2026-11-25T13:39:21+00:00",
-      "category": "Cyber news"
     },
     {
       "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
@@ -275,60 +331,11 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-25T11:16:32+00:00",
-      "category": "Cyber news"
-    },
-    {
       "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
       "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
       "source": "The Hacker News",
       "published_at": "2026-11-25T10:43:07+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-25T10:10:20+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-25T09:06:59+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Microsoft confirms authentication issues after November updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-      "source": "BleepingComputer",
-      "published_at": "2026-11-25T09:02:57+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-      "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-25T06:50:19+00:00",
-      "category": "Threat actors"
-    },
-    {
-      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-25T06:37:06+00:00",
-      "category": "Ransomware"
-    },
-    {
-      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
-      "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
-      "source": "The Hacker News",
-      "published_at": "2026-11-25T06:21:12+00:00",
-      "category": "Malware"
     },
     {
       "title": "AutomationDirect C-More EA9 Programming Software",
@@ -408,6 +415,13 @@
       "category": "Vulnerabilities"
     },
     {
+      "title": "libumqtt",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-19T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
       "title": "Elecbrakes EB2, VM1, ELBC2000",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
       "source": "CISA Advisories",
@@ -417,13 +431,6 @@
     {
       "title": "Autonomy Logic OpenPLC Runtime",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-19T12:00:00+00:00",
-      "category": "Cyber news"
-    },
-    {
-      "title": "libumqtt",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
       "source": "CISA Advisories",
       "published_at": "2026-11-19T12:00:00+00:00",
       "category": "Cyber news"
@@ -443,50 +450,43 @@
       "category": "Vulnerabilities"
     },
     {
-      "title": "Siemens Industrial Software Products",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+      "title": "Siemens SIMATIC",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
       "source": "CISA Advisories",
       "published_at": "2026-11-17T12:00:00+00:00",
       "category": "Cyber news"
     },
     {
-      "title": "Dorsett Controls InfoScan",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+      "title": "Siemens ROS#",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
       "source": "CISA Advisories",
       "published_at": "2026-11-17T12:00:00+00:00",
       "category": "Cyber news"
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-17T12:00:00+00:00",
-      "category": "Vulnerabilities"
-    },
-    {
-      "title": "Siemens Mendix Studio Pro",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+      "title": "Siemens Simcenter Femap",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
       "source": "CISA Advisories",
       "published_at": "2026-11-17T12:00:00+00:00",
       "category": "Cyber news"
     },
     {
-      "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+      "title": "Siemens RUGGEDCOM APE1808",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
       "source": "CISA Advisories",
       "published_at": "2026-11-17T12:00:00+00:00",
       "category": "Cyber news"
-    },
-    {
-      "title": "Critical Java Vulnerability Requires Immediate Patching",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "source": "CISA Advisories",
-      "published_at": "2026-11-17T12:00:00+00:00",
-      "category": "Vulnerabilities"
     },
     {
       "title": "Siemens meta-iot2050",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+      "source": "CISA Advisories",
+      "published_at": "2026-11-17T12:00:00+00:00",
+      "category": "Cyber news"
+    },
+    {
+      "title": "Siemens Industrial Software Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
       "source": "CISA Advisories",
       "published_at": "2026-11-17T12:00:00+00:00",
       "category": "Cyber news"
@@ -560,31 +560,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-27T08:30:07.035933+00:00"
+      "last_success_at": "2026-11-27T21:16:56.767516+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-27T08:30:07.035933+00:00"
+      "last_success_at": "2026-11-27T21:16:56.767516+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-27T08:30:07.035933+00:00"
+      "last_success_at": "2026-11-27T21:16:56.767516+00:00"
     },
     {
       "source": "CISA Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-27T08:30:07.035933+00:00"
+      "last_success_at": "2026-11-27T21:16:56.767516+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-27T08:30:07.035933+00:00"
+      "last_success_at": "2026-11-27T21:16:56.767516+00:00"
     }
   ]
 }

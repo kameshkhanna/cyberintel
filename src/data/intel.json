@@ -1,8 +1,32 @@
 {
   "source": "CISA KEV",
-  "updated_at": "2026-11-27T08:27:44.196774+00:00",
-  "total": 1805,
+  "updated_at": "2026-11-27T21:14:33.063880+00:00",
+  "total": 1808,
   "items": [
+    {
+      "cveID": "CVE-2026-136716",
+      "vendorProject": "Drupal",
+      "product": "Core",
+      "vulnerabilityName": "Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+      "dateAdded": "2026-11-27",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-129243",
+      "vendorProject": "OSGeo",
+      "product": "GeoServer",
+      "vulnerabilityName": "OSGeo GeoServer Incorrect Authorization Vulnerability",
+      "dateAdded": "2026-11-27",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
+    {
+      "cveID": "CVE-2026-120705",
+      "vendorProject": "OSGeo",
+      "product": "GeoServer",
+      "vulnerabilityName": "OSGeo GeoServer XML Injection Vulnerability",
+      "dateAdded": "2026-11-27",
+      "knownRansomwareCampaignUse": "Unknown"
+    },
     {
       "cveID": "CVE-2026-133469",
       "vendorProject": "Vates",
@@ -1178,30 +1202,6 @@
       "vulnerabilityName": "Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
       "dateAdded": "2026-08-04",
       "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-18556",
-      "vendorProject": "N-able",
-      "product": "N-central",
-      "vulnerabilityName": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "dateAdded": "2026-08-04",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-18577",
-      "vendorProject": "N-able",
-      "product": "N-central",
-      "vulnerabilityName": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "dateAdded": "2026-08-03",
-      "knownRansomwareCampaignUse": "Unknown"
-    },
-    {
-      "cveID": "CVE-2026-20316",
-      "vendorProject": "Cisco",
-      "product": "Secure Firewall Management Center (FMC)",
-      "vulnerabilityName": "Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
-      "dateAdded": "2026-07-29",
-      "knownRansomwareCampaignUse": "Known"
     }
   ]
 }
