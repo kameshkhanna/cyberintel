@@ -1,136 +1,136 @@
 {
   "source": "Shodan /shodan/host/count",
-  "generated_at": "2026-11-26T21:32:11.112050+00:00",
+  "generated_at": "2026-11-27T08:30:04.889788+00:00",
   "technologies": {
     "Nginx": {
       "query": "product:nginx",
-      "total": 56994993,
+      "total": 56387385,
       "facets": {
         "country": [
           {
             "label": "US",
-            "count": 15129778
+            "count": 14951923
           },
           {
             "label": "CN",
-            "count": 10231246
+            "count": 10132730
           },
           {
             "label": "HK",
-            "count": 4250580
+            "count": 4216228
           },
           {
             "label": "CA",
-            "count": 2901004
+            "count": 2874063
           },
           {
             "label": "DE",
-            "count": 2815989
+            "count": 2787695
           },
           {
             "label": "JP",
-            "count": 2430120
+            "count": 2398685
           },
           {
             "label": "SG",
-            "count": 1715383
+            "count": 1697590
           },
           {
             "label": "FR",
-            "count": 1528504
+            "count": 1517616
           }
         ],
         "port": [
           {
             "label": "80",
-            "count": 12025496
+            "count": 11919666
           },
           {
             "label": "443",
-            "count": 10719011
+            "count": 10617362
           },
           {
             "label": "888",
-            "count": 539301
+            "count": 537554
           },
           {
             "label": "8443",
-            "count": 418878
+            "count": 415957
           },
           {
             "label": "5001",
-            "count": 406359
+            "count": 402223
           },
           {
             "label": "5000",
-            "count": 375823
+            "count": 370377
           },
           {
             "label": "8888",
-            "count": 362745
+            "count": 362552
           },
           {
             "label": "8080",
-            "count": 277759
+            "count": 271077
           }
         ],
         "org": [
           {
             "label": "Meteverse Limited.",
-            "count": 11130854
+            "count": 11016254
           },
           {
             "label": "METEVERSE LIMITED",
-            "count": 2673133
+            "count": 2633961
           },
           {
             "label": "CDNetworks",
-            "count": 2327260
+            "count": 2293528
           },
           {
             "label": "Aliyun Computing Co., LTD",
-            "count": 1963635
+            "count": 1941632
           },
           {
             "label": "CDNetworks Inc.",
-            "count": 1692957
+            "count": 1666329
           },
           {
             "label": "DigitalOcean, LLC",
-            "count": 1407863
+            "count": 1401160
           },
           {
             "label": "Amazon Technologies Inc.",
-            "count": 1401015
+            "count": 1369041
           },
           {
             "label": "China Mobile Communications Group Co., Ltd",
-            "count": 1371390
+            "count": 1352810
           }
         ]
       },
-      "updated_at": "2026-11-26T21:32:11.112050+00:00"
+      "updated_at": "2026-11-27T08:30:04.889788+00:00"
     },
     "Apache HTTP": {
       "query": "product:Apache httpd",
-      "total": 2107,
+      "total": 2083,
       "facets": {
         "country": [
           {
             "label": "US",
-            "count": 935
+            "count": 926
           },
           {
             "label": "KR",
-            "count": 299
+            "count": 295
           },
           {
             "label": "DE",
-            "count": 157
+            "count": 156
           },
           {
             "label": "JP",
-            "count": 130
+            "count": 132
           },
           {
             "label": "CN",
@@ -138,11 +138,11 @@
           },
           {
             "label": "CA",
-            "count": 52
+            "count": 51
           },
           {
             "label": "GB",
-            "count": 44
+            "count": 41
           },
           {
             "label": "FR",
@@ -152,11 +152,11 @@
         "port": [
           {
             "label": "443",
-            "count": 1159
+            "count": 1141
           },
           {
             "label": "80",
-            "count": 809
+            "count": 806
           },
           {
             "label": "81",
@@ -186,11 +186,11 @@
         "org": [
           {
             "label": "Amazon Technologies Inc.",
-            "count": 410
+            "count": 405
           },
           {
             "label": "Unified Layer",
-            "count": 123
+            "count": 119
           },
           {
             "label": "Amazon.com, Inc.",
@@ -198,11 +198,11 @@
           },
           {
             "label": "Korea Telecom",
-            "count": 83
+            "count": 82
           },
           {
             "label": "SK Broadband Co Ltd",
-            "count": 62
+            "count": 61
           },
           {
             "label": "HostGator.com LLC",
@@ -210,7 +210,7 @@
           },
           {
             "label": "A100 ROW GmbH",
-            "count": 46
+            "count": 45
           },
           {
             "label": "SAKURA Internet Inc.",
@@ -218,7 +218,7 @@
           }
         ]
       },
-      "updated_at": "2026-11-26T21:32:11.112050+00:00"
+      "updated_at": "2026-11-27T08:30:04.889788+00:00"
     },
     "Microsoft IIS": {
       "query": "product:Microsoft IIS httpd",
@@ -243,7 +243,7 @@
           }
         ]
       },
-      "updated_at": "2026-11-26T21:32:11.112050+00:00"
+      "updated_at": "2026-11-27T08:30:04.889788+00:00"
     }
   }
 }
