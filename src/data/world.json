@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T21:16:56.767516+00:00",
+  "updated_at": "2026-11-28T07:47:10.215392+00:00",
   "articles": [
     {
       "title": "pCloud confirms password manager hack after suspicious login alerts",
@@ -560,31 +560,31 @@
       "source": "BleepingComputer",
       "status": "ok",
       "items": 15,
-      "last_success_at": "2026-11-27T21:16:56.767516+00:00"
+      "last_success_at": "2026-11-28T07:47:10.215392+00:00"
     },
     {
       "source": "SecurityWeek",
       "status": "ok",
       "items": 10,
-      "last_success_at": "2026-11-27T21:16:56.767516+00:00"
+      "last_success_at": "2026-11-28T07:47:10.215392+00:00"
     },
     {
       "source": "The Hacker News",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-27T21:16:56.767516+00:00"
+      "last_success_at": "2026-11-28T07:47:10.215392+00:00"
     },
     {
       "source": "CISA Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-27T21:16:56.767516+00:00"
+      "last_success_at": "2026-11-28T07:47:10.215392+00:00"
     },
     {
       "source": "CIS Advisories",
       "status": "ok",
       "items": 18,
-      "last_success_at": "2026-11-27T21:16:56.767516+00:00"
+      "last_success_at": "2026-11-28T07:47:10.215392+00:00"
     }
   ]
 }
